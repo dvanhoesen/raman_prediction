@@ -65,7 +65,6 @@ for file in files:
 		print("\nError processing file: {}".format(file))
 		print("file count: ", file_count)
 		print("Error: {}".format(e))
-		sys.exit()
 
 
 sample_names = np.array(sample_names)
