@@ -1,5 +1,6 @@
 # Entire Folders (microprobe and raman data)
-Microprobe_Data/
+chemistry_data/
+raman_data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

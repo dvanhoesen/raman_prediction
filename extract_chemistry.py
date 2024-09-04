@@ -9,8 +9,7 @@ import warnings
 # Suppress openpyxl xlsx warning
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
-
-basepath = ".." + os.path.sep + "Microprobe_Data"
+basepath = "chemistry_data" + os.path.sep + "Microprobe_Data" + os.path.sep
 
 files_xls = glob.glob(basepath + os.path.sep + "*.xls")
 files_xlsx = glob.glob(basepath + os.path.sep + "*.xlsx")
@@ -21,7 +20,7 @@ files_bad = [
 	"Amarantite__R050153-2__Chemistry__Microprobe_Data_Excel__163.xls"
 ]
 
-files_bad = [basepath + os.path.sep + file for file in files_bad]
+files_bad = [basepath + file for file in files_bad]
 
 # Remove bad files
 files = [file for file in files if file not in files_bad]

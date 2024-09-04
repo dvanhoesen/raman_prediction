@@ -20,9 +20,10 @@ predict mineral chemical composition from the Raman signal
 - conda create -n "env_name" python=3.11
 - conda activate env_name
 - pip install -r requirements.txt
-- run files (e.g., "python extract_chemistry.py")
+- python run_me_first.py (extracting RRUFF Raman and Chemistry data)
+- run other files (e.g., "python extract_chemistry.py")
 - conda deactivate
 
 # .gitignore
-- does not track "Microprobe_Data" directory
-- add raman data directory when available
+- does not track "chemistry_data" directory containing Microprobe_Data
+- does not track "raman_data" directory containing all extracted Raman spectrum
