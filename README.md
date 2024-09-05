@@ -20,6 +20,9 @@ predict mineral chemical composition from the Raman signal
 - conda create -n "env_name" python=3.11
 - conda activate env_name
 - pip install -r requirements.txt
+- install pytorch from: https://pytorch.org/get-started/locally/ 
+  - windows and mac with CPU support: pip3 install torch torchvision torchaudio
+  - windows GPU CUDA 12.1: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 - python run_me_first.py (extracting RRUFF Raman and Chemistry data)
 - run other files (e.g., "python extract_chemistry.py")
 - conda deactivate
