@@ -66,5 +66,5 @@ for url in urls_raman:
 for url in urls_chemistry:
     download_and_extract_zip(url, output_dir_chemistry)
 
-print("\n\n### FINISHED ###\n\n")
+print("\n### FINISHED ###\n\n")
 
