@@ -17,6 +17,9 @@ urls_raman = [
     'https://rruff.info/zipped_data_files/raman/unrated_unoriented.zip'
 ]
 
+# uncomment to only extract the microprobe chemistry data
+#urls_raman = []
+
 urls_chemistry = [
     'https://rruff.info/zipped_data_files/chemistry/Microprobe_Data.zip'
 ]

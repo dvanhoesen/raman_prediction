@@ -33,13 +33,17 @@ print("Number of files after removing bad files: ", len(files))
 
 
 names_oxides = ['SiO2', 'TiO2', 'Al2O3', 'MgO', 'MnO', 'CaO', 'Na2O', 'K2O', 'P2O5', 
-                'ZnO', 'SnO', 'H2O', 'Cr2O3', 'As2O5', 'SO3', 'TeO2', 'PbO', 'CuO',
+                'ZnO', 'SnO', 'H2O', 'Cr2O3', 'SO3', 'TeO2', 'PbO', 'CuO',
                 'FeOT', 'Fe2O3', 'FeO']
 
 normalized_oxides = [name.lower() for name in names_oxides]
 
-average_terms = ['avg', 'average']
-stddev_terms = ['stdev', 'std', 'stddev', 'std dev', 'st dev']
+average_terms = ['avg', 'average', 'avg.', 'average.', 'average:', 'average: ' 'avg:', 'ave.', 'ave', 'ave.:']
+stddev_terms = ['stdev', 'std', 'stddev', 'std dev', 'st dev', 'stnd. dev.', 
+                'stnd dev', 's.d.', 'sd', 's d', 's. d.', 'std. dev.:', 'stdev:', 
+                'std:', 'stddev:', 'st. dev.', 'std dev.', 'std. dev.', 'stdv', 
+                'stdv.', 'st. dv.', 'stdv:', 'st dev.', 'standard deviation',
+                'standard dev:']
 
 sample_names = []
 sample_ids = []
@@ -60,6 +64,12 @@ for file in files:
     
     file_count += 1
 
+    if file_count < 1186:
+        continue
+
+    print("mostly adding avg and std to xlsx files")
+    print("need to check that data is correct for large set or random samples by comparing to excel files")
+
     ## Extract Chemistry
 
     try: 
@@ -77,9 +87,9 @@ for file in files:
         print("Error: {}".format(e))
         continue
 
-    print("\nFile:", filename)
-    composition = np.zeros(len(names_oxides), dtype=np.float32)
-    composition_stddev = np.zeros(len(names_oxides), dtype=np.float32)
+    print("\nFile:", file_count, filename)
+    composition = np.zeros(len(names_oxides))
+    composition_stddev = np.zeros(len(names_oxides))
     
     # Lowercase the DataFrame for consistent searching
     df_cleaned = df.map(lambda x: str(x).lower() if isinstance(x, str) else x)
@@ -89,6 +99,8 @@ for file in files:
     # Find the location of the average or standard deviation terms
     # Find the location of the average term paired with a standard deviation term
     avg_loc = None
+    flag_avg_found = True
+
     for term in average_terms:
         avg_locs = np.where(df_lower == term)
         #print(term, avg_locs)
@@ -117,13 +129,16 @@ for file in files:
         if avg_loc is not None:
             break  # Stop searching once a valid pair is found
 
-
+    
     if avg_loc is None: # no average cell found
-        print('skipped')
-        print(df.head(20))
-        skipped_files.append(file)
-        sys.exit()
-        continue  
+        #print('skipped')
+        #print(df.head(20))
+        #skipped_files.append(file)
+        #sys.exit()
+        #continue
+        avg_row = None
+        avg_col = None
+        flag_avg_found = False
 
     for i, oxide in enumerate(normalized_oxides):
         # Find the location of the oxide name
@@ -134,37 +149,128 @@ for file in files:
         oxide_row = oxide_loc[0][0]
         oxide_col = oxide_loc[1][0]
 
+        if flag_avg_found and not (oxide_row < avg_row and oxide_col < avg_col):
 
-        # Determine the position of the data based on the relative location of oxide and average
-        if oxide_row < avg_row:
-            # Data is in the same row as the oxide and in the column of the average
-            avg_value = df.iloc[avg_row, oxide_col]
-            std_value = df.iloc[avg_row + 1, oxide_col] if avg_row + 1 < df.shape[0] else np.nan
+            # Determine the position of the data based on the relative location of oxide and average
+            if oxide_row < avg_row:
+                # Data is in the same row as the oxide and in the column of the average
+                avg_value = df.iloc[avg_row, oxide_col]
+                std_value = df.iloc[avg_row + 1, oxide_col] if avg_row + 1 < df.shape[0] else np.nan
+            else:
+                if oxide_col >= avg_col:
+                    avg_value = None
+                    std_value = None
+                    #print("MADE IT HERE 1")
+                else:
+                    # Data is in the same column as the oxide and in the row of the average
+                    avg_value = df.iloc[oxide_row, avg_col]
+                    std_value = df.iloc[oxide_row, avg_col + 1] if avg_col + 1 < df.shape[1] else np.nan
+            
+        # If no 'avg' or 'average' found, then assume the row is the data and go until a blank cell + 1
         else:
-            # Data is in the same column as the oxide and in the row of the average
-            avg_value = df.iloc[oxide_row, avg_col]
-            std_value = df.iloc[oxide_row, avg_col + 1] if avg_col + 1 < df.shape[1] else np.nan
-        
-        print(avg_value, type(avg_value))
-        print(std_value, type(std_value))
-        print('messing up because as2o5 and as2o3 listed above/below the average, std text
-        print("{}\t{}\t{:.4f}\t{:.4f}".format(i, oxide, avg_value, std_value))
+            avg_value = None
+            std_value = None
+
+            # Initialize to start checking after the oxide column
+            data_col = oxide_col + 1
+            
+            # Traverse the row until you find an empty cell followed by the data of interest
+            while data_col < df.shape[1]:
+                cell_value = df.iloc[oxide_row, data_col]
+                
+                if pd.isna(cell_value):  # Check if the current cell is empty
+                    # Look one cell after the empty cell for the data of interest\
+                    try:
+                        avg_cell_value = df.iloc[oxide_row, data_col + 1]
+                        std_cell_value = df.iloc[oxide_row, data_col + 2]
+                        if (pd.notna(avg_cell_value) and isinstance(avg_cell_value, (int, float)) and
+                            pd.notna(std_cell_value) and isinstance(std_cell_value, (int, float))):
+                                avg_value = avg_cell_value
+                                std_value = std_cell_value
+                                break
+                        else:
+                            avg_value = None
+                            std_value = None
+                            break
+                    
+                    except Exception as e: 
+                        #print("Error: {}".format(e))
+                        #print('Oxide: ', oxide)
+                        #print(oxide_row, data_col)
+                        #sys.exit()
+                        avg_value = None
+                        std_value = None
+                        break
+
+                data_col += 1
+            
+        # if none found, assume the column immediately to the right is the data with no stddev (no average)
+        if avg_value is None:
+            right_cell_value = df.iloc[oxide_row, oxide_col + 1]
+
+            if pd.isna(right_cell_value):
+                avg_value = 0
+                std_value = np.nan
+            elif isinstance(right_cell_value, (int, float)):
+                avg_value = right_cell_value
+                std_value = np.nan
+            else:
+                print("No average found: ", oxide)
+                print(df.iloc[oxide_row].to_string(index=False).replace('\n', ', '))
+                print("oxide loc: ", oxide_row, oxide_col)
+                print("avg loc: ", avg_row, avg_col)
+                sys.exit()
+
+        try:
+            print("{}\t{}\t{:.4f}\t{:.4f}".format(i, oxide, avg_value, std_value))
+
+        except Exception as e: 
+            print("Error: {}".format(e))
+            print("Average: ", avg_value, type(avg_value))
+            print("Stddev: ", std_value, type(std_value))
+            print("Oxide: ", oxide)
+            print("oxide loc: ", oxide_row, oxide_col)
+            print("avg loc: ", avg_row, avg_col)
+            #sys.exit()
+            avg_value = 0
+            std_value = np.nan
+            continue
+
         composition[i] = avg_value
         composition_stddev[i] = std_value
 
 
     # Append the composition array to the results
-    composition = composition.astype(np.float32)
-    composition_stddev = composition_stddev.astype(np.float32)
+    composition = composition
+    composition_stddev = composition_stddev
     results.append(composition)
     results_stddev.append(composition_stddev)
-
-    #print(composition)
     
-    if file_count > 20:
-        sys.exit()
+    #if file_count > 100:
+    #    sys.exit()
 
 sample_names = np.array(sample_names)
 sample_ids = np.array(sample_ids)
 
-print("Number of Samples: ", sample_names.shape, sample_ids.shape, file_count)
+results = np.array(results)
+results_stddev = np.array(results_stddev)
+
+print("\nNumber of Samples: ", sample_names.shape, sample_ids.shape, file_count)
+print("Results shape: ", results.shape)
+print("Results Stddev shape: ", results_stddev.shape)
+
+# Save the Numpy arrays
+chem_avg_savename = 'extracted_chemistry_avg.npy'
+chem_stddev_savename = 'extracted_chemistry_stddev.npy'
+chem_names_savename = 'extracted_chemistry_oxide_names.npy'
+np.save(chem_avg_savename, results, allow_pickle=True)
+np.save(chem_stddev_savename, results_stddev, allow_pickle=True)
+np.save(chem_names_savename, names_oxides, allow_pickle=True)
+
+print("Extracted chemistry avg saved as: ", chem_avg_savename)
+print("Extracted chemistry stddev saved as: ", chem_stddev_savename)
+print("Extracted chemistry oxide names saved as: ", chem_names_savename)
+
+print("\n### FINISHED ###\n\n")
+
+
