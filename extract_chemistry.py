@@ -64,12 +64,6 @@ for file in files:
     
     file_count += 1
 
-    if file_count < 1186:
-        continue
-
-    print("mostly adding avg and std to xlsx files")
-    print("need to check that data is correct for large set or random samples by comparing to excel files")
-
     ## Extract Chemistry
 
     try: 
@@ -263,13 +257,20 @@ print("Results Stddev shape: ", results_stddev.shape)
 chem_avg_savename = 'extracted_chemistry_avg.npy'
 chem_stddev_savename = 'extracted_chemistry_stddev.npy'
 chem_names_savename = 'extracted_chemistry_oxide_names.npy'
+chem_spec_names_savename = 'extracted_chemistry_spec_names.npy'
+chem_spec_ids_savename = 'extracted_chemistry_spec_ids.npy'
+
 np.save(chem_avg_savename, results, allow_pickle=True)
 np.save(chem_stddev_savename, results_stddev, allow_pickle=True)
 np.save(chem_names_savename, names_oxides, allow_pickle=True)
+np.save(chem_spec_names_savename, sample_names, allow_pickle=True)
+np.save(chem_spec_ids_savename, sample_ids, allow_pickle=True)
 
 print("Extracted chemistry avg saved as: ", chem_avg_savename)
 print("Extracted chemistry stddev saved as: ", chem_stddev_savename)
 print("Extracted chemistry oxide names saved as: ", chem_names_savename)
+print("Extracted chemistry spectrum names saved as: ", chem_spec_names_savename)
+print("Extracted chemistry spectrum ids saved as: ", chem_spec_ids_savename)
 
 print("\n### FINISHED ###\n\n")
 
