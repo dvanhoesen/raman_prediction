@@ -29,14 +29,20 @@ idxs_gt_100 = np.where(total_wt_percent > 101)
 spec_wt_percent_gt_100 = total_wt_percent[idxs_gt_100]
 spec_names_gt_100 = names[idxs_gt_100]
 spec_ids_gt_100 = ids[idxs_gt_100]
+spec_avgs_gt_100 = avgs[idxs_gt_100]
 
 print("\n{}\t{}\t{}".format("weight %", "sample id", "sample name"))
 for i in range(len(spec_names_gt_100)):
     spec_name = spec_names_gt_100[i]
     spec_id = spec_ids_gt_100[i]
     spec_wt_percent = spec_wt_percent_gt_100[i]
+    spec_avg = spec_avgs_gt_100[i]
+    spec_avg_text = ",".join(f"{x:.2f}" for x in spec_avg)
 
-    print("{:.4f}\t{}  \t{}".format(spec_wt_percent, spec_id, spec_name))
+    #print("{:.4f}\t{}  \t{}\t\t{}".format(spec_wt_percent, spec_id, spec_name, spec_avg))
+    print("{:.4f}\t{} \t{}\t{}".format(spec_wt_percent, spec_id, spec_name, spec_avg_text))
+    #print(spec_avg_text)
+
 
 sys.exit()
 
