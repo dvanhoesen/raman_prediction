@@ -33,8 +33,12 @@ print("Number of files after removing bad files: ", len(files))
 
 
 names_oxides = ['SiO2', 'TiO2', 'Al2O3', 'MgO', 'MnO', 'CaO', 'Na2O', 'K2O', 'P2O5', 
-                'ZnO', 'SnO', 'H2O', 'Cr2O3', 'SO3', 'TeO2', 'PbO', 'CuO',
-                'FeOT', 'Fe2O3', 'FeO']
+                'ZnO', 'SnO', 'Cr2O3', 'SO3', 'TeO2', 'PbO', 'CuO', 'Fe2O3', 'FeO']
+
+leave_out = ['H2O', 'FeOT']
+# H2O typically calculated by difference method instead of measured directly
+# H2O bands mostly greater than 2500 1/cm (here we will use < 1700 1/cm or so)
+# No FeOT sample values found
 
 normalized_oxides = [name.lower() for name in names_oxides]
 
@@ -229,9 +233,17 @@ for file in files:
             avg_value = 0
             std_value = np.nan
             continue
-
-        composition[i] = avg_value
-        composition_stddev[i] = std_value
+        
+        # Store the average value if it is a number
+        if isinstance(avg_value, (int, float)) and not np.isnan(avg_value):
+            composition[i] = avg_value
+        else:
+            composition[i] = 0
+        
+        if isinstance(std_value, (int, float)):
+            composition_stddev[i] = std_value
+        else:
+            composition_stddev[i] = np.nan
 
 
     # Append the composition array to the results
