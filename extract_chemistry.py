@@ -33,9 +33,26 @@ print("Number of files after removing bad files: ", len(files))
 
 
 names_oxides = ['SiO2', 'TiO2', 'Al2O3', 'MgO', 'MnO', 'CaO', 'Na2O', 'K2O', 'P2O5', 
-                'ZnO', 'SnO', 'Cr2O3', 'SO3', 'TeO2', 'PbO', 'CuO', 'Fe2O3', 'FeO']
+                'ZnO', 'SnO', 'Cr2O3', 'SO3', 'TeO2', 'PbO', 'CuO', 'Fe2O3', 'FeO',
+                'As2O5', 'SrO', 'BaO', 'La2O3', 'Ce2O3', 'Pr2O3', 'Nd2O3', 'NiO', 
+                'CoO', 'V2O3', 'Ag2O', 'Gd2O3', 'Y2O3', 'ThO2', 'SeO2', 'SO2',
+                'Bi2O3', 'Sm2O3', 'CO2']
 
-leave_out = ['H2O', 'FeOT']
+# Cutoff 5% of samples with non zero value (remove oxides with less than 5% of samples having non zero value)
+names_remove = ['SnO', 'SeO2', 'Bi2O3', 'Ag2O', 'Gd2O3', 'Sm2O3', 'TeO2', 'V2O3',
+          'Ce2O3', 'CoO', 'La2O3', 'Nd2O3', 'NiO', 'Pr2O3', 'SO2', 'ThO2', 'Y2O3']
+
+names_oxides = list(set(names_oxides))
+names_remove = list(set(names_remove))
+
+# Remove items from names_oxides that are in names_remove
+names_oxides = [item for item in names_oxides if item not in names_remove]
+
+names_oxides.sort()
+print(names_oxides)
+print("Number of Oxides: ", len(names_oxides))
+
+leave_out = ['H2O', 'FeOT', 'F', 'Cl']
 # H2O typically calculated by difference method instead of measured directly
 # H2O bands mostly greater than 2500 1/cm (here we will use < 1700 1/cm or so)
 # No FeOT sample values found
