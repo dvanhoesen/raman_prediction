@@ -5,16 +5,16 @@ from urllib.parse import urlparse
 
 # URLs to download and extract
 urls_raman = [
-    'https://rruff.info/zipped_data_files/raman/LR-Raman.zip',
+    #'https://rruff.info/zipped_data_files/raman/LR-Raman.zip',
     'https://rruff.info/zipped_data_files/raman/excellent_oriented.zip',
     'https://rruff.info/zipped_data_files/raman/excellent_unoriented.zip',
     'https://rruff.info/zipped_data_files/raman/fair_oriented.zip',
     'https://rruff.info/zipped_data_files/raman/fair_unoriented.zip',
-    'https://rruff.info/zipped_data_files/raman/ignore_unoriented.zip',
-    'https://rruff.info/zipped_data_files/raman/poor_oriented.zip',
-    'https://rruff.info/zipped_data_files/raman/poor_unoriented.zip',
-    'https://rruff.info/zipped_data_files/raman/unrated_oriented.zip',
-    'https://rruff.info/zipped_data_files/raman/unrated_unoriented.zip'
+    #'https://rruff.info/zipped_data_files/raman/ignore_unoriented.zip',
+    #'https://rruff.info/zipped_data_files/raman/poor_oriented.zip',
+    #'https://rruff.info/zipped_data_files/raman/poor_unoriented.zip',
+    #'https://rruff.info/zipped_data_files/raman/unrated_oriented.zip',
+    #'https://rruff.info/zipped_data_files/raman/unrated_unoriented.zip'
 ]
 
 # uncomment to only extract the microprobe chemistry data
@@ -66,8 +66,8 @@ os.makedirs(output_dir_chemistry, exist_ok=True)
 for url in urls_raman:
     download_and_extract_zip(url, output_dir_raman)
 
-for url in urls_chemistry:
-    download_and_extract_zip(url, output_dir_chemistry)
+#for url in urls_chemistry:
+#    download_and_extract_zip(url, output_dir_chemistry)
 
 print("\n### FINISHED ###\n\n")
 
