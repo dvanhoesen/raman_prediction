@@ -2,8 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os, sys
 import glob
-from brokenaxes import brokenaxes
-from matplotlib.patches import Rectangle
+import random
 
 
 basepath_raman = 'raman_data' + os.path.sep
@@ -27,33 +26,51 @@ for folder in folders_raman:
 
 print("Total number of files: ", len(all_files))
 
+files_raw = []
+files_processed = []
+for file in all_files:
+    if "_raw" in file.lower():
+        files_raw.append(file)
+    if "_processed" in file.lower():
+        files_processed.append(file)
+
+
+print("Raw files: ", len(files_raw))
+print("Processed files: ", len(files_processed))
+print("raw + processed files: ", len(files_raw) + len(files_processed))
+
+print("taking the min and max value as inputs to the ML model along with the chemisry data")
+
+
 
 # Initialize lists to store the names, ids, and x, y components
-names = []
-rruffids = []
-x_components = []
-y_components = []
+names_raw = []
+rruffids_raw = []
+x_mins_raw = []
+x_maxs_raw = []
+
+names_proc = []
+rruffids_proc = []
+x_mins_proc = []
+x_maxs_proc = []
 
 files_failed = []
 files_exception = []
-files_problem_first_last = []
 
-x_mins = []
-x_maxs = []
-x_range = []
-x_resolution = []
-x_mins_idx = []
-x_maxs_idx = []
-x_first_value = []
-x_last_value = []
-x_val_diff = []
-x_first_two_diff = []
 
 count_file = 0
+count_raw_files = 0
+count_proc_files = 0
 
 for file in all_files:
     x_temp = []
     y_temp = []
+
+    
+    if "_raw" in file.lower():
+        label = 'raw'
+    if "_processed" in file.lower():
+        label = 'proc'
     
     try:
         with open(file, 'r', encoding='utf-8') as f:
@@ -64,10 +81,18 @@ for file in all_files:
                 
                 # Check for the header lines and extract the required information
                 if line.startswith("##NAMES="):
-                    names.append(line.split('=')[1])
+                    name = line.split('=')[1]
+                    if label=='raw': 
+                        names_raw.append(name)
+                    if label =='proc':
+                        names_proc.append(name)
                 
                 elif line.startswith("##RRUFFID="):
-                    rruffids.append(line.split('=')[1])
+                    rruffid = line.split('=')[1]
+                    if label=='raw': 
+                        rruffids_raw.append(rruffid)
+                    if label=='proc': 
+                        rruffids_proc.append(rruffid)
 
                 elif line.startswith("##END"):
                     break
@@ -87,6 +112,7 @@ for file in all_files:
         files_exception.append(e)
         count_file += 1
         continue
+    
 
     x_temp = np.array(x_temp)
     y_temp = np.array(y_temp)
@@ -101,16 +127,9 @@ for file in all_files:
     lv = x_temp[-1]
     vd = lv-fv
     ftv = x_temp[1] - x_temp[0]
-
-    #if ftv > 10:
-    #    print(x_temp[0:5])
-    #    print(x_temp[-5:])
-    #    print(file)
-    #    files_problem_first_last.append(file)
     
     # The spectrum is decreasing in order
     if vd < 0 or (idx_min > 1 or idx_max < -1):
-        #files_problem_first_last.append(file)
         x_temp = x_temp[::-1]
         y_temp = y_temp[::-1]
 
@@ -127,45 +146,63 @@ for file in all_files:
         ftv = x_temp[1] - x_temp[0]
     
 
-    if fv > 500:
-        files_problem_first_last.append(file)
-
-    if lv < 500 or lv > 3000:
-        files_problem_first_last.append(file)
+    if label=='raw': 
+        x_mins_raw.append(min_val)
+        x_maxs_raw.append(max_val)
+    if label=='proc': 
+        x_mins_proc.append(min_val)
+        x_maxs_proc.append(max_val)
     
 
-    range_val  = max_val - min_val
-    resolution_val = len(x_temp) / range_val
+    # Interpolate the x and y values to a numpy array of shape (1024,)
+    new_x = np.linspace(min_val, max_val, 1024, endpoint=True)
+    new_y = np.interp(new_x, x_temp, y_temp)
 
-    x_mins.append(min_val)
-    x_maxs.append(max_val)
-    x_range.append(range_val)
-    x_resolution.append(resolution_val)
-    x_mins_idx.append(idx_min)
-    x_maxs_idx.append(idx_max)
+    new_x = np.expand_dims(new_x, axis=0)
+    new_y = np.expand_dims(new_y, axis=0)
 
-    x_first_value.append(fv)
-    x_last_value.append(lv)
-    x_val_diff.append(vd)
-    x_first_two_diff.append(ftv)
+    # Normalize by max
+    new_y = new_y / np.amax(new_y)
+    
+    if label=='raw': 
+        if count_raw_files == 0:
+            x_components_raw = new_x
+            y_components_raw = new_y
+        else:
+            x_components_raw = np.concatenate((x_components_raw, new_x), axis=0)
+            y_components_raw = np.concatenate((y_components_raw, new_y), axis=0)
+        
+        count_raw_files += 1
+    
+    if label=='proc': 
+        if count_proc_files == 0:
+            x_components_proc = new_x
+            y_components_proc = new_y
+        else:
+            x_components_proc = np.concatenate((x_components_proc, new_x), axis=0)
+            y_components_proc = np.concatenate((y_components_proc, new_y), axis=0)
+        
+        count_proc_files += 1
 
-    #x_components.append(x_temp)
-    #y_components.append(y_temp)
 
     if count_file%100 == 0:
         print("{:.2f}%".format((count_file / len(all_files)) * 100 ))
-    
-    if count_file > 2000000:
-        break
 
     count_file += 1
 
-# Convert the lists to numpy arrays
-names_array = np.array(names)
-rruffids_array = np.array(rruffids)
-#x_array = np.array(x_components, dtype=object)
-#y_array = np.array(y_components, dtype=object)
+    #if count_file > 1000:
+    #    break
 
+# Convert the lists to numpy arrays
+names_raw = np.array(names_raw)
+rruffids_raw = np.array(rruffids_raw)
+x_mins_raw = np.array(x_mins_raw)
+x_maxs_raw = np.array(x_maxs_raw)
+
+names_proc = np.array(names_proc)
+rruffids_proc = np.array(rruffids_proc)
+x_mins_proc = np.array(x_mins_proc)
+x_maxs_proc = np.array(x_maxs_proc)
 
 
 print("Number of failed files: ", len(files_failed))
@@ -173,81 +210,64 @@ for i in range(len(files_failed)):
     print(files_failed[i])
     print(files_exception[i])
 
-for file in files_problem_first_last:
-    print(file)
+
+print("\nRaw Files")
+print("names_raw shape:", names_raw.shape)
+print("rruffids_raw shape:", rruffids_raw.shape)
+print("x_components_raw shape:", x_components_raw.shape)
+print("y_components_raw shape:", y_components_raw.shape)
+print("x_mins_raw shape: ", x_mins_raw.shape)
+print("x_maxs_raw shape: ", x_maxs_raw.shape)
+
+print("\nProcessed Files")
+print("names_proc shape:", names_proc.shape)
+print("rruffids_proc shape:", rruffids_proc.shape)
+print("x_components_proc shape:", x_components_proc.shape)
+print("y_components_proc shape:", y_components_proc.shape)
+print("x_mins_proc shape: ", x_mins_proc.shape)
+print("x_maxs_proc shape: ", x_maxs_proc.shape)
+
+# Save the Numpy arrays
+basepath = "extracted_data" + os.path.sep
+np.save(basepath + "names_raw.npy", names_raw, allow_pickle=True)
+np.save(basepath + "rruffids_raw.npy", rruffids_raw, allow_pickle=True)
+np.save(basepath + "x_components_raw.npy", x_components_raw, allow_pickle=True)
+np.save(basepath + "y_components_raw.npy", y_components_raw, allow_pickle=True)
+
+np.save(basepath + "names_proc.npy", names_proc, allow_pickle=True)
+np.save(basepath + "rruffids_proc.npy", rruffids_proc, allow_pickle=True)
+np.save(basepath + "x_components_proc.npy", x_components_proc, allow_pickle=True)
+np.save(basepath + "y_components_proc.npy", y_components_proc, allow_pickle=True)
+
+print("\n-- FINISHED --\n")
 
 
-print("\nFIXING SOME FILES THAT HAVE PROBLEMS WITH THE FIRST AND LAST VALUES")
+# Plot 5 random spectrum from each category
+fig_raw, ax_raw = plt.subplots(figsize=(9,5))
+ax_raw.set_ylabel("Inensity (normalized)", fontsize=12)
+ax_raw.set_xlabel("Wavenumber (1/cm)", fontsize=12)
+ax_raw.set_title("Raw Spectrum", fontsize=12)
+for i in range(5):
+    idx = random.randint(0, len(names_raw))
+    x = x_components_raw[idx,:]
+    y = y_components_raw[idx,:]
+    rruff_id = rruffids_raw[idx]
+    name = names_raw[idx]
+    ax_raw.plot(x, y, label='{}-{}'.format(rruff_id, name))
+ax_raw.legend(loc='best')
 
+fig_proc, ax_proc = plt.subplots(figsize=(9,5))
+ax_proc.set_ylabel("Inensity (normalized)", fontsize=12)
+ax_proc.set_xlabel("Wavenumber (1/cm)", fontsize=12)
+ax_proc.set_title("Processed Spectrum", fontsize=12)
+for i in range(5):
+    idx = random.randint(0, len(names_proc))
+    x = x_components_proc[idx,:]
+    y = y_components_proc[idx,:]
+    rruff_id = rruffids_proc[idx]
+    name = names_proc[idx]
+    ax_proc.plot(x, y, label='{}-{}'.format(rruff_id, name))
+ax_proc.legend(loc='best')
 
-## Plot a histogram of the mins and maxs of x
-x_mins = np.array(x_mins)
-x_maxs = np.array(x_maxs)
-x_range = np.array(x_range)
-x_resolution = np.array(x_resolution)
-x_mins_idx = np.array(x_mins_idx)
-x_maxs_idx = np.array(x_maxs_idx)
-x_first_value = np.array(x_first_value)
-x_last_value = np.array(x_last_value)
-x_val_diff = np.array(x_val_diff)
-x_first_two_diff = np.array(x_first_two_diff)
-
-#bins_mins = np.linspace(0, 350, 50)
-#bins_maxs = np.linspace(1000, 1600, 50)
-#bins_range = np.linspace(1000, 1550, 50)
-#bins_resolution = np.linspace(0.6, 2.1, 50)
-
-bins_mins = 50
-bins_maxs = 50
-bins_range = 50
-bins_resolution = 50
-
-#fig, ax = plt.subplots(figsize=(9,5))
-#fig = plt.figure(figsize=(9, 5))
-fig, ax = plt.subplots(figsize=(9,5))
-#ax = brokenaxes(xlims=((-100, 500), (600, 7000)), hspace=.01)
-ax.hist(x_mins, bins=bins_mins, alpha=1, label='mins', color='blue')
-ax.hist(x_maxs, bins=bins_maxs, alpha=1, label='maxs', color='red')
-ax.set_xlabel('Wavenumber (1/cm)', fontsize=12)
-ax.set_ylabel('Spectrum Count', fontsize=12)
-ax.legend(loc='best')
-
-fig1, ax1 = plt.subplots(figsize=(9,5))
-ax1.hist(x_range, bins=bins_range, alpha=1, label='Wavenumber Range', color='blue')
-ax1.set_xlabel('Total Wavenumber (1/cm)', fontsize=12)
-ax1.set_ylabel('Spectrum Count', fontsize=12)
-ax1.legend(loc='best')
-
-fig2, ax2 = plt.subplots(figsize=(9,5))
-ax2.hist(x_resolution, bins=bins_resolution, alpha=1, label='Spectrum Resolution', color='red')
-ax2.set_xlabel('Points per Wavenumber', fontsize=12)
-ax2.set_ylabel('Spectrum Count', fontsize=12)
-ax2.legend(loc='best')
-
-#fig3, ax3 = plt.subplots(figsize=(9,5))
-#ax3.hist(x_mins_idx, bins=50, alpha=1, label='mins idx', color='blue')
-#ax3.hist(x_maxs_idx, bins=50, alpha=1, label='maxs idx', color='red')
-#ax3.set_xlabel('Index', fontsize=12)
-#ax3.set_ylabel('Spectrum Count', fontsize=12)
-#ax3.legend(loc='best')
-
-fig4, ax4 = plt.subplots(figsize=(9,5))
-ax4.hist(x_first_value, bins=50, alpha=1, label='first value', color='blue')
-ax4.hist(x_last_value, bins=50, alpha=1, label='last value', color='red')
-ax4.set_xlabel('First and Last Values', fontsize=12)
-ax4.set_ylabel('Spectrum Count', fontsize=12)
-ax4.legend(loc='best')
-
-fig5, ax5 = plt.subplots(figsize=(9,5))
-ax5.hist(x_val_diff, bins=50, alpha=1, color='blue')
-ax5.set_xlabel('Last Value - First Value', fontsize=12)
-ax5.set_ylabel('Spectrum Count', fontsize=12)
-
-
-print("Names Array:", names_array)
-print("RRUFFID Array:", rruffids_array)
-#print("X Components Array:", x_array)
-#print("Y Components Array:", y_array)
 
 plt.show()
-
