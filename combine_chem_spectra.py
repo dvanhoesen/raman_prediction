@@ -1,0 +1,188 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import os, sys
+import glob
+import random
+
+
+basepath = 'extracted_data' + os.path.sep
+
+# Load spectra arrays
+names_raw = np.load(basepath + "names_raw.npy", allow_pickle=True)
+rruffids_raw = np.load(basepath + "rruffids_raw.npy", allow_pickle=True)
+x_components_raw = np.load(basepath + "x_components_raw.npy", allow_pickle=True)
+y_components_raw = np.load(basepath + "y_components_raw.npy", allow_pickle=True)
+
+names_proc = np.load(basepath + "names_proc.npy", allow_pickle=True)
+rruffids_proc = np.load(basepath + "rruffids_proc.npy", allow_pickle=True)
+x_components_proc = np.load(basepath + "x_components_proc.npy", allow_pickle=True)
+y_components_proc = np.load(basepath + "y_components_proc.npy", allow_pickle=True)
+
+print("\nRaw Files")
+print("names_raw shape:", names_raw.shape)
+print("rruffids_raw shape:", rruffids_raw.shape)
+print("x_components_raw shape:", x_components_raw.shape)
+print("y_components_raw shape:", y_components_raw.shape)
+
+print("\nProcessed Files")
+print("names_proc shape:", names_proc.shape)
+print("rruffids_proc shape:", rruffids_proc.shape)
+print("x_components_proc shape:", x_components_proc.shape)
+print("y_components_proc shape:", y_components_proc.shape)
+
+
+# Load chem arrays
+chem = np.load("extracted_chemistry_avg.npy", allow_pickle=True)
+rruffids_chem = np.load("extracted_chemistry_spec_ids.npy", allow_pickle=True)
+names_chem = np.load("extracted_chemistry_spec_names.npy", allow_pickle=True)
+
+print("\n Chemistry Data")
+print("chem shape: ", chem.shape)
+print("rruffids_chem shape: ", rruffids_chem.shape)
+
+count_raw = 0
+count_proc = 0
+
+names_raw_all = []
+names_proc_all = []
+rruffid_raw_all = []
+rruffid_proc_all = []
+
+for i in range(chem.shape[0]):
+    chemistry = chem[i,:] / 100
+    id = rruffids_chem[i].split("-")[0]
+    name = names_chem[i]
+
+    idx_raw = np.where(rruffids_raw == id)[0]
+    idx_proc = np.where(rruffids_proc == id)[0]
+
+    # Loop through the found indexes and build arrays for the spectrum (y_labels) 
+    # and the inputs i.e., the chemistry plus the min max x-values (x_inputs)
+
+    # Raw files 
+    for j in idx_raw:
+        x_temp = x_components_raw[j]
+        y_temp = y_components_raw[j]
+        minx = x_temp[0] / 1000
+        maxx = x_temp[-1] / 1000
+        x_input_temp = np.append(chemistry, [minx, maxx])
+
+        x_temp = np.expand_dims(x_temp, axis=0)
+        y_temp = np.expand_dims(y_temp, axis=0)
+        x_input_temp = np.expand_dims(x_input_temp, axis=0)
+
+        names_raw_all.append(name)
+        rruffid_raw_all.append(id)
+        
+        if count_raw == 0:
+            y_labels_raw = y_temp  #spectrum to reproduce
+            x_inputs_raw = x_input_temp # chemistry and min / max x wavenumber (divided by 1000)
+        
+        else:
+            y_labels_raw = np.concatenate((y_labels_raw, y_temp), axis=0)
+            x_inputs_raw = np.concatenate((x_inputs_raw, x_input_temp), axis=0)
+
+        count_raw += 1
+
+    # Processed files 
+    for j in idx_proc:
+        x_temp = x_components_proc[j]
+        y_temp = y_components_proc[j]
+        minx = x_temp[0] / 1000
+        maxx = x_temp[-1] / 1000
+        x_input_temp = np.append(chemistry, [minx, maxx])
+
+        x_temp = np.expand_dims(x_temp, axis=0)
+        y_temp = np.expand_dims(y_temp, axis=0)
+        x_input_temp = np.expand_dims(x_input_temp, axis=0)
+
+        names_proc_all.append(name)
+        rruffid_proc_all.append(id)
+        
+        if count_proc == 0:
+            y_labels_proc = y_temp  #spectrum to reproduce
+            x_inputs_proc = x_input_temp # chemistry and min / max x wavenumber (divided by 1000)
+        
+        else:
+            y_labels_proc = np.concatenate((y_labels_proc, y_temp), axis=0)
+            x_inputs_proc = np.concatenate((x_inputs_proc, x_input_temp), axis=0)
+
+        count_proc += 1
+
+
+    #if i>10:
+    #    break
+
+    if i%100 == 0:
+        print("{:.2f}%".format((i / chem.shape[0]) * 100 ))
+
+
+names_raw_all = np.array(names_raw_all)
+rruffid_raw_all = np.array(rruffid_raw_all)
+
+names_proc_all = np.array(names_proc_all)
+rruffid_proc_all = np.array(rruffid_proc_all)
+
+
+print("\nFinal Raw Data shapes")
+print("y_labels_raw shape: ", y_labels_raw.shape)
+print("x_inputs_raw shape: ", x_inputs_raw.shape)
+print("names_raw_all shape: ", names_raw_all.shape)
+print("rruffid_raw_all shape: ", rruffid_raw_all.shape)
+
+print("\nFinal Processed Data shapes")
+print("y_labels_proc shape: ", y_labels_proc.shape)
+print("x_inputs_proc shape: ", x_inputs_proc.shape)
+print("names_proc_all shape: ", names_proc_all.shape)
+print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
+
+
+# Save numpy files
+basepath = "train_data" + os.path.sep
+
+np.save(basepath + "y_labels_raw.npy", y_labels_raw, allow_pickle=True)
+np.save(basepath + "x_inputs_raw.npy", x_inputs_raw, allow_pickle=True)
+np.save(basepath + "names_raw.npy", names_raw_all, allow_pickle=True)
+np.save(basepath + "rruffid_raw.npy", rruffid_raw_all, allow_pickle=True)
+
+np.save(basepath + "y_labels_proc.npy", y_labels_proc, allow_pickle=True)
+np.save(basepath + "x_inputs_proc.npy", x_inputs_proc, allow_pickle=True)
+np.save(basepath + "names_proc.npy", names_proc_all, allow_pickle=True)
+np.save(basepath + "rruffid_proc.npy", rruffid_proc_all, allow_pickle=True)
+
+
+# Plot 5 random spectrum from each category
+fig_raw, ax_raw = plt.subplots(figsize=(9,5))
+ax_raw.set_ylabel("Inensity (normalized)", fontsize=12)
+ax_raw.set_xlabel("Wavenumber (1/cm)", fontsize=12)
+ax_raw.set_title("Raw Spectrum", fontsize=12)
+for i in range(5):
+    idx = random.randint(0, len(names_raw_all))
+    x = np.arange(1024)
+    y = y_labels_raw[idx,:]
+    name = names_raw_all[idx]
+    chem_input = x_inputs_raw[idx, :]
+    ax_raw.plot(x, y, label=name)
+    #print('{}: '.format(name), chem_input)
+ax_raw.legend(loc='best')
+
+fig_proc, ax_proc = plt.subplots(figsize=(9,5))
+ax_proc.set_ylabel("Inensity (normalized)", fontsize=12)
+ax_proc.set_xlabel("Wavenumber (1/cm)", fontsize=12)
+ax_proc.set_title("Processed Spectrum", fontsize=12)
+for i in range(5):
+    idx = random.randint(0, len(names_proc_all))
+    x = np.arange(1024)
+    y = y_labels_proc[idx,:]
+    name = names_proc_all[idx]
+    chem_input = x_inputs_proc[idx, :]
+    ax_proc.plot(x, y, label=name)
+    #print('{}: '.format(name), chem_input)
+ax_proc.legend(loc='best')
+
+
+
+print("\n-- FINISHED --\n")
+
+
+plt.show()
