@@ -1,6 +1,8 @@
 import sys, os
 import torch
 import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader
+import numpy as np
 
 # Feed Forward NN
 class FeedForwardNN(nn.Module):
@@ -91,3 +93,34 @@ class RamanPredictorFCN(nn.Module):
         x = x.squeeze(1)  # Remove the channel dimension to return to shape [batch_size, output_size]
         return x
 
+
+
+# Custom DataLoader
+
+class CustomDataset(Dataset):
+    def __init__(self, x_inputs_proc, y_labels_proc, add_noise=False):
+        """
+        Args:
+            x_inputs_proc (numpy array): The input data of shape (N, 22).
+            y_labels_proc (numpy array): The label data of shape (N, 1024).
+            add_noise (bool): Whether to add random noise to the labels.
+        """
+
+        self.x_inputs_proc = torch.tensor(x_inputs_proc, dtype=torch.float32)
+        self.y_labels_proc = torch.tensor(y_labels_proc, dtype=torch.float32)
+        self.add_noise = add_noise
+
+    def __len__(self):
+        return len(self.x_inputs_proc)
+
+    def __getitem__(self, idx):
+        x = self.x_inputs_proc[idx]
+        y = self.y_labels_proc[idx]
+
+        # Add noise to the labels if augmentation is enabled
+        if self.add_noise:
+            noise_std = torch.FloatTensor(1).uniform_(0, 0.02).item() # random noise magnitude between 0 and 0.02
+            noise = torch.randn_like(y) * noise_std
+            y = y + noise
+
+        return x, y

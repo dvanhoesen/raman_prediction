@@ -8,40 +8,50 @@ from torch.utils.data import DataLoader, TensorDataset, random_split
 # Custom Imports
 import torch_models as tm 
 
-basepath = "extracted_data" + os.path.sep
+# Load numpy files
+basepath = "train_data" + os.path.sep
 
-names_raw = np.load(basepath + "names_raw.npy", allow_pickle=True)
-rruffids_raw = np.load(basepath + "rruffids_raw.npy", allow_pickle=True)
-x_components_raw = np.load(basepath + "x_components_raw.npy", allow_pickle=True)
-y_components_raw = np.load(basepath + "y_components_raw.npy", allow_pickle=True)
+"""
+y_labels_raw = np.load(basepath + "y_labels_raw.npy", allow_pickle=True)
+x_inputs_raw = np.load(basepath + "x_inputs_raw.npy", allow_pickle=True)
+names_raw_all = np.load(basepath + "names_raw.npy", allow_pickle=True)
+rruffid_raw_all = np.load(basepath + "rruffid_raw.npy", allow_pickle=True)
 
-names_proc = np.load(basepath + "names_proc.npy", allow_pickle=True)
-rruffids_proc = np.load(basepath + "rruffids_proc.npy", allow_pickle=True)
-x_components_proc = np.load(basepath + "x_components_proc.npy", allow_pickle=True)
-y_components_proc = np.load(basepath + "y_components_proc.npy", allow_pickle=True)
+print("\nRaw Data shapes")
+print("y_labels_raw shape: ", y_labels_raw.shape)
+print("x_inputs_raw shape: ", x_inputs_raw.shape)
+print("names_raw_all shape: ", names_raw_all.shape)
+print("rruffid_raw_all shape: ", rruffid_raw_all.shape)
+"""
 
-print("\nRaw Files")
-print("names_raw shape:", names_raw.shape)
-print("rruffids_raw shape:", rruffids_raw.shape)
-print("x_components_raw shape:", x_components_raw.shape)
-print("y_components_raw shape:", y_components_raw.shape)
+y_labels_proc = np.load(basepath + "y_labels_proc.npy", allow_pickle=True)
+x_inputs_proc = np.load(basepath + "x_inputs_proc.npy", allow_pickle=True)
+names_proc_all = np.load(basepath + "names_proc.npy", allow_pickle=True)
+rruffid_proc_all = np.load(basepath + "rruffid_proc.npy", allow_pickle=True)
 
-print("\nProcessed Files")
-print("names_proc shape:", names_proc.shape)
-print("rruffids_proc shape:", rruffids_proc.shape)
-print("x_components_proc shape:", x_components_proc.shape)
-print("y_components_proc shape:", y_components_proc.shape)
+print("\nFinal Processed Data shapes")
+print("y_labels_proc shape: ", y_labels_proc.shape)
+print("x_inputs_proc shape: ", x_inputs_proc.shape)
+print("names_proc_all shape: ", names_proc_all.shape)
+print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
+
+
+# Create the dataset with data augmentation (adding noise)
+dataset = tm.CustomDataset(x_inputs_proc, y_labels_proc, add_noise=True)
+
+# Create the DataLoader
+data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+
+# Example iteration over DataLoader
+for x_batch, y_batch in data_loader:
+    print(x_batch.shape)  # Shape: (32, 22)
+    print(y_batch.shape)  # Shape: (32, 1024)
+    break  # Just for demonstration purposes
+
 
 sys.exit('checking torch imports')
 
-# chemical_compositions: shape (num_samples, num_features)
-# raman_spectra: shape (num_samples, spectrum_length)
-chemical_compositions = np.load('chemical_compositions.npy')
-raman_spectra = np.load('raman_spectra.npy')
 
-# Convert numpy arrays to PyTorch tensors
-X = torch.tensor(chemical_compositions, dtype=torch.float32)
-y = torch.tensor(raman_spectra, dtype=torch.float32)
 
 # Create a PyTorch dataset
 dataset = TensorDataset(X, y)
@@ -88,4 +98,4 @@ for epoch in range(num_epochs):
     print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}, Val Loss: {val_loss/len(val_loader):.4f}')
 
 # Save the trained model
-torch.save(model.state_dict(), 'raman_predictor.pth')
+#torch.save(model.state_dict(), 'raman_predictor.pth')
