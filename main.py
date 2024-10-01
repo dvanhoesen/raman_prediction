@@ -4,9 +4,11 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 from torch.utils.data import DataLoader, TensorDataset, random_split
+import matplotlib.pyplot as plt
 
 # Custom Imports
 import torch_models as tm 
+import torch_functions as tf
 
 # Load numpy files
 basepath = "train_data" + os.path.sep
@@ -37,65 +39,56 @@ print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
 
 
 # Create the dataset with data augmentation (adding noise)
-dataset = tm.CustomDataset(x_inputs_proc, y_labels_proc, add_noise=True)
-
-# Create the DataLoader
-data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
-
-# Example iteration over DataLoader
-for x_batch, y_batch in data_loader:
-    print(x_batch.shape)  # Shape: (32, 22)
-    print(y_batch.shape)  # Shape: (32, 1024)
-    break  # Just for demonstration purposes
+full_dataset = tm.CustomDataset(x_inputs_proc, y_labels_proc, add_noise=True)
 
 
-sys.exit('checking torch imports')
+# Split dataset sizes (e.g., 70% train, 15% validation, 15% test)
+train_size = int(0.6 * len(full_dataset))
+val_size = int(0.2 * len(full_dataset))
+test_size = len(full_dataset) - train_size - val_size
 
+# Split the dataset
+train_dataset, val_dataset, test_dataset = random_split(full_dataset, [train_size, val_size, test_size])
 
-
-# Create a PyTorch dataset
-dataset = TensorDataset(X, y)
-
-# Split the dataset into training and validation sets
-train_size = int(0.8 * len(dataset))
-val_size = len(dataset) - train_size
-train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
-
-# Create data loaders
+# Create DataLoaders for each set
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
+test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
 
-# Initialize the model, loss function, and optimizer
-input_size = chemical_compositions.shape[1]
-output_size = raman_spectra.shape[1]
+# Instantiate the model, loss function, and optimizer
+input_size = x_inputs_proc.shape[1]
+output_size = 1024
 
+#model = tm.RamanPredictorFCN(input_size, output_size)
+#model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
 model = tm.FeedForwardNN(input_size, output_size)
-criterion = nn.MSELoss()
-optimizer = optim.Adam(model.parameters(), lr=0.001)
 
-# Training loop
-num_epochs = 50
-for epoch in range(num_epochs):
-    model.train()
-    running_loss = 0.0
-    for i, (inputs, targets) in enumerate(train_loader):
-        optimizer.zero_grad()
-        outputs = model(inputs)
-        loss = criterion(outputs, targets)
-        loss.backward()
-        optimizer.step()
-        running_loss += loss.item()
-    
-    val_loss = 0.0
-    model.eval()
-    with torch.no_grad():
-        for inputs, targets in val_loader:
-            outputs = model(inputs)
-            loss = criterion(outputs, targets)
-            val_loss += loss.item()
-    
-    print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}, Val Loss: {val_loss/len(val_loader):.4f}')
+criterion = nn.MSELoss()  # Mean Squared Error Loss
 
-# Save the trained model
-#torch.save(model.state_dict(), 'raman_predictor.pth')
+#optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.NAdam(model.parameters(), lr=0.001)
+
+epochs = 200
+
+# Train the model
+train_losses, val_losses = tf.train_model(model, train_loader, val_loader, criterion, optimizer, epochs=epochs)
+
+# Evaluate the model on the test set
+x_test, y_pred, y_true = tf.evaluate_model(model, test_loader, criterion)
+
+
+
+print("Training Works, but should try both FCN with and without nn.ConvTranspose1d(), which is meant for upsampling")
+print("Data Leakage b/c many of the same type of mineral in train, test, and validation sets")
+
+# Plot random spec results
+fig_pred, ax_pred = tf.plot_random_predictions(x_test, y_pred, y_true, num_samples=3)
+
+# plot train and val losses with epoch
+fig_loss, ax_loss = tf.plot_losses(train_losses, val_losses)
+
+
+plt.show()
+
+
