@@ -78,6 +78,47 @@ class RamanPredictorFCN(nn.Module):
         return x
 
 
+# Fully Convolutional Neural Network (FCN) - upsampling with nn.ConvTranspose1d()
+class RamanPredictorFCConvTranspose1d(nn.Module):
+    def __init__(self, input_size, output_size, ks=3):
+        super(RamanPredictorFCConvTranspose1d, self).__init__()
+
+        # Define fully connected layers to process initial input features
+        self.fc1 = nn.Linear(input_size, 32)
+        self.fc2 = nn.Linear(32, 64)
+        self.fc3 = nn.Linear(64, 128)
+
+        # Define ConvTranspose1d layers to upsample the sequence length
+        self.deconv1 = nn.ConvTranspose1d(in_channels=1, out_channels=64, kernel_size=ks, stride=1, padding=1) # 128
+        self.deconv2 = nn.ConvTranspose1d(in_channels=64, out_channels=64, kernel_size=ks, stride=2, padding=1) # 256
+        self.deconv3 = nn.ConvTranspose1d(in_channels=64, out_channels=64, kernel_size=ks, stride=2, padding=0) # 512
+        self.deconv4 = nn.ConvTranspose1d(in_channels=64, out_channels=64, kernel_size=ks, stride=2, padding=0, output_padding=1) # 1024
+        self.deconv5 = nn.ConvTranspose1d(in_channels=64, out_channels=1, kernel_size=ks, stride=1, padding=1)  # 1024
+
+        # ReLU activation function
+        self.relu = nn.ReLU()
+
+    def forward(self, x):
+
+        # Fully connected layers to process input of shape [input_size, 22]
+        x = self.relu(self.fc1(x))
+        x = self.relu(self.fc2(x)) 
+        x = self.relu(self.fc3(x))
+
+        x = x.unsqueeze(1)
+
+        # ConvTranspose1d layers to upsample the sequence length
+        x = self.relu(self.deconv1(x))  # [input_size, 32, 2]
+        x = self.relu(self.deconv2(x))  # [input_size, 32, 4]
+        x = self.relu(self.deconv3(x))  # [input_size, 32, 8]
+        x = self.relu(self.deconv4(x))  # [input_size, 32, 16]
+        x = self.relu(self.deconv5(x))  # [input_size, 32, 1024] (final upsampling)
+
+        # Output will be of shape [input_size, 1024]
+        x = x.squeeze(1)
+
+        return x
+
 
 # Custom DataLoader
 
