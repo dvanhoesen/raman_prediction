@@ -24,6 +24,45 @@ class FeedForwardNN(nn.Module):
         return x
 
 
+# Feed Forward NN with CNNS
+class FeedForwardNN_CNN(nn.Module):
+    def __init__(self, input_size, output_size, ks=3):
+        super(FeedForwardNN_CNN, self).__init__()
+        
+        self.fc1 = nn.Linear(input_size, 64)
+        self.fc2 = nn.Linear(64, 128)
+        self.fc3 = nn.Linear(128, 256)
+        self.fc4 = nn.Linear(256, 512)
+        self.fc5 = nn.Linear(512, output_size)
+
+        self.conv1 = nn.Conv1d(in_channels=1, out_channels=32, kernel_size=ks, padding=1)
+        self.conv2 = nn.Conv1d(in_channels=32, out_channels=32, kernel_size=ks, padding=1)
+        self.conv3 = nn.Conv1d(in_channels=32, out_channels=32, kernel_size=ks, padding=1)
+        self.conv4 = nn.Conv1d(in_channels=32, out_channels=1, kernel_size=ks, padding=1)
+        
+        self.relu = nn.ReLU()
+    
+    def forward(self, x):
+
+        # Fully connected layers to bring to the correct shape [batch_size, input_size]
+        x = self.relu(self.fc1(x))
+        x = self.relu(self.fc2(x))
+        x = self.relu(self.fc3(x))
+        x = self.relu(self.fc4(x))
+        x = self.relu(self.fc5(x))
+
+        # Reshape the input to add a channel dimension for Conv1d [batch_size, 1, input_size]
+        x = x.unsqueeze(1)
+
+        # Apply the convolution layers
+        x = self.relu(self.conv1(x))
+        x = self.relu(self.conv2(x))
+        x = self.relu(self.conv3(x))
+        x = self.conv4(x)
+        x = x.squeeze(1)  # Remove the channel dimension to return to shape [batch_size, output_size]
+        
+        return x
+
 # Fully Convolutional Neural Network (FCN) except for first layer b/c no connection between input features
 class RamanPredictorFCN_fullyConnected1(nn.Module):
     def __init__(self, input_size, output_size, ks=3):
@@ -57,24 +96,33 @@ class RamanPredictorFCN(nn.Module):
     def __init__(self, input_size, output_size, ks=3):
         super(RamanPredictorFCN, self).__init__()
         # Assuming input_size is the number of features in the chemical composition
-        self.conv1 = nn.Conv1d(in_channels=input_size, out_channels=32, kernel_size=ks, padding=1)
-        self.conv2 = nn.Conv1d(in_channels=32, out_channels=64, kernel_size=ks, padding=1)
-        self.conv3 = nn.Conv1d(in_channels=64, out_channels=128, kernel_size=ks, padding=1)
-        self.conv4 = nn.Conv1d(in_channels=128, out_channels=256, kernel_size=ks, padding=1)
-        self.conv5 = nn.Conv1d(in_channels=256, out_channels=512, kernel_size=ks, padding=1)
-        self.conv6 = nn.Conv1d(in_channels=512, out_channels=output_size, kernel_size=ks, padding=1)
+        #self.conv1 = nn.Conv1d(in_channels=1, out_channels=2, kernel_size=ks, padding=0)
+        #self.conv2 = nn.Conv1d(in_channels=2, out_channels=4, kernel_size=ks, padding=0)
+        #self.conv3 = nn.Conv1d(in_channels=4, out_channels=8, kernel_size=ks, padding=0)
+        self.conv4 = nn.Conv1d(in_channels=1, out_channels=16, kernel_size=ks, padding=1)
+        self.conv5 = nn.Conv1d(in_channels=16, out_channels=32, kernel_size=ks, padding=0)
+        self.conv6 = nn.Conv1d(in_channels=32, out_channels=64, kernel_size=ks, padding=0)
+        self.conv7 = nn.Conv1d(in_channels=64, out_channels=128, kernel_size=ks, padding=0)
+        self.conv8 = nn.Conv1d(in_channels=128, out_channels=256, kernel_size=ks, padding=0)
+        self.conv9 = nn.Conv1d(in_channels=256, out_channels=512, kernel_size=ks, padding=0)
+        self.conv10 = nn.Conv1d(in_channels=512, out_channels=output_size, kernel_size=ks, padding=0)
         self.relu = nn.ReLU()
     
     def forward(self, x):
         # Reshape input for CNN (batch_size, channels, input_size)
-        x = x.unsqueeze(2)  # Adding a channel dimension (assuming the input is 2D: [batch_size, input_size] becomes [batch_size, input_size, 1])
-        x = self.relu(self.conv1(x)) # [batch_size, 32, 1]
-        x = self.relu(self.conv2(x)) # [batch_size, 64, 1]
-        x = self.relu(self.conv3(x))
+        x = x.unsqueeze(1)  # Adding a channel dimension (assuming the input is 2D: [batch_size, input_size] becomes [batch_size, input_size, 1])
+        #x = self.relu(self.conv1(x)) # [batch_size, 32, 1]
+        #x = self.relu(self.conv2(x)) # [batch_size, 64, 1]
+        #x = self.relu(self.conv3(x))
         x = self.relu(self.conv4(x))
         x = self.relu(self.conv5(x))
-        x = self.conv6(x)  # Output layer without ReLU to maintain the full range of the spectrum
-        x = x.squeeze(2)  # Remove the channel dimension to return to shape [batch_size, output_size]
+        x = self.relu(self.conv6(x))
+        x = self.relu(self.conv7(x))
+        x = self.relu(self.conv8(x))
+        x = self.relu(self.conv9(x))
+
+        x = self.conv10(x)  # Output layer without ReLU to maintain the full range of the spectrum
+        x = torch.mean(x, -1) # Average last column
         return x
 
 

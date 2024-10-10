@@ -3,7 +3,7 @@ import random
 import matplotlib.pyplot as plt
 
 # Training and validation loop
-def train_model(model, train_loader, val_loader, criterion, optimizer, epochs=20):
+def train_model(model, train_loader, val_loader, criterion, optimizer, device, epochs=20):
     train_losses = [] 
     val_losses = []
 
@@ -13,6 +13,10 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, epochs=20
         
         # Training loop
         for x_batch, y_batch in train_loader:
+
+            x_batch = x_batch.to(device)
+            y_batch = y_batch.to(device)
+
             optimizer.zero_grad()  # Zero the gradients
             outputs = model(x_batch)  # Forward pass
             loss = criterion(outputs, y_batch)  # Compute loss
@@ -29,6 +33,10 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, epochs=20
         val_loss = 0.0
         with torch.no_grad():  # Disable gradient computation for validation
             for x_batch, y_batch in val_loader:
+
+                x_batch = x_batch.to(device)
+                y_batch = y_batch.to(device)
+
                 outputs = model(x_batch)  # Forward pass
                 loss = criterion(outputs, y_batch)  # Compute loss
                 val_loss += loss.item() * x_batch.size(0)
@@ -38,14 +46,14 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, epochs=20
         val_losses.append(epoch_val_loss)
 
         # Print epoch results
-        print(f"Epoch [{epoch+1}/{epochs}] - Training Loss: {epoch_train_loss:.4f} - Validation Loss: {epoch_val_loss:.4f}")
+        print(f"Epoch [{epoch+1}/{epochs}] - Training Loss: {epoch_train_loss:.5f} - Validation Loss: {epoch_val_loss:.5f}")
     
     return train_losses, val_losses
 
 
 
 # Test the model
-def evaluate_model(model, test_loader, criterion):
+def evaluate_model(model, test_loader, criterion, device):
     model.eval()  # Set model to evaluation mode
     test_loss = 0.0
     all_inputs = []
@@ -54,6 +62,10 @@ def evaluate_model(model, test_loader, criterion):
 
     with torch.no_grad():
         for x_batch, y_batch in test_loader:
+
+            x_batch = x_batch.to(device)
+            y_batch = y_batch.to(device)
+        
             outputs = model(x_batch)
             loss = criterion(outputs, y_batch)
             test_loss += loss.item() * x_batch.size(0)
@@ -71,26 +83,27 @@ def evaluate_model(model, test_loader, criterion):
 
 # Function to plot predicted vs known values
 def plot_random_predictions(x_test, y_pred, y_true, num_samples=4):
+    
     colors = ['black', 'blue', 'green', 'red', 'orange', 'purple']
     indices = random.sample(range(len(x_test)), num_samples)
 
-    fig, ax = plt.subplots(figsize=(11,5))
-    ax.set_xlabel('Index', fontsize=12)
-    ax.set_ylabel('Normalized Intensity', fontsize=12)
+
     
     for i, idx in enumerate(indices):
-        color = colors[i]
-        
+        fig, ax = plt.subplots(figsize=(11,5))
+        ax.set_xlabel('Index', fontsize=12)
+        ax.set_ylabel('Normalized Intensity', fontsize=12)
+
+        #color = colors[i]
+
         # Plot known values
-        ax.plot(y_true[idx].numpy(), label='{} - True'.format(idx), color=color)
+        ax.plot(y_true[idx].numpy(), label='{} - True'.format(idx))
         
         # Plot predicted values
-        ax.plot(y_pred[idx].numpy(), label='{} - Predicted'.format(idx), color=color, linestyle='--')
+        ax.plot(y_pred[idx].numpy(), label='{} - Predicted'.format(idx), linestyle='--')
         
-    plt.legend(loc='best')
-
-    return fig, ax
-
+        plt.legend(loc='best')
+        plt.show()
 
 
 # Function to plot train and val losses as a function of epoch
@@ -102,6 +115,5 @@ def plot_losses(train_losses, val_losses):
     ax.plot(train_losses, label='Train', color='blue')
     ax.plot(val_losses, label='Validation', color='red')
     plt.legend(loc='best')
-
-    return fig, ax
+    plt.show()
 

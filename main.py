@@ -10,6 +10,11 @@ import matplotlib.pyplot as plt
 import torch_models as tm 
 import torch_functions as tf
 
+# CUDA device
+device = torch.device("mps")
+print("Device: ", device)
+
+
 # Load numpy files
 basepath = "train_data" + os.path.sep
 
@@ -51,7 +56,7 @@ test_size = len(full_dataset) - train_size - val_size
 train_dataset, val_dataset, test_dataset = random_split(full_dataset, [train_size, val_size, test_size])
 
 # Create DataLoaders for each set
-batch_size = 32
+batch_size = 64
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
@@ -61,13 +66,18 @@ test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 input_size = x_inputs_proc.shape[1]
 output_size = 1024
 
-#model = tm.RamanPredictorFCN(input_size, output_size)
+model = tm.RamanPredictorFCN(input_size, output_size)
 #model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
 #model = tm.FeedForwardNN(input_size, output_size)
-model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=3)
-optimizer = optim.NAdam(model.parameters(), lr=0.001)
+#model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=3)
+
+# Send model to OS cuda device (M1 Mac OS is mps)
+model.to(device)
+
+#optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.RMSprop(model.parameters(), lr=0.003)
 criterion = nn.MSELoss()  # Mean Squared Error Loss
-epochs = 10
+epochs = 150
 
 """
 optimizers = {
@@ -136,17 +146,20 @@ ax2.legend(loc='best')
 
 
 # Train the model
-train_losses, val_losses = tf.train_model(model, train_loader, val_loader, criterion, optimizer, epochs=epochs)
+train_losses, val_losses = tf.train_model(model, train_loader, val_loader, criterion, optimizer, device, epochs=epochs)
 
 # Evaluate the model on the test set
-x_test, y_pred, y_true = tf.evaluate_model(model, test_loader, criterion)
+x_test, y_pred, y_true = tf.evaluate_model(model, test_loader, criterion, device)
 
 # Plot random spec results
-fig_pred, ax_pred = tf.plot_random_predictions(x_test, y_pred, y_true, num_samples=3)
+x_test = x_test.cpu()
+y_pred = y_pred.cpu()
+y_true = y_true.cpu()
+
+tf.plot_random_predictions(x_test, y_pred, y_true, num_samples=10)
 
 # plot train and val losses with epoch
 fig_loss, ax_loss = tf.plot_losses(train_losses, val_losses)
-
 
 print("can see structure appearing, but the validation loss stagnates around 150 epochs")
 print("possible that the method using the lower and upper bound wavelengths in the input is not sufficient")
