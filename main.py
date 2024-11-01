@@ -58,6 +58,7 @@ train_dataset, val_dataset, test_dataset = random_split(full_dataset, [train_siz
 
 # Create DataLoaders for each set
 batch_size = 64
+
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
@@ -67,10 +68,11 @@ test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 input_size = x_inputs_proc.shape[1]
 output_size = 1024
 
-model = tm.RamanPredictorFCN(input_size, output_size)
+#model = tm.RamanPredictorFCN(input_size, output_size)
 #model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
 #model = tm.FeedForwardNN(input_size, output_size)
 #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=3)
+model = tm.FeedForwardNN_CNN(input_size, output_size, ks=3)
 
 # Send model to OS cuda device (M1 Mac OS is mps)
 model.to(device)
@@ -160,8 +162,8 @@ y_true = y_true.cpu()
 tf.plot_random_predictions(x_test, y_pred, y_true, num_samples=10)
 
 # plot train and val losses with epoch
-fig_loss, ax_loss = tf.plot_losses(train_losses, val_losses)
-
-plt.show()
+tf.plot_losses(train_losses, val_losses)
 
 
+print("need to find a way to save extracted_data_wavenumber_cutoff files as less than 50 MB for github")
+print("possibly break into two files and then combine once loaded")

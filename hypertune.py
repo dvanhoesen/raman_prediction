@@ -29,7 +29,8 @@ device = torch.device("mps")
 print("Device: ", device)
 
 # Load numpy files
-basepath = "train_data" + os.path.sep
+#basepath = "train_data" + os.path.sep
+basepath = "train_data_wavenumber_cutoffs" + os.path.sep
 
 y_labels_proc = np.load(basepath + "y_labels_proc.npy", allow_pickle=True)
 x_inputs_proc = np.load(basepath + "x_inputs_proc.npy", allow_pickle=True)
@@ -97,9 +98,11 @@ for params in parameters:
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
     #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=ks)
-    #model = tm.RamanPredictorFCN(input_size, output_size, ks=ks)
+    model = tm.RamanPredictorFCN(input_size, output_size, ks=ks)
     #model = tm.FeedForwardNN(input_size, output_size)
-    model = tm.FeedForwardNN_CNN(input_size, output_size, ks=ks)
+    #model = tm.FeedForwardNN_CNN(input_size, output_size, ks=ks)
+
+    model_name = 'RamanPredictorFCN'
 
     # Send model to OS cuda device (M1 Mac OS is mps)
     model.to(device)
@@ -133,7 +136,7 @@ for params in parameters:
 
 sorted_data = sorted(parameters_with_losses, key=lambda x: x['val_loss'], reverse=False)
 
-print("\nVal Loss\tTrain Loss\tLR\tOptimizer\tbatch size")
+print("\nVal Loss\tTrain Loss\tLR\tOptimizer\tbatch size\tmodel")
 for row in sorted_data:
     val_loss = row['val_loss']
     train_loss = row['train_loss']
@@ -141,7 +144,7 @@ for row in sorted_data:
     batch_size = row['batch_size']
     opt = row['optimizer']
     
-    print("{:.6f}\t{:.6f}\t{}\t{}\t\t{}".format(val_loss, train_loss, lr, opt, batch_size))
+    print("{:.6f}\t{:.6f}\t{}\t{}\t\t{}\t{}".format(val_loss, train_loss, lr, opt, batch_size, model_name))
 
 
 
