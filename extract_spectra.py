@@ -39,7 +39,6 @@ print("Raw files: ", len(files_raw))
 print("Processed files: ", len(files_processed))
 print("raw + processed files: ", len(files_raw) + len(files_processed))
 
-print("taking the min and max value as inputs to the ML model along with the chemisry data")
 
 
 

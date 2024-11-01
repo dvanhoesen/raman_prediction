@@ -16,7 +16,8 @@ print("Device: ", device)
 
 
 # Load numpy files
-basepath = "train_data" + os.path.sep
+#basepath = "train_data" + os.path.sep
+basepath = "train_data_wavenumber_cutoffs" + os.path.sep
 
 """
 y_labels_raw = np.load(basepath + "y_labels_raw.npy", allow_pickle=True)
@@ -74,8 +75,8 @@ model = tm.RamanPredictorFCN(input_size, output_size)
 # Send model to OS cuda device (M1 Mac OS is mps)
 model.to(device)
 
-#optimizer = optim.Adam(model.parameters(), lr=0.001)
-optimizer = optim.RMSprop(model.parameters(), lr=0.003)
+optimizer = optim.NAdam(model.parameters(), lr=0.001)
+#optimizer = optim.RMSprop(model.parameters(), lr=0.002)
 criterion = nn.MSELoss()  # Mean Squared Error Loss
 epochs = 150
 
@@ -160,10 +161,6 @@ tf.plot_random_predictions(x_test, y_pred, y_true, num_samples=10)
 
 # plot train and val losses with epoch
 fig_loss, ax_loss = tf.plot_losses(train_losses, val_losses)
-
-print("can see structure appearing, but the validation loss stagnates around 150 epochs")
-print("possible that the method using the lower and upper bound wavelengths in the input is not sufficient")
-print("may need to revert to interpolating between a range and adding zeros where necessary as padding. ")
 
 plt.show()
 

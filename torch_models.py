@@ -99,7 +99,8 @@ class RamanPredictorFCN(nn.Module):
         #self.conv1 = nn.Conv1d(in_channels=1, out_channels=2, kernel_size=ks, padding=0)
         #self.conv2 = nn.Conv1d(in_channels=2, out_channels=4, kernel_size=ks, padding=0)
         #self.conv3 = nn.Conv1d(in_channels=4, out_channels=8, kernel_size=ks, padding=0)
-        self.conv4 = nn.Conv1d(in_channels=1, out_channels=16, kernel_size=ks, padding=1)
+        self.fc1 = nn.Linear(input_size, 32)  # Fully connected layer to project input to 32 features
+        self.conv4 = nn.Conv1d(in_channels=1, out_channels=16, kernel_size=ks, padding=0)
         self.conv5 = nn.Conv1d(in_channels=16, out_channels=32, kernel_size=ks, padding=0)
         self.conv6 = nn.Conv1d(in_channels=32, out_channels=64, kernel_size=ks, padding=0)
         self.conv7 = nn.Conv1d(in_channels=64, out_channels=128, kernel_size=ks, padding=0)
@@ -110,6 +111,7 @@ class RamanPredictorFCN(nn.Module):
     
     def forward(self, x):
         # Reshape input for CNN (batch_size, channels, input_size)
+        x = self.relu(self.fc1(x))
         x = x.unsqueeze(1)  # Adding a channel dimension (assuming the input is 2D: [batch_size, input_size] becomes [batch_size, input_size, 1])
         #x = self.relu(self.conv1(x)) # [batch_size, 32, 1]
         #x = self.relu(self.conv2(x)) # [batch_size, 64, 1]

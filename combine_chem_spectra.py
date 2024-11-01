@@ -5,7 +5,17 @@ import glob
 import random
 
 
-basepath = 'extracted_data' + os.path.sep
+#basepath = 'extracted_data' + os.path.sep
+basepath = 'extracted_data_wavenumber_cutoffs' + os.path.sep
+
+#savepath = "train_data" + os.path.sep
+savepath = "train_data_wavenumber_cutoffs" + os.path.sep
+
+#xplot = np.arange(1024)
+xplot = np.linspace(50, 1700, 1024, endpoint=True)
+
+#flag_include_min_max = True
+flag_include_min_max = False
 
 # Load spectra arrays
 names_raw = np.load(basepath + "names_raw.npy", allow_pickle=True)
@@ -63,9 +73,13 @@ for i in range(chem.shape[0]):
     for j in idx_raw:
         x_temp = x_components_raw[j]
         y_temp = y_components_raw[j]
-        minx = x_temp[0] / 1000
-        maxx = x_temp[-1] / 1000
-        x_input_temp = np.append(chemistry, [minx, maxx])
+
+        if flag_include_min_max:
+            minx = x_temp[0] / 1000
+            maxx = x_temp[-1] / 1000
+            x_input_temp = np.append(chemistry, [minx, maxx])
+        else:
+            x_input_temp = chemistry
 
         x_temp = np.expand_dims(x_temp, axis=0)
         y_temp = np.expand_dims(y_temp, axis=0)
@@ -88,9 +102,13 @@ for i in range(chem.shape[0]):
     for j in idx_proc:
         x_temp = x_components_proc[j]
         y_temp = y_components_proc[j]
-        minx = x_temp[0] / 1000
-        maxx = x_temp[-1] / 1000
-        x_input_temp = np.append(chemistry, [minx, maxx])
+
+        if flag_include_min_max:
+            minx = x_temp[0] / 1000
+            maxx = x_temp[-1] / 1000
+            x_input_temp = np.append(chemistry, [minx, maxx])
+        else:
+            x_input_temp = chemistry
 
         x_temp = np.expand_dims(x_temp, axis=0)
         y_temp = np.expand_dims(y_temp, axis=0)
@@ -138,17 +156,16 @@ print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
 
 
 # Save numpy files
-basepath = "train_data" + os.path.sep
 
-np.save(basepath + "y_labels_raw.npy", y_labels_raw, allow_pickle=True)
-np.save(basepath + "x_inputs_raw.npy", x_inputs_raw, allow_pickle=True)
-np.save(basepath + "names_raw.npy", names_raw_all, allow_pickle=True)
-np.save(basepath + "rruffid_raw.npy", rruffid_raw_all, allow_pickle=True)
+np.save(savepath + "y_labels_raw.npy", y_labels_raw, allow_pickle=True)
+np.save(savepath + "x_inputs_raw.npy", x_inputs_raw, allow_pickle=True)
+np.save(savepath + "names_raw.npy", names_raw_all, allow_pickle=True)
+np.save(savepath + "rruffid_raw.npy", rruffid_raw_all, allow_pickle=True)
 
-np.save(basepath + "y_labels_proc.npy", y_labels_proc, allow_pickle=True)
-np.save(basepath + "x_inputs_proc.npy", x_inputs_proc, allow_pickle=True)
-np.save(basepath + "names_proc.npy", names_proc_all, allow_pickle=True)
-np.save(basepath + "rruffid_proc.npy", rruffid_proc_all, allow_pickle=True)
+np.save(savepath + "y_labels_proc.npy", y_labels_proc, allow_pickle=True)
+np.save(savepath + "x_inputs_proc.npy", x_inputs_proc, allow_pickle=True)
+np.save(savepath + "names_proc.npy", names_proc_all, allow_pickle=True)
+np.save(savepath + "rruffid_proc.npy", rruffid_proc_all, allow_pickle=True)
 
 
 # Plot 5 random spectrum from each category
@@ -156,13 +173,15 @@ fig_raw, ax_raw = plt.subplots(figsize=(9,5))
 ax_raw.set_ylabel("Inensity (normalized)", fontsize=12)
 ax_raw.set_xlabel("Wavenumber (1/cm)", fontsize=12)
 ax_raw.set_title("Raw Spectrum", fontsize=12)
+
+
 for i in range(5):
     idx = random.randint(0, len(names_raw_all))
     x = np.arange(1024)
     y = y_labels_raw[idx,:]
     name = names_raw_all[idx]
     chem_input = x_inputs_raw[idx, :]
-    ax_raw.plot(x, y, label=name)
+    ax_raw.plot(xplot, y, label=name)
     #print('{}: '.format(name), chem_input)
 ax_raw.legend(loc='best')
 
@@ -176,7 +195,7 @@ for i in range(5):
     y = y_labels_proc[idx,:]
     name = names_proc_all[idx]
     chem_input = x_inputs_proc[idx, :]
-    ax_proc.plot(x, y, label=name)
+    ax_proc.plot(xplot, y, label=name)
     #print('{}: '.format(name), chem_input)
 ax_proc.legend(loc='best')
 
