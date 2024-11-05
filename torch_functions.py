@@ -51,6 +51,37 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, device, e
     return train_losses, val_losses
 
 
+# Training and validation loop
+def train_model_train_only(model, train_loader, criterion, optimizer, device, epochs=20):
+    train_losses = []
+
+    for epoch in range(epochs):
+        model.train()  # Set model to training mode
+        running_loss = 0.0
+        
+        # Training loop
+        for x_batch, y_batch in train_loader:
+
+            x_batch = x_batch.to(device)
+            y_batch = y_batch.to(device)
+
+            optimizer.zero_grad()  # Zero the gradients
+            outputs = model(x_batch)  # Forward pass
+            loss = criterion(outputs, y_batch)  # Compute loss
+            loss.backward()  # Backward pass (calculate gradients)
+            optimizer.step()  # Update weights
+            running_loss += loss.item() * x_batch.size(0)  # Accumulate loss
+
+        # Average training loss
+        epoch_train_loss = running_loss / len(train_loader.dataset)
+        train_losses.append(epoch_train_loss)
+
+        # Print epoch results
+        if epoch%10 == 0:
+            print(f"Epoch [{epoch+1}/{epochs}] - Training Loss: {epoch_train_loss:.5f}")
+    
+    return train_losses
+
 
 # Test the model
 def evaluate_model(model, test_loader, criterion, device):
@@ -79,6 +110,19 @@ def evaluate_model(model, test_loader, criterion, device):
 
     return torch.cat(all_inputs), torch.cat(all_outputs), torch.cat(all_labels)
 
+# Test the model
+def evaluate_model_single_mineral(model, test_loader, device):
+    model.eval()
+    all_outputs = []
+
+    with torch.no_grad():
+        for x_batch, y_batch in test_loader:
+            x_batch = x_batch.to(device)
+            y_batch = y_batch.to(device)
+            outputs = model(x_batch)
+            all_outputs.append(outputs)
+
+    return torch.cat(all_outputs)
 
 
 # Function to plot predicted vs known values
