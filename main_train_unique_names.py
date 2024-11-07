@@ -18,7 +18,7 @@ print("Device: ", device)
 # Load numpy files
 #basepath = "train_data" + os.path.sep
 basepath = "train_data_wavenumber_cutoffs" + os.path.sep
-savepath = "results_wavenumber_cutoffs" + os.path.sep + "FeedForwardNN" + os.path.sep
+savepath = "results_wavenumber_cutoffs" + os.path.sep + "RamanPredictor_fullyConnected1" + os.path.sep
 
 y_labels_proc = np.load(basepath + "y_labels_proc.npy", allow_pickle=True)
 x_inputs_proc = np.load(basepath + "x_inputs_proc.npy", allow_pickle=True)
@@ -44,7 +44,7 @@ input_size = x_inputs_proc.shape[1]
 output_size = 1024
 kernel_size = 3
 criterion = nn.MSELoss()
-epochs = 2
+epochs = 150
 
 for i in range(len(un)):
     left_out_name = un[i]
@@ -72,8 +72,8 @@ for i in range(len(un)):
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
     #model = tm.RamanPredictorFCN(input_size, output_size)
-    #model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
-    model = tm.FeedForwardNN(input_size, output_size)
+    model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
+    #model = tm.FeedForwardNN(input_size, output_size)
     #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=kernel_size)
     #model = tm.FeedForwardNN_CNN(input_size, output_size, ks=kernel_size)
 
@@ -102,11 +102,14 @@ for i in range(len(un)):
         all_rruffid = np.append(all_rruffid, rruffid_test)
 
 
-    #mse = np.mean((y_test - y_pred) ** 2, axis=1, keepdims=True)  # Shape: (N, 1)
+    mse = np.mean((y_test - y_pred) ** 2, axis=1, keepdims=True)  # Shape: (N, 1)
     #rmse = np.sqrt(mse)  # Shape: (N, 1)
 
-    if i ==2:
-        break
+    print("MSE: ", mse)
+
+    #if i==2:
+    #    break
+
 
 
 print("final all_pred shape: ", all_predictions.shape)
