@@ -124,6 +124,25 @@ def evaluate_model_single_mineral(model, test_loader, device):
 
     return torch.cat(all_outputs)
 
+# Save model and optimizer states
+def save_model(model, optimizer, model_filepath, optimizer_filepath):
+    torch.save(model.state_dict(), model_filepath)
+    torch.save(optimizer.state_dict(), optimizer_filepath)
+    print(f"Model weights saved to {model_filepath}")
+    print(f"Optimizer state saved to {optimizer_filepath}")
+
+# Load model and optimizer states
+def load_model(model, optimizer, model_filepath, optimizer_filepath, device):
+    # Load the model weights
+    model.load_state_dict(torch.load(model_filepath, map_location=device, weights_only=True))
+    print(f"Model weights loaded from {model_filepath}")
+    
+    # Load the optimizer state
+    optimizer.load_state_dict(torch.load(optimizer_filepath, map_location=device, weights_only=True))
+    print(f"Optimizer state loaded from {optimizer_filepath}")
+    
+    return model, optimizer
+
 
 # Function to plot predicted vs known values
 def plot_random_predictions(x_test, y_pred, y_true, num_samples=4):

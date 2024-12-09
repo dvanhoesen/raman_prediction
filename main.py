@@ -18,6 +18,9 @@ print("Device: ", device)
 # Load numpy files
 #basepath = "train_data" + os.path.sep
 basepath = "train_data_wavenumber_cutoffs" + os.path.sep
+savepath = "results_trained_FeedForward_batch_size_1" + os.path.sep
+savename_model = savepath + "FeedForwardNN_test_weights.pth"
+savename_optimizer = savepath + "FeedForwardNN_test_optimizer.pth"
 
 """
 y_labels_raw = np.load(basepath + "y_labels_raw.npy", allow_pickle=True)
@@ -48,7 +51,7 @@ print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
 full_dataset = tm.CustomDataset(x_inputs_proc, y_labels_proc, add_noise=True)
 
 
-# Split dataset sizes (e.g., 70% train, 15% validation, 15% test)
+# Split dataset sizes (e.g., 60% train, 20% validation, 20% test)
 train_size = int(0.6 * len(full_dataset))
 val_size = int(0.2 * len(full_dataset))
 test_size = len(full_dataset) - train_size - val_size
@@ -56,8 +59,19 @@ test_size = len(full_dataset) - train_size - val_size
 # Split the dataset
 train_dataset, val_dataset, test_dataset = random_split(full_dataset, [train_size, val_size, test_size])
 
+# Get indexes for each set split
+idxs_train = np.array(train_dataset.indices)
+idxs_val = np.array(val_dataset.indices)
+idxs_test = np.array(test_dataset.indices)
+print(type(idxs_train), len(idxs_train), len(idxs_val), len(idxs_test))
+
+# Save the indexes used for training, validation, and testing
+np.save(savepath + "idxs_train.npy", idxs_train, allow_pickle=True)
+np.save(savepath + "idxs_val.npy", idxs_val, allow_pickle=True)
+np.save(savepath + "idxs_test.npy", idxs_test, allow_pickle=True)
+
 # Create DataLoaders for each set
-batch_size = 64
+batch_size = 1
 
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
@@ -70,9 +84,9 @@ output_size = 1024
 
 #model = tm.RamanPredictorFCN(input_size, output_size)
 #model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
-#model = tm.FeedForwardNN(input_size, output_size)
+model = tm.FeedForwardNN(input_size, output_size)
 #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=3)
-model = tm.FeedForwardNN_CNN(input_size, output_size, ks=3)
+#model = tm.FeedForwardNN_CNN(input_size, output_size, ks=3)
 
 # Send model to OS cuda device (M1 Mac OS is mps)
 model.to(device)
@@ -147,12 +161,14 @@ ax2.legend(loc='best')
 """
 
 
-
 # Train the model
 train_losses, val_losses = tf.train_model(model, train_loader, val_loader, criterion, optimizer, device, epochs=epochs)
 
 # Evaluate the model on the test set
 x_test, y_pred, y_true = tf.evaluate_model(model, test_loader, criterion, device)
+
+# Save the model state savename_model
+tf.save_model(model, optimizer, savename_model, savename_optimizer)
 
 # Plot random spec results
 x_test = x_test.cpu()
@@ -163,7 +179,3 @@ tf.plot_random_predictions(x_test, y_pred, y_true, num_samples=10)
 
 # plot train and val losses with epoch
 tf.plot_losses(train_losses, val_losses)
-
-
-print("need to find a way to save extracted_data_wavenumber_cutoff files as less than 50 MB for github")
-print("possibly break into two files and then combine once loaded")
