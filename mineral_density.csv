@@ -1,0 +1,3528 @@
+density,name,color,hardness,luster,streak,color3
+1.45,Abelsonite,"red, pinkish",2-2.5,Sub Metallic,,"red, pinkish"
+1.96,Vyalsovite,red,-,Sub Metallic,,red
+2.16,Graphite,"black, iron",1.5-2,Sub Metallic,black,"black, iron"
+2.30,Erdite,"red, copper",2,Metallic,black,"red, copper"
+2.51,Cronusite !,"black, coal",1.5,Sub Metallic,black,"black, coal"
+2.55,Melanovanadite,black,2.5,Sub Metallic,"brown, dark red",black
+2.57,Hydrobiotite,"yellow, golden",2.5-3,Sub Metallic,white,"yellow, golden"
+2.58,Oldhamite,"brown, light",4,Sub Metallic,,"brown, light"
+2.69,Metavivianite,"green, leek",1.5-2,Sub Metallic,"brown, yellowish","green, leek"
+2.70,Schollhornite,gray,1.5-2,Metallic,,gray
+2.70,Bariandite,"black, blue",-,Sub Metallic,black,"black, blue"
+2.75,Wilhelmramsayite !,"gray, dark lead",2.5,Metallic,,"gray, dark lead"
+2.78,Fernandinite,"green, dark",2-3,Sub Metallic,"green, dark","green, dark"
+2.82,Patronite,"gray, lead",2,Metallic,black,"gray, lead"
+2.88,Coyoteite,black,1.5,Metallic,black,black
+2.94,Yushkinite,violet,1,Metallic,"gray, reddish",violet
+2.98,Tochilinite,"black, bronze",1-1.5,Metallic,,"black, bronze"
+3.00,Birnessite,"brown, dark",1.5,Sub Metallic,,"brown, dark"
+3.08,Klyuchevskite,"green, dark",2.5,Sub Metallic,green light,"green, dark"
+3.08,Klyuchevskite-Duplicate,green,3.5,Sub Metallic,greenish,green
+3.10,Rasvumite,"black, brownish",4-5,Metallic,,"black, brownish"
+3.12,Valleriite,bronze,1-1.5,Metallic,,bronze
+3.15,Siderazot,"white, silver",-,Metallic,,"white, silver"
+3.17,Annite,"brown, reddish",2.5-3,Sub Metallic,"white, brownish","brown, reddish"
+3.18,Fluorannite !,"black, iron",3,Sub Metallic,gray,"black, iron"
+3.21,Caswellsilverite,"gray, yellow",1-2,Metallic,,"gray, yellow"
+3.22,Moissanite,blue,9.5,Metallic,"gray, greenish",blue
+3.26,Norrishite,"black, brownish",2.5,Sub Metallic,"brown, light","black, brownish"
+3.30,Doloresite,"brown, dark",-,Sub Metallic,"black, greenish","brown, dark"
+3.31,Bartonite,"brown, black",3.5,Metallic,black,"brown, black"
+3.38,Chaoite,"gray, dark",1-2,Sub Metallic,,"gray, dark"
+3.40,Steenstrupine-(Ce),"red, brown",4,Sub Metallic,tan,"red, brown"
+3.42,Takanelite,"gray, brownish",2.5-3,Sub Metallic,"black, brown","gray, brownish"
+3.46,Hauerite,"gray, blackish",4,Metallic,"brown, reddish","gray, blackish"
+3.50,Bannermanite,black,-,Sub Metallic,"black, brownish",black
+3.54,Wicksite,"black, bluish",4.5-5,Sub Metallic,green,"black, bluish"
+3.55,Jianshuiite,brown,1.5-2,Metallic,brown,brown
+3.56,Realgar,"red, aurora",1.5-2,Sub Metallic,orange,"red, aurora"
+3.58,Haapalaite,"red, bronze",1,Metallic,,"red, bronze"
+3.58,Rhonite,brown,5-6,Sub Metallic,,brown
+3.60,Julgoldite-(Fe+++),"black, deep lustrous",4.5,Sub Metallic,,"black, deep lustrous"
+3.60,Julgoldite-(Fe++),black,4.5,Sub Metallic,,black
+3.65,Chiluite,yellow,3,Sub Metallic,,yellow
+3.70,Arseniosiderite,"brown, bronze",1.5,Sub Metallic,ochraceous,"brown, bronze"
+3.72,Chlorbartonite !,brown,4,Sub Metallic,black,brown
+3.80,Viaeneite !,yellow,3.5-4.5,Metallic,black,yellow
+3.80,Stanekite !,black,4-5,Sub Metallic,"brown, dark",black
+3.80,Pseudorutile,black,3.5,Sub Metallic,"brown, reddish",black
+3.80,Vrbaite,"black, gray",3.5,Metallic,"red, light","black, gray"
+3.81,Daubreelite,black,4.5-5,Metallic,"black, brown",black
+3.84,Hibonite,black,7.5-8,Metallic,"brown, reddish",black
+3.84,Ernienickelite,"black, reddish",2,Sub Metallic,"brown, yellowish","black, reddish"
+3.86,Ziesite,black,-,Metallic,"brown, red",black
+3.88,Kraisslite,"brown, copper",3-4,Sub Metallic,"brown, golden","brown, copper"
+3.90,Cafarsite,"yellow, brownish",5.5-6,Sub Metallic,"brown, yellowish","yellow, brownish"
+3.91,Chalcophanite,blue,2.5,Metallic,brown,blue
+3.92,Laihunite,"brown, dark",6,Sub Metallic,"brown, light","brown, dark"
+3.93,Isocubanite,bronze,3.5,Metallic,,bronze
+3.93,Takeuchiite,black,6,Metallic,brown,black
+3.94,Jeppeite,black,5-6,Sub Metallic,"brown, light",black
+3.95,Aurorite,"black, grayish",2-3,Metallic,brown,"black, grayish"
+3.96,Blossite,black,-,Metallic,"brown, red",black
+4.00,Alabandite,black,3.5-4,Sub Metallic,"green, dark",black
+4.00,Armalcolite,gray,6,Metallic,,gray
+4.00,Montroseite,black,5.5-6.5,Sub Metallic,black,black
+4.00,Paramontroseite,black,-,Sub Metallic,black,black
+4.00,Sulvanite,bronze,3.5,Metallic,black,bronze
+4.00,Lepidocrocite,red,5,Sub Metallic,"brown, dark yellow",red
+4.00,Geikielite,"black, bluish",6,Sub Metallic,"brown, purple","black, bluish"
+4.00,Perovskite,black,5.5,Sub Metallic,"white, grayish",black
+4.02,Ilvaite,"black, iron",5.5-6,Sub Metallic,"black, brownish","black, iron"
+4.02,Gillulyite,red,2-2.5,Sub Metallic,red,red
+4.03,Qandilite,black,7,Metallic,black,black
+4.03,Orthopinakiolite,black,6,Metallic,"gray, brown",black
+4.05,Greigite,blue,4-4.5,Metallic,black,blue
+4.08,Nagashimalite,"black, greenish",6,Sub Metallic,green,"black, greenish"
+4.10,Heideite,"gray, steel",3.5-4.5,Metallic,,"gray, steel"
+4.11,Arsenosulvanite ?,bronze,3.5,Metallic,black,bronze
+4.11,Grimaldiite,"red, dark",3.5-4.5,Metallic,red,"red, dark"
+4.12,Brookite,brown,5.5-6,Sub Metallic,"white, yellowish",brown
+4.15,Uhligite ?,black,5.5,Metallic,"gray, brownish",black
+4.17,Tivanite,black,5.5,Sub Metallic,black,black
+4.17,Dolerophanite,brown,3,Sub Metallic,"brown, yellowish",brown
+4.18,Magnesiohulsite,black,5.5-6.5,Sub Metallic,"brown, dark",black
+4.20,Chalcopyrite,"yellow, brass",3.5,Metallic,"black, greenish","yellow, brass"
+4.20,Idaite,brown,2.5-3.5,Metallic,,brown
+4.20,Colusite,bronze,3-4,Metallic,black,bronze
+4.20,Gallite,gray,3-3.5,Metallic,"black, grayish",gray
+4.20,Sedovite,brown,3,Sub Metallic,"brown, red",brown
+4.20,Magnesiochromite,black,5.5,Metallic,"gray, dark",black
+4.21,Ericssonite,"black, reddish",4.5,Sub Metallic,brown,"black, reddish"
+4.21,Orickite,"yellow, brass",3.5,Metallic,black,"yellow, brass"
+4.22,Sternbergite,"violet, blue",1-1.5,Metallic,black,"violet, blue"
+4.23,Galaxite,"red, brown",7.5,Metallic,"red, brownish","red, brown"
+4.25,Argentopyrite,blue,3.5-4,Metallic,,blue
+4.29,Vinciennite,orange,4.5,Metallic,,orange
+4.29,Talnakhite,yellow,4-4.5,Metallic,black,yellow
+4.29,Stannoidite,"brown, brass",4,Metallic,"gray, brown","brown, brass"
+4.30,Magnesiocoulsonite,black,6-6.5,Metallic,black,black
+4.30,Hulsite,black,3,Sub Metallic,black,black
+4.30,Schneiderhohnite,brown,3,Sub Metallic,"black, brownish",brown
+4.30,Heterogenite-2H,black,3-4,Metallic,"brown, dark",black
+4.30,Schafarzikite,red,3.5,Metallic,"brown, yellowish",red
+4.30,Berthierite,"gray, dark steel",2-2.5,Metallic,"gray, brownish","gray, dark steel"
+4.30,Nukundamite,"red, copper",3.5,Metallic,"gray, dark","red, copper"
+4.32,Smythite,"black, brownish",4.5,Metallic,"gray, dark","black, brownish"
+4.34,Yimengite,black,4,Metallic,brown,black
+4.35,Haycockite,"yellow, brass",4.5,Metallic,black,"yellow, brass"
+4.35,Manganite,black,4,Sub Metallic,"brown, dark",black
+4.36,Mooihoekite,"yellow, brass",4,Metallic,black,"yellow, brass"
+4.36,Cryptomelane,black,6-6.5,Sub Metallic,"black, brownish",black
+4.37,Ramsdellite,"black, iron",3,Metallic,"black, brownish","black, iron"
+4.38,Renierite,"yellow, bronze",4-5,Metallic,"gray, blackish","yellow, bronze"
+4.39,Imhofite,"red, copper",2,Metallic,purple,"red, copper"
+4.40,Stannite,blue,3.5-4,Metallic,black,blue
+4.40,Titanium *,"gray, silver",4,Metallic,black,"gray, silver"
+4.40,Latrappite,black,5.5,Metallic,gray,black
+4.41,Loveringite,black,7.5,Metallic,"black, grayish",black
+4.42,Landauite,black,7.5,Sub Metallic,gray,black
+4.44,Manganoshadlunite,yellow,4,Metallic,,yellow
+4.45,Vaesite,black,4.5-5.5,Metallic,,black
+4.45,Enargite,"gray, steel",3,Metallic,black,"gray, steel"
+4.47,Hemusite,gray,4,Metallic,,gray
+4.48,Olkhonskite,black,8,Metallic,black,black
+4.48,Putoranite,"yellow, brass",4.5,Metallic,black,"yellow, brass"
+4.50,Briartite,"gray, blue",3.5-4,Metallic,,"gray, blue"
+4.50,Luzonite,gray,3.5,Metallic,black,gray
+4.50,Duranusite,red,2,Metallic,black,red
+4.50,Germanite,brown,3,Metallic,"gray, dark",brown
+4.52,Pyrophanite,"red, blood",5,Sub Metallic,"yellow, ochre","red, blood"
+4.52,Villamaninite,"black, iron",4.5,Metallic,"black, sooty","black, iron"
+4.55,Psilomelane ?,"black, iron",5-6,Sub Metallic,"black, brownish","black, iron"
+4.56,Kuramite,gray,5,Metallic,,gray
+4.56,Katoptrite,black,5.5,Metallic,"brown, red",black
+4.57,Kesterite,"black, greenish",4.5,Metallic,black,"black, greenish"
+4.57,Famatinite,"black, grayish",3-4,Metallic,black,"black, grayish"
+4.57,Lenaite,gray,4-4.5,Metallic,"gray, dark",gray
+4.60,Fetiasite,brown,5,Sub Metallic,"brown, ochre",brown
+4.60,Mathiasite,black,7.5,Metallic,gray,black
+4.60,Loranskite-(Y),"black, brownish",5,Sub Metallic,"gray, greenish","black, brownish"
+4.60,Hutchinsonite,"red, cherry",1.5-2,Sub Metallic,red,"red, cherry"
+4.61,Petrukite,gray,4.5,Metallic,black,gray
+4.62,Pyrrhotite,bronze,3.5-4,Metallic,"black, gray",bronze
+4.62,Troilite,"brown, bronze",3.5-4,Metallic,"black, gray","brown, bronze"
+4.62,Nekrasovite,"brown, reddish",4.5-5,Metallic,,"brown, reddish"
+4.62,Graeserite !,black,5.5,Metallic,black,black
+4.63,Neltnerite,black,6,Sub Metallic,black,black
+4.63,Lindsleyite,black,7.5,Metallic,gray,black
+4.63,Stibnite,"gray, lead",2,Metallic,"gray, blackish","gray, lead"
+4.64,Ilmenorutile,"black, iron",6-6.5,Sub Metallic,"brown, reddish","black, iron"
+4.64,Vuorelainenite,"gray, brown",6.5,Metallic,,"gray, brown"
+4.64,Hydrohetaerolite,"black, brownish",5-6,Sub Metallic,"brown, dark","black, brownish"
+4.64,Marokite,black,6.5,Metallic,"brown, red",black
+4.65,Carrollite,gray,4.5-5.5,Metallic,,gray
+4.65,Violarite,"gray, violet",4.5-5.5,Metallic,,"gray, violet"
+4.65,Siegenite,"gray, violet",5-5.5,Metallic,"black, grayish","gray, violet"
+4.65,Polydymite,"gray, violet",4.5-5.5,Metallic,"gray, black","gray, violet"
+4.65,Tennantite,"gray, steel",3.5-4,Metallic,"gray, reddish","gray, steel"
+4.65,Magnesioferrite,"black, brownish",6-6.5,Metallic,"red, dark","black, brownish"
+4.66,Mawsonite,"orange, brown",3.5-4,Metallic,,"orange, brown"
+4.66,Clerite !,black,3.5-4,Sub Metallic,brown,black
+4.66,Watanabeite,"gray, lead",4-4.5,Metallic,"gray, lead","gray, lead"
+4.67,Indite,"black, iron",5,Metallic,black,"black, iron"
+4.68,Dessauite !,black,6.5-7,Metallic,black,black
+4.68,Covellite,"blue, indigo",1.5-2,Metallic,"gray, black","blue, indigo"
+4.69,Murataite,black,6-6.5,Sub Metallic,,black
+4.69,Nolanite,black,5-5.5,Sub Metallic,"black, brownish",black
+4.70,Tranquillityite,"red, dark",-,Sub Metallic,,"red, dark"
+4.70,Cubanite,"yellow, brass",3.5,Metallic,black,"yellow, brass"
+4.70,Blatterite,black,6,Sub Metallic,brown,black
+4.72,Ilmenite,"black, iron",5-5.5,Sub Metallic,"black, brownish","black, iron"
+4.73,Pyrolusite,"gray, steel",6-6.5,Sub Metallic,black,"gray, steel"
+4.74,Cleusonite !,black,6-7,Sub Metallic,black,black
+4.74,Umohoite,"black, bluish",2,Sub Metallic,"gray, blue","black, bluish"
+4.75,Jacobsite,"black, iron",5.5-6,Sub Metallic,"black, reddish","black, iron"
+4.77,Hocartite,"gray, brownish",4,Metallic,,"gray, brownish"
+4.77,Braunite-I,"black, grayish",6-6.5,Sub Metallic,"black, brownish gray","black, grayish"
+4.77,Braunite-II *,"black, grayish",6-6.5,Sub Metallic,"black, brownish gray","black, grayish"
+4.77,Hausmannite,"black, brownish",5.5,Sub Metallic,"brown, dark reddish","black, brownish"
+4.78,Cernyite,gray,4,Metallic,black,gray
+4.78,Owensite,black,3.5,Metallic,black,black
+4.80,Chromite,black,5.5,Metallic,brown,black
+4.80,Cattierite,pink,4.5,Metallic,,pink
+4.80,Linnaeite,"gray, violet",4.5-5.5,Metallic,"black, grayish","gray, violet"
+4.80,Pentlandite,bronze,3.5-4,Metallic,"black, greenish",bronze
+4.80,Polybasite,black,2.5-3,Sub Metallic,"black, reddish",black
+4.81,Selenium,gray,2,Sub Metallic,red,gray
+4.81,Rebulite,"gray, dark",-,Metallic,"red, brown","gray, dark"
+4.82,Pirquitasite,gray,4,Metallic,"gray, brownish",gray
+4.83,Dingdaohengite-(Ce) !,black,6,Sub Metallic,brown,black
+4.84,Ottemannite,"gray, reddish",2,Metallic,,"gray, reddish"
+4.85,Iwakiite,"black, greenish",6-6.5,Metallic,black,"black, greenish"
+4.86,Livingstonite,"gray, steel",2,Sub Metallic,red,"gray, steel"
+4.86,Manganochromite,"black, grayish",5.5,Metallic,,"black, grayish"
+4.86,Mohite,"gray, greenish",4,Metallic,gray,"gray, greenish"
+4.87,Karelianite,black,8-9,Metallic,black,black
+4.87,Hawleyite,"yellow, light",2.5-3,Metallic,"yellow, light","yellow, light"
+4.88,Chalcostibite,"gray, lead",3.5,Metallic,black,"gray, lead"
+4.89,Yarrowite,black,3.5,Metallic,,black
+4.89,Marcasite,bronze,6-6.5,Metallic,"black, gray brownish",bronze
+4.90,Fukuchilite,gray,6,Sub Metallic,,gray
+4.90,Lautite,"black, grayish",3-3.5,Metallic,black,"black, grayish"
+4.90,Tetrahedrite,"gray, iron",3.5-4,Metallic,black,"gray, iron"
+4.90,Maghemite,"brown, dark",6,Metallic,brown,"brown, dark"
+4.90,Smithite,"orange, brown",1.5-2,Sub Metallic,"red, vermilion","orange, brown"
+4.91,Langbanite,"black, iron",6.5,Metallic,"black, grayish","black, iron"
+4.93,Freibergite,gray,3.5-4,Metallic,"black, reddish",gray
+4.94,Toyohaite,gray,4,Metallic,,gray
+4.95,Bixbyite,black,6-6.5,Metallic,black,black
+4.95,Goldfieldite,"gray, dark lead",3-3.5,Metallic,black,"gray, dark lead"
+4.96,Abswurmbachite,black,6.5,Metallic,"black, brownish",black
+4.96,Stoiberite,black,-,Metallic,"brown, red",black
+4.97,Lapieite,"gray, steel",4.5-5,Metallic,,"gray, steel"
+4.97,Pierrotite,"black, grayish",3.5,Metallic,"black, reddish","black, grayish"
+4.97,Stalderite,black,3.5-4,Metallic,"red, brownish",black
+5.00,Chatkalite,rose,4.5,Metallic,,rose
+5.00,Crednerite,"black, iron",4-5,Metallic,"black, brownish","black, iron"
+5.00,Donathite ?,black,6.5-7,Metallic,"brown, black",black
+5.01,Bravoite ?,"gray, steel",6.5,Metallic,black,"gray, steel"
+5.01,Pyrite,"yellow, pale brass",6.5,Metallic,"black, greenish","yellow, pale brass"
+5.02,Hetaerolite,black,6,Sub Metallic,"black, brownish",black
+5.04,Columbite-(Mg),"black, brownish",6.5,Sub Metallic,"brown, dark","black, brownish"
+5.04,Parapierrotite,black,2.5-3,Sub Metallic,gray,black
+5.05,Ferdisilicite *,"gray, steel",6.5,Metallic,black,"gray, steel"
+5.05,Fergusonite-(Y),black,5.5-6,Sub Metallic,brown,black
+5.07,Skinnerite,"gray, silver",3.5-4,Metallic,"black, reddish","gray, silver"
+5.08,Jankovicite,black,2,Metallic,"brown, violet",black
+5.10,Cuprospinel,black,6.5-7,Metallic,black,black
+5.10,Bornite,"red, copper",3,Metallic,"black, grayish","red, copper"
+5.10,Sartorite,"gray, dear lead",3,Metallic,"brown, dark","gray, dear lead"
+5.10,Chabourneite,black,3-3.5,Sub Metallic,"red, brown",black
+5.12,Versiliaite,black,5,Metallic,black,black
+5.13,Spionkopite,black,2.5-3,Metallic,,black
+5.15,Franklinite,black,5.5-6,Sub Metallic,"brown, reddish",black
+5.15,Magnetite,"black, grayish",5.5-6,Metallic,black,"black, grayish"
+5.15,Zoubekite,"gray, steel",3.5-4,Metallic,black,"gray, steel"
+5.16,Uchucchacuaite,"gray, lead",3.5,Metallic,,"gray, lead"
+5.16,Ianthinite,"black, violet",2.5-3,Sub Metallic,"brown, violet","black, violet"
+5.17,Trevorite,black,5,Metallic,black,black
+5.18,Eskolaite,black,8-8.5,Metallic,green,black
+5.19,Coulsonite,"gray, blue",4.5-5,Metallic,"brown, black","gray, blue"
+5.20,Herzenbergite,gray,2,Metallic,"black, brown",gray
+5.20,Miargyrite,"gray, steel",2-2.5,Sub Metallic,"red, cherry","gray, steel"
+5.20,Picotpaulite,bronze,2,Metallic,,bronze
+5.20,Sinnerite,"gray, steel",5,Metallic,"black, grayish","gray, steel"
+5.21,Paakkonenite,gray,2,Metallic,"gray, brownish",gray
+5.22,Fuloppite,gray,2-2.5,Metallic,"gray, reddish",gray
+5.22,Cochromite,black,7,Metallic,green,black
+5.24,Zinkenite,gray,3-3.5,Metallic,"gray, steel",gray
+5.24,Nichromite,black,6-6.5,Metallic,"gray, greenish",black
+5.24,Jentschite !,black,2-2.5,Sub Metallic,"red, dark",black
+5.26,Thalfenisite,"brown, bronze",1-1.5,Metallic,,"brown, bronze"
+5.26,Twinnite,black,3.5,Metallic,"black, brownish",black
+5.27,Godlevskite,"yellow, bronze",4-5,Metallic,gray,"yellow, bronze"
+5.27,Roshchinite,"gray, lead",2.5-3.5,Metallic,"gray, pale steel","gray, lead"
+5.28,Columbite-(Mn),"black, brownish",6,Sub Metallic,"black, reddish","black, brownish"
+5.29,Cesarolite,gray,4.5,Sub Metallic,,gray
+5.30,Paxite,black,3.5-4,Metallic,black,black
+5.30,Senaite,black,6-6.5,Sub Metallic,"black, brownish",black
+5.30,Liveingite,"gray, lead",3,Metallic,"brown, dark","gray, lead"
+5.30,Hematite,"gray, reddish",6.5,Metallic,"brown,. reddish","gray, reddish"
+5.31,Guettardite,"black, grayish",4,Metallic,brownish,"black, grayish"
+5.33,Apuanite,black,4-5,Metallic,black,black
+5.33,Cuboargyrite !,"black, grayish",3,Metallic,black,"black, grayish"
+5.33,Ramdohrite,"gray, bluish black",2,Metallic,"black, gray","gray, bluish black"
+5.33,Baumstarkite !,"black, iron",2.5,Metallic,"black, grayish","black, iron"
+5.33,Baumhauerite,"gray, lead",3,Metallic,"brown, chocolate","gray, lead"
+5.35,Bismutoplagionite *,gray,2.5,Metallic,,gray
+5.35,Eskebornite,bronze,3-3.5,Metallic,black,bronze
+5.36,Hongquiite *,"white, light",5-6,Metallic,,"white, light"
+5.39,Geffroyite,"brown, bronze",2.5,Metallic,,"brown, bronze"
+5.40,Osbornite,"yellow, golden",8.5,Metallic,,"yellow, golden"
+5.41,Delafossite,black,5.5,Metallic,black,black
+5.41,Cylindrite,"gray, lead",2.5,Metallic,black,"gray, lead"
+5.41,Andorite,"yellow, grayish",3-3.5,Metallic,black,"yellow, grayish"
+5.41,Seligmannite,"gray, lead",2.5-3,Metallic,"brown, chocolate","gray, lead"
+5.41,Rathite,"gray, lead",3,Metallic,"brown, dark","gray, lead"
+5.42,Stilleite,gray,5,Metallic,,gray
+5.44,Arsenolamprite,"gray, dark",2,Metallic,black,"gray, dark"
+5.44,Coronadite,"black, grayish",4.5-5,Sub Metallic,"black, brownish","black, grayish"
+5.44,Strontiochevkinite,"black, brownish",5-6,Sub Metallic,brown,"black, brownish"
+5.45,Horobetsuite *,gray,2,Metallic,,gray
+5.45,Jaipurite *,"gray, steel",-,Metallic,,"gray, steel"
+5.45,Velikite,gray,4,Metallic,gray,gray
+5.46,Koragoite,red,4-5,Metallic,"brown, grayish",red
+5.48,Tintinaite,"gray, lead",2.5-3,Metallic,black,"gray, lead"
+5.48,Parajamesonite ?,gray,2.5-3,Metallic,,gray
+5.49,Mcconnellite,"red, dark",5.5,Metallic,,"red, dark"
+5.50,Aktashite,"black, grayish",3.5,Metallic,black,"black, grayish"
+5.50,Petscheckite,black,5,Metallic,"black, brown",black
+5.50,Millerite,bronze,3-3.5,Metallic,"black, greenish",bronze
+5.50,Plagionite,black,2.5,Metallic,"black, reddish gray",black
+5.50,Molybdenite,black,1,Metallic,"gray, greenish",black
+5.51,Brunogeierite,gray,4.5,Sub Metallic,,gray
+5.51,Samsonite,black,2.5,Sub Metallic,"red, dark",black
+5.52,Magnetoplumbite,"black, grayish",6,Metallic,"brown, dark","black, grayish"
+5.52,Sorbyite,"gray, lead",3.5-4,Metallic,metallic,"gray, lead"
+5.53,Lorandite,red,2-2.5,Sub Metallic,red,red
+5.54,Vigezzite,orange,4.5-5,Sub Metallic,white,orange
+5.55,Proustite,vermilion,2-2.5,Sub Metallic,"red, vermilion",vermilion
+5.56,Fizelyite,"gray, lead",2,Metallic,"gray, dark","gray, lead"
+5.56,Dufrenoysite,"gray, lead",3,Sub Metallic,"brown, red","gray, lead"
+5.57,Jamesonite,"gray, lead",2.5,Metallic,black. grayish,"gray, lead"
+5.57,Zincite,yellow,4-5,Sub Metallic,"orange, yellowish",yellow
+5.60,Aramayoite,"black, iron",2.5,Metallic,black,"black, iron"
+5.60,Digenite,blue,2.5-3,Sub Metallic,"black, grayish",blue
+5.60,Benavidesite,"gray, lead",2.5,Metallic,"gray, brown","gray, lead"
+5.63,Melanostibite,black,4,Sub Metallic,cherry,black
+5.63,Djurleite,"gray, lead",2.5-3,Metallic,metallic,"gray, lead"
+5.64,Garavellite,gray,4,Metallic,,gray
+5.64,Bambollaite,"gray, brownish",3,Metallic,,"gray, brownish"
+5.65,Chalcocite,"black, blue",2.5-3,Metallic,"black, grayish","black, blue"
+5.68,Anilite,"gray, bluish",3-4,Metallic,black,"gray, bluish"
+5.69,Nezilovite !,black,4-5,Metallic,"brown, dark",black
+5.70,Robinsonite,"gray, bluish lead",2.5-3,Metallic,,"gray, bluish lead"
+5.70,Arsenic,"gray, lead",3.5,Metallic,black,"gray, lead"
+5.70,Franckeite,"black, grayish",2.5,Metallic,"black, grayish","black, grayish"
+5.70,Yttrotantalite-(Y),"black, brownish",5-5.5,Sub Metallic,"gray, colorless","black, brownish"
+5.71,Ferrorhodsite,black,4.5,Metallic,black,black
+5.71,Suredaite !,"black, grayish",2.5-3,Metallic,black,"black, grayish"
+5.72,Dadsonite,"gray, lead",2.5,Metallic,black,"gray, lead"
+5.73,Heteromorphite,black,2.5-3,Metallic,black,black
+5.73,Melanotekite,black,6.5,Sub Metallic,greenish,black
+5.75,Launayite,"gray, lead",3.5-4,Metallic,black,"gray, lead"
+5.75,Giraudite,gray,3.5-4,Metallic,white,gray
+5.76,Lindqvistite,black,6,Sub Metallic,"black, brownish",black
+5.79,Weissbergite,"gray, steel",1.5,Metallic,"gray, reddish","gray, steel"
+5.80,Playfairite,"gray, lead",3.5-4,Metallic,black,"gray, lead"
+5.80,Bournonite,gray,3,Metallic,gray,gray
+5.82,Heazlewoodite,"bronze, light",4,Metallic,"bronze, light","bronze, light"
+5.83,Lengenbachite,"blue, gray",1-2,Metallic,"black, brownish","blue, gray"
+5.83,Routhierite,"red, violet",3.5,Metallic,,"red, violet"
+5.85,Pyrargyrite,"red, deep",2.5,Sub Metallic,"red, cherry","red, deep"
+5.88,Gruzdevite,"black, grayish",4.5,Metallic,,"black, grayish"
+5.88,Cechite,black,4.5-5,Sub Metallic,black,black
+5.88,Antimonselite,"white, tin",3.5,Metallic,black,"white, tin"
+5.88,Muckeite,"gray, pale",3.5,Metallic,"black, gray","gray, pale"
+5.90,Carlsbergite,gray,7,Metallic,,gray
+5.92,Billingsleyite,"gray, lead",2.5,Metallic,,"gray, lead"
+5.92,Veenite,"gray, steel",3.5-4,Metallic,black,"gray, steel"
+5.93,Yttrocolumbite-(Y),black,5-6,Sub Metallic,brown,black
+5.95,Pararsenolamprite !,"gray, lead",2-2.5,Metallic,black,"gray, lead"
+5.95,Semseyite,black,2.5,Metallic,black,black
+5.95,Jordanite,"gray, lead",3,Metallic,black,"gray, lead"
+5.95,Fersilicite *,"white, tin",6.5,Metallic,"black, grayish","white, tin"
+5.96,Glaucodot,"white, grayish tin",5,Metallic,black,"white, grayish tin"
+5.96,Kamiokite,"black, iron",4.5,Sub Metallic,black,"black, iron"
+5.98,Madocite,"black, grayish",3,Metallic,"black, grayish","black, grayish"
+6.00,Weissite,"black, bluish",3,Metallic,black,"black, bluish"
+6.00,Plumboferrite,black,5,Metallic,"black, dark reddish",black
+6.00,Boulangerite,"gray, lead",2.5,Metallic,"brown, reddish","gray, lead"
+6.00,Sterryite,black,3.5,Metallic,metallic,black
+6.01,Betekhtinite,"black, brownish",3,Metallic,black,"black, brownish"
+6.05,Brackebuschite,"brown, dark",4-5,Sub Metallic,yellow,"brown, dark"
+6.06,Miharaite,gray,4,Metallic,,gray
+6.07,Arsenopyrite,"white, tin",5,Metallic,black,"white, tin"
+6.07,Laffittite,"red, dark",3.5,Metallic,"red, brownish","red, dark"
+6.10,Diaphorite,gray,2.5,Metallic,"gray, steel",gray
+6.12,Gersdorffite,gray,5.5,Metallic,"black, grayish",gray
+6.15,Thalcusite,bronze,2.5-3,Metallic,,bronze
+6.15,Stibarsen,white,3-4,Metallic,"black, grayish",white
+6.15,Pearceite,black,3,Sub Metallic,"black, reddish",black
+6.15,Stromeyerite,"gray, blue",2.5-3,Metallic,"gray, steel","gray, blue"
+6.17,Chameanite,gray,4.5,Metallic,,gray
+6.17,Alloclasite,"gray, steel",5,Metallic,black,"gray, steel"
+6.19,Fangite,"brown, deep dark",2-2.5,Sub Metallic,orange,"brown, deep dark"
+6.19,Kentrolite,"brown, dark reddish",5,Sub Metallic,"brown, dark","brown, dark reddish"
+6.20,Argyrodite,black,2.5,Metallic,"black, grayish",black
+6.20,Bursaite ?,gray,2.5-3,Metallic,,gray
+6.20,Potosiite,white,2.5,Metallic,,white
+6.20,Umangite,"black, blue",3,Metallic,black,"black, blue"
+6.20,Vozhminite,"yellow, brownish",4.5-5,Metallic,black,"yellow, brownish"
+6.20,Tellurium,white,2-2.5,Metallic,"white, grayish",white
+6.21,Arsenpolybasite,black,3,Metallic,black,black
+6.22,Gratonite,"gray, lead",2.5,Metallic,black,"gray, lead"
+6.23,Marrite,"gray, lead",3,Metallic,"black, brownish","gray, lead"
+6.25,Stephanite,"gray, lead",2-2.5,Metallic,black,"gray, lead"
+6.25,Drysdallite,"black, grayish",1-1.5,Metallic,"black, brown","black, grayish"
+6.28,Canfieldite,black,2.5,Metallic,"black, grayish",black
+6.30,Kobellite,"gray, lead",2.5-3,Metallic,black,"gray, lead"
+6.30,Columbite-(Fe),black,6,Sub Metallic,"brown, blackish",black
+6.30,Hakite,"brown, gray",5,Metallic,white,"brown, gray"
+6.30,Murdochite,black,4,Sub Metallic,black,black
+6.30,Freieslebenite,gray,2.5,Metallic,"gray, whitish",gray
+6.31,Falkmanite,"gray, lead",2-3,Metallic,"gray, brownish","gray, lead"
+6.32,Balkanite,gray,3.5,Metallic,,gray
+6.33,Cobaltite,"white, reddish silver",5.5,Metallic,"black, grayish","white, reddish silver"
+6.34,Antimonpearceite,black,3,Sub Metallic,black,black
+6.35,Arsenohauchecornite,bronze,5.5,Metallic,"black, grayish",bronze
+6.36,Hauchecornite,bronze,5,Metallic,"black, grayish",bronze
+6.37,Owyheeite,"gray, lead",2.5,Metallic,"brown, reddish","gray, lead"
+6.39,Meneghinite,"gray, blackish",2.5,Metallic,metallic,"gray, blackish"
+6.40,Raguinite,bronze,-,Metallic,,bronze
+6.40,Emplectite,gray,2,Metallic,black,gray
+6.40,Teallite,"gray, lead",1.5-2,Metallic,black,"gray, lead"
+6.40,Geocronite,"gray, blue",2.5-3,Metallic,"gray, lead","gray, blue"
+6.40,Rynersonite,"white, beige",4.5,Sub Metallic,white,"white, beige"
+6.42,Qitianlingite,black,5.5,Sub Metallic,,black
+6.45,Aikinite,"gray, lead",2-2.5,Metallic,"black, grayish","gray, lead"
+6.45,Xifengite,"gray, steel",5.5,Metallic,black,"gray, steel"
+6.45,Romanechite,"black, grayish",5-6,Sub Metallic,"black, brown","black, grayish"
+6.45,Hodrushite,brown,4-5,Metallic,"black, grayish",brown
+6.47,Cuprobismutite,"black, blue",-,Metallic,black,"black, blue"
+6.47,Izoklakeite,"gray, lead",3.5-4,Metallic,"black, grayish","gray, lead"
+6.50,Nickelskutterudite,gray,5.5-6,Metallic,,gray
+6.50,Wittichenite,"gray, lead",2.5,Metallic,black,"gray, lead"
+6.50,Skutterudite,white,5.5-6,Metallic,black,white
+6.50,Jaskolskiite,"gray, lead",4,Metallic,"gray, dark","gray, lead"
+6.52,Paradocrasite,"white, silver",3.5,Metallic,metallic,"white, silver"
+6.53,Achavalite !,gray,2.5,Metallic,,gray
+6.55,Wolframoixiolite *,black,5-6,Sub Metallic,"black, brownish",black
+6.60,Cosalite,gray,2.5-3,Metallic,black,gray
+6.60,Chalcothallite,"gray, lead",2-2.5,Metallic,black,"gray, lead"
+6.60,Paraguanajuatite,"gray, lead",2.5-3,Metallic,gray,"gray, lead"
+6.61,Ashanite ?,"brown, dark",6-6.5,Sub Metallic,brown,"brown, dark"
+6.61,Mckinstryite,"gray, dark",1.5-2.5,Metallic,"gray, dark","gray, dark"
+6.62,Guanajuatite,"gray, lead",2.5-3.5,Metallic,gray,"gray, lead"
+6.62,Morozeviczite,"gray, brownish",3.5,Metallic,"gray, dark","gray, brownish"
+6.62,Polkovicite,"gray, brownish",3.5,Metallic,"gray, dark","gray, brownish"
+6.64,Mummeite,"gray, silver",4,Metallic,,"gray, silver"
+6.64,Xingzhongite,"gray, steel",6,Metallic,,"gray, steel"
+6.65,Ullmannite,"gray, steel",5.5,Metallic,"black, grayish","gray, steel"
+6.66,Penroseite,"gray, lead",2.5-3,Metallic,black,"gray, lead"
+6.67,Antimony,"gray, light",3-3.5,Metallic,"gray, lead","gray, light"
+6.69,Vysotskite,"gray, silver",1.5,Metallic,,"gray, silver"
+6.70,Berryite,"gray, blue",3.5,Metallic,,"gray, blue"
+6.70,Cannizzarite,"gray, light",2.5,Metallic,,"gray, light"
+6.70,Benjaminite,"yellow, grayish",3.5,Metallic,,"yellow, grayish"
+6.70,Novakite,"gray, steel",3-3.5,Metallic,black,"gray, steel"
+6.70,Makovickyite,gray,3.5,Metallic,gray,gray
+6.70,Tantalite-(Mg) !,black,5.5,Sub Metallic,"red, brown",black
+6.70,Berzelianite,"gray, bluish",2,Metallic,shining,"gray, bluish"
+6.72,Kullerudite,"gray, lead",5.5-6.5,Metallic,,"gray, lead"
+6.72,Gudmundite,"white, silvery",5.5-6,Metallic,"black, grayish","white, silvery"
+6.73,Hammarite,"gray, reddish steel",3-4,Metallic,black,"gray, reddish steel"
+6.74,Cuprorhodsite,"black, iron",5-5.5,Metallic,,"black, iron"
+6.74,Furutobeite,gray,3,Metallic,,gray
+6.74,Schirmerite,"gray, lead",2,Metallic,,"gray, lead"
+6.76,Willyamite,"gray, steel",5.5,Metallic,"black, grayish","gray, steel"
+6.77,Junoite,gray,3.5-4,Metallic,,gray
+6.80,Gortdrumite,"gray, lead",3.5-4,Metallic,,"gray, lead"
+6.80,Pavonite,"gray, lead",2,Metallic,"gray, lead","gray, lead"
+6.82,Vincentite,gray,5,Metallic,,gray
+6.82,Jalpaite,gray,2-2.5,Metallic,black,gray
+6.83,Zenzenite,black,5.7,Metallic,,black
+6.85,Eclarite,"gray, white",3-3.5,Metallic,"gray, lead","gray, white"
+6.89,Costibite,"gray, steel",6,Metallic,,"gray, steel"
+6.90,Crookesite,"gray, blue",2.5-3,Metallic,,"gray, blue"
+6.90,Paracostibite,"white, gray",7,Metallic,,"white, gray"
+6.90,Matildite,gray,2.5,Metallic,"gray, light",gray
+6.91,Stistaite,"gray, light",3,Metallic,,"gray, light"
+6.91,Paderaite,black,4,Metallic,"gray, lead",black
+6.92,Oregonite,white,5,Metallic,,white
+6.92,Barringerite,"white, gray",-,Metallic,,"white, gray"
+6.96,Gladite,"gray, lead",2.5-3,Metallic,black,"gray, lead"
+6.98,Friedrichite,"gray, silver",4,Metallic,,"gray, silver"
+6.99,Laurite,black,7.5,Metallic,"gray, dark",black
+7.00,Lillianite,"gray, steel",2-3,Metallic,black,"gray, steel"
+7.00,Galenobismutite,"gray, lead",2.5-3,Metallic,"black, gray","gray, lead"
+7.00,Bismuthinite,gray,2,Metallic,gray,gray
+7.01,Lindstromite,gray,3-3.5,Metallic,black,gray
+7.01,Nuffieldite,gray,3.5-4,Metallic,"black, grayish",gray
+7.01,Gustavite,"gray, steel",3.5,Metallic,gray,"gray, steel"
+7.02,Neyite,"gray, lead",2.5,Metallic,gray,"gray, lead"
+7.03,Daomanite *,gray,3.5-4,Metallic,,gray
+7.03,Bellidoite,"gray, silver",1.5-2,Metallic,,"gray, silver"
+7.05,Zinc,"gray, blue",2,Metallic,"gray, light","gray, blue"
+7.06,Weibullite,"gray, steel",2-2.5,Metallic,"gray, dark","gray, steel"
+7.08,Suessite,"white, gray",-,Metallic,,"white, gray"
+7.08,Xilingolite,"gray, lead",3,Metallic,gray,"gray, lead"
+7.09,Ixiolite,gray,6-6.5,Metallic,"brown, dark",gray
+7.10,Eskimoite,black,4,Metallic,,black
+7.10,Vulcanite,bronze,1-2,Metallic,,bronze
+7.10,Jolliffeite,"white, tin",6-6.5,Metallic,,"white, tin"
+7.10,Safflorite,gray,4-5,Metallic,"black, grayish",gray
+7.10,Rammelsbergite,"white, tin",5.5,Metallic,"black, grayish","white, tin"
+7.10,Ellisite,"gray, dark",2,Metallic,"brown, pale","gray, dark"
+7.11,Ourayite,gray,2,Metallic,,gray
+7.12,Proudite,"gray, silver",2-2.5,Metallic,,"gray, silver"
+7.12,Wittite,"gray, light lead",2-2.5,Metallic,black,"gray, light lead"
+7.14,Peterbaylissite,black,4-5,Sub Metallic,"black, dark brownish",black
+7.15,Heyrovskyite,"white, tin",3.5-4,Metallic,"black, grayish","white, tin"
+7.15,Gupeiite,"gray, steel",5,Metallic,black,"gray, steel"
+7.15,Hubnerite,brown,4.5,Sub Metallic,"brown, reddish",brown
+7.19,Kitkaite,"gray, yellow",3.5,Metallic,,"gray, yellow"
+7.20,Chromium,white,7.5,Metallic,,white
+7.20,Pararammelsbergite,"white, silver",5.5,Metallic,"black, grayish","white, silver"
+7.20,Kieftite,"white, tin",5-5.5,Metallic,gray,"white, tin"
+7.21,Roaldite,"white, tin",5.5-6.5,Metallic,,"white, tin"
+7.21,Ferroselite,bronze,6-6.5,Metallic,black,bronze
+7.22,Hastite ?,"red, brownish",6,Metallic,,"red, brownish"
+7.24,Cuproiridsite,"black, iron",5-6,Metallic,ingen,"black, iron"
+7.25,Treasurite,black,-,Metallic,,black
+7.25,Naumannite,"black, grayish",2.5,Metallic,black,"black, grayish"
+7.27,Aschamalmite,"gray, lead",3.5,Metallic,,"gray, lead"
+7.28,Wodginite,"brown, dark",5.5,Sub Metallic,brown,"brown, dark"
+7.30,Wolframite *,"black, brownish",4.5,Sub Metallic,"brown, reddish","black, brownish"
+7.30,Melonite,white,1-1.5,Metallic,"gray, dark",white
+7.30,Argentite *,black,2-2.5,Metallic,black,black
+7.30,Acanthite,"gray, lead",2-2.5,Metallic,"black, shining","gray, lead"
+7.31,Tin,"white, grayish",2,Metallic,"white, gray","white, grayish"
+7.31,Indium,"gray, yellow",3.5,Metallic,,"gray, yellow"
+7.34,Dzharkenite,black,5,Metallic,black,black
+7.36,Bukovite,"brown, gray",2,Metallic,,"brown, gray"
+7.36,Danbaite,"white, gray",4,Metallic,,"white, gray"
+7.38,Telargpalite,"gray, steel",2-2.5,Metallic,,"gray, steel"
+7.38,Tsnigriite,"gray, dark",3.5,Metallic,,"gray, dark"
+7.40,Malanite,white,5,Metallic,,white
+7.40,Galena,"gray, light lead",2.5,Metallic,"black, grayish","gray, light lead"
+7.40,Lollingite,"white, silvery",5,Metallic,"black, grayish","white, silvery"
+7.40,Schreibersite,bronze,6.5-7,Metallic,"gray, dark",bronze
+7.43,Cohenite,"white, yellowish",5.5-6,Metallic,,"white, yellowish"
+7.45,Ferberite,black,4.5,Sub Metallic,"black, brownish",black
+7.45,Giessenite,"black, grayish",2.5,Metallic,"black, grayish","black, grayish"
+7.46,Clinosafflorite,"white, silver",4.5-5,Metallic,,"white, silver"
+7.50,Orcelite,"white, yellow",-,Metallic,,"white, yellow"
+7.50,Nagyagite,"gray, lead",1.5-2,Metallic,"black, gray","gray, lead"
+7.54,Rickardite,violet,3.5,Metallic,black,violet
+7.55,Empressite,bronze,3.5,Metallic,"black, grayish",bronze
+7.55,Hessite,"gray, lead",1.5-2,Metallic,"gray, light","gray, lead"
+7.55,Tetradymite,"gray, steel",1.5-2,Metallic,"gray, steel","gray, steel"
+7.56,Bismutocolumbite,black,5.5,Sub Metallic,"brown, yellowish",black
+7.60,Soucekite,"gray, lead",4,Metallic,,"gray, lead"
+7.60,Iron !,"black, iron",4-5,Metallic,gray,"black, iron"
+7.61,Prassoite !,white,5-6,Metallic,,white
+7.65,Domeykite,gray,3-3.5,Metallic,"gray, black",gray
+7.70,Eucairite,bronze,2.5,Metallic,"white, gray",bronze
+7.70,Haxonite,"white, tin",5.5-6,Metallic,,"white, tin"
+7.70,Hematophanite,"brown, reddish",2-3,Sub Metallic,"red, yellow","brown, reddish"
+7.71,Petrovicite,gray,3,Metallic,,gray
+7.72,Tapiolite-(Mn),"brown, dark",6,Sub Metallic,"brown, dark","brown, dark"
+7.74,Rucklidgeite,"white, silver",2.5,Metallic,"gray, lead","white, silver"
+7.75,Sorosite !,"white, pinkish tin",5-5.5,Metallic,,"white, pinkish tin"
+7.75,Metacinnabar,black,3,Metallic,black,black
+7.78,Kharaelakhite,"brown, bronze",-,Metallic,,"brown, bronze"
+7.78,Rohaite,"gray, steel",3-3.5,Metallic,,"gray, steel"
+7.79,Nickeline,"gray, lead",5.5,Metallic,"black, brownish","gray, lead"
+7.79,Vavrinite !,"gray, silvery",2,Metallic,"gray, dark","gray, silvery"
+7.79,Kawazulite,"white, silver",1.5,Metallic,"gray, steel","white, silver"
+7.80,Ikunolite,"gray, lead",2,Metallic,"gray, dark","gray, lead"
+7.82,Tellurobismuthite,"gray, pale",1.5-2,Metallic,"gray, lead","gray, pale"
+7.82,Tapiolite-(Fe),"black, brownish",6,Metallic,brown,"black, brownish"
+7.83,Maucherite,"red, grayish copper",5,Metallic,"gray, blackish","red, grayish copper"
+7.85,Imiterite,"gray, light",2.5-3,Metallic,"gray, dark","gray, light"
+7.86,Henryite,gray,3.5,Metallic,,gray
+7.87,Bohdanowiczite,"gray, lead",3,Metallic,,"gray, lead"
+7.89,Kochkarite,"gray, silver",2-2.5,Metallic,"gray, lead","gray, silver"
+7.90,Borodaevite,gray,3.5,Metallic,,gray
+7.90,Kamacite ?,"black, iron",4,Metallic,gray,"black, iron"
+7.91,Hollingworthite,gray,6-6.5,Metallic,,gray
+7.92,Oenite !,"white, silver",5-5.5,Metallic,gray,"white, silver"
+7.98,Platynite ?,gray,2-3,Metallic,"black, shining",gray
+8.00,Platarsite,gray,7.5,Metallic,,gray
+8.00,Vihorlatite !,gray,-,Metallic,,gray
+8.00,Nisbite,"white, tin",5,Metallic,,"white, tin"
+8.00,Stutzite,gray,3.5,Metallic,"gray, lead",gray
+8.00,Awaruite,"white, gray",5,Metallic,"gray, light","white, gray"
+8.00,Nickel,"white, gray",4-5,Metallic,"white, grayish","white, gray"
+8.01,Volynskite,"gray, lead",2.5-3,Metallic,,"gray, lead"
+8.01,Taenite,"white, grayish",5-5.5,Metallic,"gray, light","white, grayish"
+8.06,Frohbergite,"white, silver",3-4,Metallic,,"white, silver"
+8.07,Coloradoite,"black, grayish",2.5,Metallic,black,"black, grayish"
+8.09,Milotaite !,"gray, silver",4.5,Metallic,,"gray, silver"
+8.09,Babkinite !,"gray, silvery",2,Metallic,gray,"gray, silvery"
+8.10,Joseite,gray,2,Metallic,,gray
+8.10,Baksanite !,"gray, steel",1.5-2,Metallic,,"gray, steel"
+8.10,Telluronevskite !,"gray, steel",3.5,Metallic,black,"gray, steel"
+8.10,Tantalite-(Mn),black,6-6.5,Sub Metallic,brown,black
+8.10,Sylvanite,"white, yellowish silver",1.5-2,Metallic,"gray, steel","white, yellowish silver"
+8.12,Borovskite,"gray, dark",3,Metallic,,"gray, dark"
+8.12,Laitakarite,"gray, lead",2,Metallic,"black, grayish","gray, lead"
+8.15,Monteponite,black,3,Metallic,black,black
+8.15,Altaite,"white, tin",2.5,Metallic,black,"white, tin"
+8.16,Tsumoite,"white, silver",2.5-3,Metallic,"gray, steel","white, silver"
+8.17,Langisite,pink,6-6.5,Metallic,,pink
+8.17,Tapiolite *,black,6-6.5,Metallic,brown,black
+8.20,Clausthalite,"gray, lead",2.5,Metallic,"black, grayish","gray, lead"
+8.20,Tantalite-(Fe),"black, brownish",6-6.5,Sub Metallic,"brown, black","black, brownish"
+8.21,Zlatogorite !,"white, silver",4.5,Metallic,"gray, light silver","white, silver"
+8.23,Breithauptite,"red, copper",3.5-4,Metallic,"brown, reddish","red, copper"
+8.26,Kotulskite,gray,4-4.5,Metallic,,gray
+8.28,Tetrataenite,"white, gray",3.5,Metallic,gray,"white, gray"
+8.30,Palladseite,white,4.5-5,Metallic,,white
+8.30,Joseite-B,"white, silver",2,Metallic,,"white, silver"
+8.31,Chrisstanleyite !,gray,5,Metallic,black,gray
+8.33,Tiemannite,gray,2.5,Metallic,"black, grayish",gray
+8.38,Kutinaite,"gray, silver",4.5,Metallic,,"gray, silver"
+8.41,Pilsenite,"gray, steel",1.5-2.5,Metallic,,"gray, steel"
+8.42,Cuprostibite,"gray, steel",4,Metallic,,"gray, steel"
+8.43,Kostovite,"white, gray",2-2.5,Metallic,,"white, gray"
+8.44,Osarsite,gray,6,Metallic,,gray
+8.48,Oosterboschite,black,5,Metallic,black,black
+8.48,Koutekite,"blue, gray",3.5,Metallic,black,"blue, gray"
+8.50,Protojoseite *,"white, gray",-,Metallic,,"white, gray"
+8.50,Kusachiite,black,4-5,Metallic,black,black
+8.50,Parkerite,"brown, bronze",3,Metallic,metallic,"brown, bronze"
+8.53,Krennerite,white,2.5,Metallic,"gray, greenish",white
+8.55,Imgreite ?,"red, pale rose",4,Metallic,,"red, pale rose"
+8.55,Algodonite,gray,4,Metallic,,gray
+8.60,Cadmium,"white, tin",1-2,Metallic,,"white, tin"
+8.60,Jedwabite !,"yellow, grayish",7,Metallic,,"yellow, grayish"
+8.72,Shandite,"yellow, brass",4,Metallic,,"yellow, brass"
+8.73,Uraninite,"black, brownish",5-6,Sub Metallic,"black, brownish","black, brownish"
+8.79,Vasilite,"gray, steel",5-5.5,Metallic,black,"gray, steel"
+8.80,Horsfordite ?,gray,4-5,Metallic,"white, silver",gray
+8.83,Genkinite,gray,5.5-6,Metallic,,gray
+8.91,Hedleyite,"black, iron",2,Metallic,,"black, iron"
+8.91,Wattersite,bronze,4.5,Sub Metallic,"red, dark brick",bronze
+8.92,Petzite,"black, iron",2.5,Metallic,"black, grayish","black, iron"
+8.94,Hexatestibiopanickelite,"gray, brownish",2,Metallic,,"gray, brownish"
+8.95,Copper,brown,2.5-3,Metallic,rose,brown
+8.99,Testibiopalladite,"gray, steel",3.5-4,Metallic,,"gray, steel"
+9.04,Calaverite,yellow,2.5,Metallic,green,yellow
+9.05,Fischesserite,"white, silver",2-2.5,Metallic,,"white, silver"
+9.07,Plattnerite,"black, brownish",5.5,Sub Metallic,"brown, chestnut","black, brownish"
+9.10,Kashinite,gray,7.5,Metallic,,gray
+9.14,Kolarite,gray,-,Metallic,,gray
+9.33,Majakite,"white, gray",6,Metallic,,"white, gray"
+9.50,Temagamite,gray,2.5,Metallic,,gray
+9.50,Cooperite,"gray, steel",4-5,Metallic,,"gray, steel"
+9.50,Stibiopalladinite,"gray, steel",4-5,Metallic,black,"gray, steel"
+9.50,Michenerite,"white, silver",2.5,Metallic,black,"white, silver"
+9.52,Hanawaltite,black,4,Metallic,"black, dark reddish",black
+9.57,Avicennite,"black, grayish",2,Metallic,"black, grayish","black, grayish"
+9.59,Erlichmanite,"white, gray",4.5-5.5,Metallic,,"white, gray"
+9.66,Urvantsevite,"gray, steel",2.5,Metallic,,"gray, steel"
+9.67,Sudovikovite !,yellow,2-2.5,Metallic,,yellow
+9.70,Dyscrasite,gray,3.5-4,Metallic,"white, silver",gray
+9.72,Cherepanovite,"black, grayish",6,Metallic,black,"black, grayish"
+9.75,Bismuth,"white, silver",2-2.5,Metallic,"white, silver","white, silver"
+9.90,Pasavaite !,gray,2,Metallic,gray,gray
+9.94,Montbrayite,"white, yellowish",2.5,Metallic,white,"white, yellowish"
+9.97,Gaotaiite,"black, steel",3,Metallic,black,"black, steel"
+9.98,Aurostibite,"gray, lead",3,Metallic,bronze,"gray, lead"
+10.00,Ruthenarsenite,brown,6-6.5,Metallic,,brown
+10.00,Allargentum,"gray, silver",4,Metallic,,"gray, silver"
+10.00,Braggite,"gray, steel",1.5,Metallic,,"gray, steel"
+10.00,Moncheite,"gray, steel",2-3,Metallic,gray,"gray, steel"
+10.00,Thorianite,"black, brownish",6,Metallic,"gray, greenish","black, brownish"
+10.01,Khamrabaevite,"gray, dark",9-9.5,Metallic,,"gray, dark"
+10.14,Shuangfengite,black,3,Metallic,black,black
+10.20,Stannopalladinite,"pink, brown",5,Metallic,,"pink, brown"
+10.20,Atheneite,"white, gray",5,Metallic,,"white, gray"
+10.22,Polkanovite !,gray,-,Metallic,,gray
+10.25,Telluropalladinite,"white, silver",5,Metallic,,"white, silver"
+10.25,Niobocarbide !,yellow,8,Metallic,,yellow
+10.27,Oulankaite !,rose,3.5-4,Metallic,,rose
+10.33,Isomertieite,"white, silver",5.5,Metallic,,"white, silver"
+10.40,Stillwaterite,gray,4.5,Metallic,,gray
+10.40,Arsenopalladinite,"white, silver",4,Metallic,,"white, silver"
+10.42,Palladoarsenide,"gray, steel",5,Metallic,,"gray, steel"
+10.50,Tolovkite,"gray, steel",7.5,Metallic,,"gray, steel"
+10.50,Silver,"white, silver",2.5-3,Metallic,"white, silver","white, silver"
+10.58,Sperrylite,"white, tin",6-7,Metallic,black,"white, tin"
+10.60,Mertieite-I,"yellow, brass",5.5,Metallic,,"yellow, brass"
+10.70,Cabriite,"white, gray",4-4.5,Metallic,,"white, gray"
+10.75,Eugenite,"white, silver",2.5-3,Metallic,metallic,"white, silver"
+10.86,Palladobismutharsenide,"white, silver",5,Metallic,,"white, silver"
+10.90,Iridarsenite,gray,5-5.5,Metallic,,gray
+10.95,Damiaoite !,"white, bright",5,Metallic,black,"white, bright"
+10.97,Geversite,"gray, steel",4.5-5,Metallic,,"gray, steel"
+11.20,Omeiite,"gray, steel",7,Metallic,,"gray, steel"
+11.29,Mertieite-II,"yellow, brass",6,Metallic,,"yellow, brass"
+11.30,Rhodarsenide !,brown,4-5,Metallic,,brown
+11.32,Paolovite,white,5,Metallic,,white
+11.37,Lead,"gray, lead",2-2.5,Metallic,"gray, lead","gray, lead"
+11.50,Auricupride,bronze,2-3,Metallic,yellow,bronze
+11.55,Palladium,white,4.5-5,Metallic,,white
+11.80,Yuanjiangite,"white, silver",3.5-4,Metallic,black,"white, silver"
+11.88,Sobolevskite,"gray, steel",4,Metallic,,"gray, steel"
+12.12,Changchengite !,gray,3.5,Metallic,black,gray
+12.20,Ruthenium,"white, tin",6.5,Metallic,,"white, tin"
+12.40,Plumbopalladinite,white,5,Metallic,,white
+12.50,Luanheite,"white, gray",2.5,Metallic,"black, grayish","white, gray"
+12.51,Polarite,white,3.5-4,Metallic,white,white
+12.55,Froodite,gray,2.5,Metallic,black,gray
+12.72,Mayingite,"black, steel",4,Metallic,black,"black, steel"
+12.80,Insizwaite,"white, tin",5-5.5,Metallic,,"white, tin"
+12.98,Paraschachnerite,"white, tin",4,Metallic,metallic,"white, tin"
+13.00,Kolymite,"black, brownish",4,Metallic,,"black, brownish"
+13.02,Luberoite,"brown, bronze",5-5.5,Metallic,,"brown, bronze"
+13.20,Belendorffite,white,2.5-4,Metallic,metallic,white
+13.32,Zvyagintsevite,"white, tin",4.5,Metallic,black,"white, tin"
+13.44,Niggliite,"white, silver",3,Metallic,,"white, silver"
+13.52,Stumpflite,"white, silver",5,Metallic,,"white, silver"
+13.60,Moschellandsbergite,"white, silver",3.5,Metallic,metallic,"white, silver"
+13.60,Mercury,"white, tin",0,Metallic,none,"white, tin"
+13.93,Amalgam *,white,3-3.5,Metallic,white,white
+14.27,Bilibinskite,"brown, bronze",5,Sub Metallic,brown,"brown, bronze"
+14.30,Tetraferroplatinum,gray,4-5,Metallic,,gray
+14.50,Tantalcarbide !,"gray, yellow",6-7,Sub Metallic,,"gray, yellow"
+14.88,Potarite,"white, silver",3.5,Metallic,metallic,"white, silver"
+14.90,Atokite,white,5,Metallic,,white
+14.90,Tulameenite,white,5,Metallic,,white
+15.03,Tetra-auricupride,"yellow, golden",4.5,Metallic,yellow,"yellow, golden"
+15.39,Ferronickelplatinum,"white, silver",5,Metallic,,"white, silver"
+15.46,Maldonite,"red, copper",1.5-2,Metallic,,"red, copper"
+15.47,Goldamalgam *,bronze,3,Metallic,"yellow, light",bronze
+15.60,Taimyrite,"gray, bronze",5,Metallic,,"gray, bronze"
+15.63,Hongshiite *,"gray, lead",5,Metallic,black,"gray, lead"
+16.00,Hunchunite !,"gray, lead",3.5,Metallic,,"gray, lead"
+16.30,Bezsmertnovite,bronze,4.5,Metallic,,bronze
+16.50,Isoferroplatinum,gray,5,Metallic,,gray
+16.51,Rhodium,"white, tin",3.5,Metallic,,"white, tin"
+17.65,Gold,yellow,2.5-3,Metallic,yellow,yellow
+18.00,Platinum,"gray, whitish steel",4-4.5,Metallic,"white, grayish","gray, whitish steel"
+18.27,Yixunite !,"white, bright",6,Metallic,black,"white, bright"
+19.30,Chengdeite,"black, steel",5,Metallic,black,"black, steel"
+20.00,Osmium,"gray, steel",6-7,Metallic,gray,"gray, steel"
+21.03,Rhenium *,black,-,Metallic,,black
+22.70,Iridium,white,6-7,Metallic,white,white
+1.01,Dinite *,colorless,1,Waxy,,
+1.05,Hartite !,colorless,1,Waxy,,
+1.09,Flagstaffite,"white, yellowish",-,Resinous,,
+1.10,Amber *,yellow,2-2.5,Resinous,,
+1.11,Ravatite,colorless,1,Vitreous - Waxy,,
+1.24,Idrialite,"yellow, greenish",1.5,Vitreous - Adamantine,,
+1.33,Phosphammite,colorless,-,Vitreous (Glassy),,
+1.35,Karpatite,yellow,1.5,Vitreous - Adamantine,,
+1.45,Natron,white,1,Vitreous (Glassy),,
+1.49,Mirabilite,colorless,1.5-2,Vitreous (Glassy),,
+1.50,Oxammite,colorless,2.5,Vitreous (Glassy),,
+1.50,Salammoniac,colorless,1.5-2,Vitreous (Glassy),,
+1.51,Hydroglauberite,"white, snow",-,Silky,,
+1.55,Stercorite,colorless,2,Vitreous (Glassy),,
+1.56,Bischofite,colorless,1.5-2,Vitreous - Greasy,,
+1.58,Nitromagnesite,colorless,-,Vitreous (Glassy),,
+1.58,Teschemacherite,colorless,1.5,Vitreous (Glassy),,
+1.60,Carnallite,blue,2.5,Greasy (Oily),,
+1.60,Indigirite,"white, snow",2,Vitreous - Silky,,
+1.60,Mellite,brown,2-2.5,Vitreous (Glassy),,
+1.65,Cattiite !,colorless,2,Vitreous (Glassy),,
+1.65,Tschermigite,white,1.5-2,Vitreous (Glassy),,
+1.66,Cadwaladerite,lemon,-,Vitreous (Glassy),,
+1.66,Tachyhydrite,colorless,2,Vitreous - Greasy,,
+1.67,Alum-(Na),colorless,3,Vitreous (Glassy),,
+1.67,Chloraluminite,colorless,-,Vitreous (Glassy),,
+1.68,Epsomite,colorless,2-2.5,Vitreous (Glassy),,
+1.68,Aluminite,white,1,Earthy (Dull),,
+1.68,Chesnokovite !,colorless,2.5,Vitreous (Glassy),,
+1.69,Stepanovite,green,2,Vitreous (Glassy),,
+1.69,Svyazhinite,colorless,2-3,Vitreous (Glassy),,
+1.69,Zhemchuzhnikovite,"green, gray",2,Vitreous (Glassy),,
+1.69,Lonecreekite,colorless,2-3,Vitreous (Glassy),,
+1.70,Boussingaultite,colorless,2,Vitreous (Glassy),,
+1.70,Lansfordite,colorless,2.5,Vitreous - Dull,,
+1.70,Struvite,white,1.5-2,Vitreous - Dull,,
+1.71,Qilianshanite,colorless,2,Vitreous (Glassy),,
+1.71,Borax,blue,2-2.5,Greasy (Oily),,
+1.71,Sborgite,colorless,-,Vitreous (Glassy),,
+1.72,Alunogen,white,1.5-2,Vitreous - Pearly,,
+1.72,Antarcticite,colorless,2-3,Vitreous (Glassy),,
+1.72,Natrophosphate,colorless,2.5,Vitreous - Greasy,,
+1.73,Phosphorrosslerite,colorless,2.5,Vitreous (Glassy),,
+1.73,Tinnunculite *,white,-,Earthy (Dull),,
+1.75,Lecontite,colorless,2-2.5,Vitreous (Glassy),,
+1.75,Mendozite,colorless,3,Vitreous (Glassy),,
+1.76,Alum-(K),colorless,2,Vitreous (Glassy),,
+1.76,Hexahydrite,colorless,2-2.5,Vitreous (Glassy),,
+1.76,Kalinite,colorless,2,Vitreous (Glassy),,
+1.76,Nepskoeite !,"white, yellowish",1.5-2,Vitreous - Pearly,,
+1.76,Redingtonite,white,2,Silky,,
+1.77,Mascagnite,colorless,2-2.5,Vitreous - Dull,,
+1.77,Charlesite,colorless,2.5,Vitreous (Glassy),,
+1.77,Gwihabaite !,colorless,5,Vitreous (Glassy),,
+1.79,Ikaite,"white, chalky",-,Earthy (Dull),,
+1.79,Jurbanite,colorless,2.5,Vitreous (Glassy),,
+1.79,Korshunovskite,colorless,2,Vitreous (Glassy),,
+1.80,Apjohnite,colorless,1.5-2,Silky,,
+1.80,Canavesite,white,-,Vitreous (Glassy),,
+1.80,Dietrichite,"yellow, brownish",2,Vitreous (Glassy),,
+1.80,Ettringite,colorless,2-2.5,Vitreous (Glassy),,
+1.80,Inderite,colorless,2.5,Vitreous (Glassy),,
+1.80,Magnesioaubertite,blue,2-3,Vitreous (Glassy),,
+1.81,Sinjarite,"pink, light",1.5,Vitreous - Resinous,,
+1.81,Wattevilleite,white,-,Silky,,
+1.82,Aubertite,azure,2-3,Vitreous (Glassy),,
+1.82,Megacyclite,colorless,2,Vitreous - Dull,,
+1.83,Pickeringite,colorless,1.5-2,Silky,,
+1.83,Bazhenovite,"yellow, light",2,Vitreous - Pearly,,
+1.83,Kurnakovite,colorless,3,Vitreous - Pearly,,
+1.83,Letovicite,colorless,1-2,Vitreous (Glassy),,
+1.83,Schertelite,colorless,-,Vitreous (Glassy),,
+1.83,Mohrite,"green, light",2-2.5,Vitreous (Glassy),,
+1.84,Halotrichite,colorless,1.5-2,Silky,,
+1.84,Chvaleticeite,"green, yellow",1.5,Vitreous (Glassy),,
+1.84,Nesquehonite,colorless,2.5,Vitreous - Dull,,
+1.85,Mallardite,colorless,2,Vitreous (Glassy),,
+1.85,Sturmanite,"yellow, greenish",2.5,Vitreous (Glassy),,
+1.85,Caoxite !,colorless,2-2.5,Vitreous (Glassy),,
+1.85,Hydrochlorborite,colorless,2.5,Vitreous (Glassy),,
+1.87,Mcallisterite,colorless,2.5,Vitreous (Glassy),,
+1.87,Bilinite,white,2,Vitreous (Glassy),,
+1.87,Hexahydroborite,colorless,2.5,Vitreous (Glassy),,
+1.87,Inyoite,white,2,Vitreous (Glassy),,
+1.87,Lesukite !,"orange, yellowish",-,Vitreous (Glassy),,
+1.87,Pascoite,"brown, yellow",2.5,Vitreous - Adamantine,,
+1.88,Tincalconite,white,2,Earthy (Dull),,
+1.88,Wardsmithite,colorless,2.5,Vitreous (Glassy),,
+1.89,Barberiite,colorless,1,Vitreous (Glassy),,
+1.89,Thaumasite,colorless,3.5,Vitreous - Silky,,
+1.90,Melanterite,green,2,Vitreous (Glassy),,
+1.90,Wupatkiite,"pink, light",1.5-2,Silky,,
+1.90,Allophane,white,3,Waxy,,
+1.90,Bieberite,"red, pinkish",2,Vitreous - Dull,,
+1.90,Delvauxite,"brown, yellowish",2.5,Vitreous - Greasy,,
+1.90,Fibroferrite,"gray, green",2,Silky,,
+1.90,Formicaite !,white,1,Vitreous (Glassy),,
+1.90,Nitrocalcite,gray,1-2,Vitreous (Glassy),,
+1.90,Orschallite,colorless,4,Vitreous (Glassy),,
+1.90,Pentahydrite,white,2.5,Vitreous (Glassy),,
+1.90,Stratlingite,colorless,-,Vitreous (Glassy),,
+1.91,Rivadavite,colorless,3.5,Vitreous (Glassy),,
+1.91,Chelyabinskite *,white,3,Silky,,
+1.91,Hazenite,colorless,2-2.5,Vitreous (Glassy),,
+1.91,Kanonerovite !,colorless,2.5-3,Vitreous (Glassy),,
+1.91,Kernite,colorless,2.5-3,Vitreous - Pearly,,
+1.91,Swaknoite,white,1.5-2,Vitreous (Glassy),,
+1.92,Behoite,colorless,4,Vitreous (Glassy),,
+1.93,Nickelbischofite,green,1.5,Vitreous (Glassy),,
+1.93,Clinobehoite,colorless,2-3,Vitreous - Pearly,,
+1.93,Kribergite,white,-,Earthy (Dull),,
+1.93,Rosslerite,colorless,2-3,Vitreous - Dull,,
+1.93,Faujasite-Ca !,colorless,5,Vitreous (Glassy),,
+1.93,Faujasite-Mg !,colorless,5,Vitreous (Glassy),,
+1.93,Faujasite-Na,colorless,5,Vitreous (Glassy),,
+1.93,Ferrohexahydrite,colorless,2,Vitreous (Glassy),,
+1.94,Revdite,colorless,2,Vitreous - Pearly,,
+1.94,Sanjuanite,white,3,Silky,,
+1.95,Evansite,colorless,3.5-4,Vitreous - Pearly,,
+1.95,Fullerite !,black,3.5,Vitreous - Metallic,,
+1.95,Gutsevichite ?,"brown, greenish",2.5,Waxy,,
+1.95,Jouravskite,"orange, green",2.5,Vitreous (Glassy),,
+1.96,Ulexite,colorless,2.5,Chatoyant,,
+1.96,Gaylussite,colorless,2.5,Vitreous (Glassy),,
+1.96,Vashegyite,brownish,2-3,Earthy (Dull),,
+1.97,Brianroulstonite !,colorless,5,Vitreous (Glassy),,
+1.97,Hellyerite,"blue, light",2.5,Vitreous (Glassy),,
+1.97,Moorhouseite,pink,2.5,Vitreous (Glassy),,
+1.98,Boggsite,colorless,3.5,Vitreous (Glassy),,
+1.98,Koenenite,colorless,1.5,Pearly,,
+1.99,Sylvite,white,2.5,Vitreous - Greasy,,
+1.99,Xitieshanite,green,3,Vitreous (Glassy),,
+2.00,Gmelinite-K !,colorless,4,Vitreous (Glassy),,
+2.00,Goslarite,blue,2-2.5,Vitreous (Glassy),,
+2.00,Gowerite,colorless,3,Vitreous (Glassy),,
+2.00,Hydroboracite,colorless,2,Vitreous - Silky,,
+2.00,Morenosite,"green, apple",2-2.5,Vitreous (Glassy),,
+2.00,Richellite,"brown, yellow",2-3,Greasy (Oily),,
+2.00,Sepiolite,"white, grayish",2,Earthy (Dull),,
+2.00,Slavikite,"green, yellowish",3.5,Vitreous (Glassy),,
+2.00,Inderborite,colorless,3.5,Vitreous (Glassy),,
+2.01,Kuzelite !,white,1.5-2,Vitreous (Glassy),,
+2.01,Starkeyite,white,2-3,Earthy (Dull),,
+2.01,Zaherite,white,3.5,Earthy (Dull),,
+2.01,Bolivarite,"white, greenish",2.5-3.5,Vitreous (Glassy),,
+2.01,Cryptohalite,colorless,2.5,Vitreous (Glassy),,
+2.02,Artinite,white,2.5,Silky,,
+2.02,Pentahydroborite,colorless,2.5,Vitreous (Glassy),,
+2.02,Meta-aluminite,"white, snow",1-2,Silky,,
+2.02,Roggianite,yellow,-,Vitreous (Glassy),,
+2.02,Tschernichite,colorless,4.5,Vitreous (Glassy),,
+2.02,Weddellite,colorless,4,Vitreous (Glassy),,
+2.02,Zincmelanterite,green,2,Vitreous (Glassy),,
+2.03,Ameghinite,colorless,2-3,Vitreous (Glassy),,
+2.03,Bentorite,violet,2,Vitreous (Glassy),,
+2.03,Dickthomssenite !,"brown, light golden",2.5,Vitreous (Glassy),,
+2.03,Mitryaevaite !,colorless,-,Vitreous - Dull,,
+2.03,Aristarainite,colorless,3.5,Vitreous (Glassy),,
+2.03,Picromerite,colorless,2.5,Vitreous (Glassy),,
+2.03,Bianchite,colorless,2.5,Vitreous (Glassy),,
+2.03,Hannayite,yellow,2-3,Vitreous (Glassy),,
+2.03,Jokokuite,"pink, light",2.5,Vitreous (Glassy),,
+2.03,Minasragrite,blue,1-2,Vitreous (Glassy),,
+2.04,Chlormagaluminite,colorless,1.5-2.5,Pearly,,
+2.04,Biphosphammite,brown,1-2,Vitreous (Glassy),,
+2.04,Tsaregorodtsevite,colorless,6,Vitreous (Glassy),,
+2.05,Bayleyite,yellow,-,Vitreous - Dull,,
+2.05,Botryogen,"red, hyacinth",2,Vitreous (Glassy),,
+2.05,Coquimbite,"white, greenish",2,Vitreous (Glassy),,
+2.05,Iquiqueite,yellow,2,Vitreous (Glassy),,
+2.05,Luneburgite,white,2,Vitreous (Glassy),,
+2.05,Manasseite,"white, bluish",2,Pearly,,
+2.05,Melanophlogite,brown,6.5-7,Vitreous (Glassy),,
+2.05,Melanophlogite-beta !,brown,6.5-7,Vitreous (Glassy),,
+2.05,Mundrabillaite,colorless,1-2,Earthy (Dull),,
+2.05,Nastrophite,colorless,2,Vitreous (Glassy),,
+2.05,Sturtite ?,black,3-3.5,Vitreous - Greasy,,
+2.05,Ezcurrite,colorless,3-3.5,Vitreous - Silky,,
+2.06,Terranovaite !,colorless,-,Vitreous (Glassy),,
+2.06,Amicite,colorless,5-5.5,Vitreous (Glassy),,
+2.06,Hotsonite-VI,white,2.5,Silky,,
+2.06,Hotsonite-VII,white,2.5,Silky,,
+2.06,Hydrotalcite,colorless,2,Pearly,,
+2.06,Tamarugite,colorless,3,Vitreous (Glassy),,
+2.06,Woodallite !,"magenta, deep",1.5-2,Resinous - Waxy,,
+2.07,Nickelhexahydrite,"green, bluish",2,Vitreous (Glassy),,
+2.07,Pyroaurite,"yellow, brownish",2.5,Pearly,,
+2.07,Retgersite,"green, dark",2.5,Vitreous (Glassy),,
+2.07,Sulfur,yellow,1.5-2.5,Resinous,,
+2.07,Walkerite !,colorless,3,Vitreous (Glassy),,
+2.07,Makatite,colorless,-,Vitreous - Dull,,
+2.07,Rosickyite,colorless,2-3,Adamantine,,
+2.08,Teepleite,colorless,3-3.5,Vitreous - Greasy,,
+2.08,Ginorite,white,3.5,Vitreous (Glassy),,
+2.09,Paulingite-Ca !,colorless,5,Vitreous (Glassy),,
+2.09,Nobleite,colorless,3,Vitreous - Pearly,,
+2.09,Zabuyelite,colorless,3,Vitreous (Glassy),,
+2.10,Uralolite,colorless,2.5,Subadamantine,,
+2.10,Chabazite-Ca,colorless,4,Vitreous (Glassy),,
+2.10,Chabazite-K !,colorless,4,Vitreous (Glassy),,
+2.10,Chabazite-Na !,colorless,4,Vitreous (Glassy),,
+2.10,Gmelinite-Ca !,white,4.5,Vitreous - Dull,,
+2.10,Gmelinite-Na,white,4.5,Vitreous - Dull,,
+2.10,Iowaite,"green, bluish",1.5,Greasy (Oily),,
+2.10,Opal,white,5.5-6,Vitreous - Dull,,
+2.10,Barbertonite,violet,1.5-2,Pearly,,
+2.10,Boothite,blue,2-2.5,Vitreous - Silky,,
+2.10,Copiapite,green,2.5,Pearly,,
+2.10,Ferricopiapite,yellow,2.5-3,Pearly,,
+2.10,Kainite,blue,3,Vitreous - Greasy,,
+2.10,Lindbergite !,white,2.5,Vitreous (Glassy),,
+2.10,Newberyite,colorless,3-3.5,Vitreous (Glassy),,
+2.10,Rosenbergite,colorless,3-3.5,Vitreous (Glassy),,
+2.10,Satimolite,"white, chalky",1-2,Earthy (Dull),,
+2.10,Tschortnerite !,"blue, light",4.5,Vitreous (Glassy),,
+2.11,Niter,colorless,2,Vitreous (Glassy),,
+2.11,Mazzite-Mg,colorless,4-5,Vitreous (Glassy),,
+2.11,Erionite-Ca !,white,3.5-4,Vitreous - Silky,,
+2.11,Erionite-K !,white,3.5-4,Vitreous - Silky,,
+2.11,Erionite-Na,white,3.5-4,Vitreous - Silky,,
+2.11,Paracoquimbite,"violet, light",2.5,Vitreous (Glassy),,
+2.11,Peisleyite,white,3,Earthy (Dull),,
+2.11,Sjogrenite,white,2.5,Vitreous - Waxy,,
+2.12,Kaliborite,colorless,4-4.5,Vitreous (Glassy),,
+2.12,Minguzzite,green,-,Vitreous (Glassy),,
+2.12,Basaluminite ?,white,1.5,Earthy (Dull),,
+2.12,Carboborite,colorless,2,Vitreous (Glassy),,
+2.12,Direnzoite !,white,4.5,Vitreous (Glassy),,
+2.12,Herschelite ?,colorless,4-5,Vitreous (Glassy),,
+2.12,Meyerhofferite,colorless,2,Vitreous - Silky,,
+2.12,Mountkeithite,white,2,Pearly,,
+2.13,Cuprocopiapite,"yellow, greenish",2.5-3,Pearly,,
+2.13,Levyne-Ca,white,4-4.5,Vitreous (Glassy),,
+2.13,Levyne-Na !,white,4-4.5,Vitreous (Glassy),,
+2.13,Magnesiocopiapite,"yellow, green",2.5-3,Pearly,,
+2.13,Mordenite,colorless,5,Vitreous - Silky,,
+2.13,Stellerite,white,4.5,Vitreous (Glassy),,
+2.13,Barrerite,white,3-4,Vitreous (Glassy),,
+2.13,Desautelsite,"orange, bright",2,Pearly,,
+2.13,Offretite,colorless,4-4.5,Vitreous (Glassy),,
+2.14,Trona,colorless,2.5,Vitreous (Glassy),,
+2.14,Brugnatellite,"white, brown",2,Vitreous - Pearly,,
+2.14,Cowlesite,colorless,5-5.5,Vitreous - Greasy,,
+2.14,Frolovite,"white, gray",3.5,Earthy (Dull),,
+2.14,Gottardiite !,colorless,-,Vitreous (Glassy),,
+2.14,Mutinaite !,colorless,-,Vitreous - Silky,,
+2.14,Perlialite,"white, pearl",4-5,Pearly,,
+2.14,Probertite,colorless,3.5,Vitreous (Glassy),,
+2.14,Quenstedtite,white,2.5,Vitreous (Glassy),,
+2.14,Quintinite-2H,colorless,2,Vitreous (Glassy),,
+2.14,Quintinite-3T,colorless,2,Vitreous (Glassy),,
+2.15,Ferrierite-K !,colorless,3-3.5,Vitreous - Silky,,
+2.15,Ferrierite-Mg,colorless,3-3.5,Vitreous - Silky,,
+2.15,Ferrierite-Na !,colorless,3-3.5,Vitreous - Silky,,
+2.15,Gobbinsite,"white, lemon",4,Vitreous (Glassy),,
+2.15,Teruggite,colorless,2.5,Vitreous (Glassy),,
+2.15,Beidellite,white,1-2,Earthy (Dull),,
+2.15,Chrysocolla,green,2.5-3.5,Vitreous - Dull,,
+2.15,Dypingite,white,-,Pearly,,
+2.15,Hydrocalumite,colorless,3,Vitreous - Pearly,,
+2.15,Micheelsenite !,colorless,3.5-4,Vitreous (Glassy),,
+2.15,Romerite,brown,3-3.5,Vitreous - Resinous,,
+2.15,Vertumnite,colorless,5,Vitreous (Glassy),,
+2.15,Weinebeneite,colorless,3-4,Vitreous (Glassy),,
+2.15,Clinoptilolite-Ca !,white,3.5-4,Vitreous (Glassy),,
+2.15,Clinoptilolite-K,colorless,3.5-4,Vitreous (Glassy),,
+2.15,Clinoptilolite-Na !,white,3.5-4,Vitreous (Glassy),,
+2.15,Garronite,colorless,4-5,Vitreous (Glassy),,
+2.15,Palygorskite,white,2-2.5,Earthy (Dull),,
+2.15,Siderotil,yellowish,2.5,Vitreous (Glassy),,
+2.15,Stilbite-Ca,white,3.5-4,Vitreous - Pearly,,
+2.15,Stilbite-Na !,white,3.5-4,Vitreous - Pearly,,
+2.15,Bararite,white,2.5,Vitreous (Glassy),,
+2.16,Chabazite-Sr !,colorless,4-4.5,Vitreous (Glassy),,
+2.16,Dachiardite-Na,colorless,4-5,Vitreous - Greasy,,
+2.16,Nabesite !,colorless,5-6,Vitreous (Glassy),,
+2.16,Phosphovanadylite !,"blue, light greenish",-,Vitreous (Glassy),,
+2.16,Douglasite,"red, brown",-,Vitreous (Glassy),,
+2.16,Paulingite-K,colorless,5,Vitreous - Greasy,,
+2.16,Paulingite-Na !,colorless,5,Vitreous - Greasy,,
+2.17,Loughlinite,"white, pearl",-,Silky,,
+2.17,Hydrodelhayelite,white,4,Vitreous (Glassy),,
+2.17,Kalicinite,colorless,1-2,Vitreous (Glassy),,
+2.17,Halite,white,2.5,Vitreous (Glassy),,
+2.17,Kremersite,"red, brown",-,Vitreous (Glassy),,
+2.18,Dachiardite-Ca,white,4-4.5,Vitreous - Silky,,
+2.18,Fluellite,"yellow, golden",3,Vitreous (Glassy),,
+2.18,Hydromagnesite,colorless,3.5,Silky,,
+2.18,Willhendersonite,colorless,3,Vitreous (Glassy),,
+2.18,Zincocopiapite,"green, yellow",2,Vitreous (Glassy),,
+2.19,Tyretskite,brownish,5,Vitreous (Glassy),,
+2.19,Amarillite,"yellow, greenish",2.5-3,Vitreous - Adamantine,,
+2.19,Dittmarite,colorless,5,Vitreous (Glassy),,
+2.20,Bobierrite,colorless,2-2.5,Vitreous (Glassy),,
+2.20,Rozenite,colorless,2-3,Earthy (Dull),,
+2.20,Beryllite,white,1,Silky,,
+2.20,Bellbergite,colorless,5,Vitreous (Glassy),,
+2.20,Berborite,colorless,3,Vitreous (Glassy),,
+2.20,Caichengyunite !,"white, grayish",1.5-2,Vitreous - Silky,,
+2.20,Diadochite,yellow,3-3.5,Waxy,,
+2.20,Heulandite-Ca,white,3-3.5,Vitreous - Pearly,,
+2.20,Heulandite-K !,white,3-3.5,Vitreous - Pearly,,
+2.20,Heulandite-Na !,white,3-3.5,Vitreous - Pearly,,
+2.20,Heulandite-Sr !,white,3-3.5,Vitreous - Pearly,,
+2.20,Hohmannite,brown,3,Vitreous (Glassy),,
+2.20,Ilmajokite,"yellow, bright",1,Vitreous (Glassy),,
+2.20,Phillipsite-Ca !,white,4-5,Vitreous (Glassy),,
+2.20,Phillipsite-K !,white,4-5,Vitreous (Glassy),,
+2.20,Phillipsite-Na,white,4-5,Vitreous (Glassy),,
+2.20,Rosieresite,yellow,3-3.5,Vitreous - Pearly,,
+2.20,Spadaite,colorless,2.5,Vitreous - Dull,,
+2.20,Stichtite,lilac,1.5-2,Vitreous (Glassy),,
+2.20,Viseite,"white, bluish",3-4,Vitreous (Glassy),,
+2.20,Leonite,colorless,2.5-3,Vitreous - Waxy,,
+2.20,Zincobotryogen,"red, orange",2.5,Vitreous - Greasy,,
+2.20,Darapskite,colorless,2.5,Vitreous (Glassy),,
+2.21,Merlinoite,colorless,4.5,Vitreous (Glassy),,
+2.21,Lishizhenite,"brown, yellow",3.5,Vitreous (Glassy),,
+2.21,Chalcanthite,green,2.5,Vitreous (Glassy),,
+2.21,Chessexite,white,-,Silky,,
+2.21,Goosecreekite,colorless,4.5,Vitreous (Glassy),,
+2.21,Grumantite,white,4-5,Vitreous - Silky,,
+2.21,Karchevskyite !,white,2,Vitreous - Pearly,,
+2.21,Nahcolite,colorless,2.5,Vitreous - Resinous,,
+2.21,Olshanskyite,colorless,4,Vitreous (Glassy),,
+2.21,Paranatrolite,colorless,5-5.5,Vitreous - Greasy,,
+2.21,Pringleite,colorless,3-4,Vitreous (Glassy),,
+2.21,Rapidcreekite,colorless,2,Vitreous (Glassy),,
+2.21,Ruitenbergite,colorless,3-4,Vitreous (Glassy),,
+2.21,Tuzlaite,colorless,2-3,Silky - Pearly,,
+2.22,Whewellite,brownish,2.5-3,Vitreous - Pearly,,
+2.22,Calciocopiapite,"yellow, brownish",2.5-3,Pearly,,
+2.22,Hydrophilite ?,white,-,Vitreous - Greasy,,
+2.22,Lanmuchangite !,"yellow, light",3-3.5,Vitreous (Glassy),,
+2.22,Lannonite,white,2,Earthy (Dull),,
+2.22,Mcauslanite,colorless,3.5,Vitreous - Silky,,
+2.22,Cyanochroite,"blue, green",2-2.5,Vitreous (Glassy),,
+2.23,Alumohydrocalcite,"white, chalky",2.5,Vitreous (Glassy),,
+2.23,Gordonite,colorless,3.5,Vitreous - Pearly,,
+2.23,Nekoite,"white, pearl",-,Pearly,,
+2.23,Portlandite,colorless,2.5-3,Pearly,,
+2.23,Rhomboclase,bluish,2,Vitreous - Pearly,,
+2.23,Yugawaralite,colorless,4.5,Vitreous (Glassy),,
+2.24,Amarantite,"red, brown",2.5,Vitreous (Glassy),,
+2.24,Canaphite,colorless,2,Vitreous (Glassy),,
+2.24,Endellite !,blue,1-2,Earthy (Dull),,
+2.24,Silinaite,colorless,4.5,Vitreous - Dull,,
+2.25,Epistilbite,white,4-5,Vitreous (Glassy),,
+2.25,Natrolite,white,5.5-6,Vitreous - Silky,,
+2.25,Sideronatrite,yellow,1.5-2,Vitreous - Dull,,
+2.25,Strontioginorite,colorless,2-3,Greasy (Oily),,
+2.25,Volkonskoite,yellow,1.5-2,Resinous,,
+2.25,Humberstonite,colorless,2.5,Vitreous (Glassy),,
+2.26,Thermonatrite,colorless,1,Vitreous - Dull,,
+2.26,Cavansite,"blue, greenish",3-4,Vitreous (Glassy),,
+2.26,Gismondine,"white, blue",4-5,Vitreous (Glassy),,
+2.26,Penobsquisite !,"yellow, pale",3,Vitreous (Glassy),,
+2.26,Wairakite,colorless,5.5-6,Vitreous - Dull,,
+2.26,Ilesite,green,2-3,Vitreous (Glassy),,
+2.27,Nitratine,colorless,1.5-2,Vitreous (Glassy),,
+2.27,Cristobalite,"gray, blue",6.5,Vitreous (Glassy),,
+2.27,Macdonaldite,colorless,3.5-4,Vitreous - Silky,,
+2.27,Sinkankasite,colorless,4,Vitreous - Dull,,
+2.27,Wheatleyite,blue,1-2,Vitreous (Glassy),,
+2.28,Hydrobasaluminite,white,-,Earthy (Dull),,
+2.28,Sergeevite,white,3.5,Earthy (Dull),,
+2.28,Bikitaite,colorless,6,Vitreous (Glassy),,
+2.28,Humboldtine,"yellow, brownish",1.5-2,Earthy (Dull),,
+2.28,Pahasapaite,colorless,4.5,Vitreous (Glassy),,
+2.28,Phaunouxite,colorless,-,Vitreous (Glassy),,
+2.28,Tetranatrolite ?,white,5,Vitreous - Dull,,
+2.28,Scolecite,brownish,5-5.5,Vitreous - Silky,,
+2.29,Tacharanite,white,5,Earthy (Dull),,
+2.29,Ungemachite,colorless,2.5,Vitreous (Glassy),,
+2.29,Ammonioleucite,white,5.5-6,Vitreous - Resinous,,
+2.29,Chalcoalumite,blue,2.5,Vitreous - Dull,,
+2.29,Lemoynite,"white, yellowish",4,Vitreous (Glassy),,
+2.29,Pinnoite,colorless,3.5,Vitreous (Glassy),,
+2.29,Sodalite,"blue, azure",6,Vitreous - Greasy,,
+2.29,Vitimite !,white,1.5,Vitreous (Glassy),,
+2.30,Analcime,white,5,Vitreous (Glassy),,
+2.30,Ardealite,"yellow, light",1-1.5,Earthy (Dull),,
+2.30,Gonnardite,white,4-5,Vitreous (Glassy),,
+2.30,Gypsum,white,2,Pearly,,
+2.30,Laumontite,brownish,3.5-4,Vitreous (Glassy),,
+2.30,Mesolite,white,5,Vitreous - Silky,,
+2.30,Nabaphite,colorless,2,Vitreous - Dull,,
+2.30,Nontronite,"yellow, greenish",1.5-2,Earthy (Dull),,
+2.30,Rinneite,colorless,3,Vitreous - Adamantine,,
+2.30,Saponite,white,1.5-2,Earthy (Dull),,
+2.30,Thomasclarkite-(Y) !,white,2-3,Vitreous (Glassy),,
+2.30,Vantasselite,"white, pearl",2-2.5,Greasy (Oily),,
+2.31,Tridymite,colorless,6.5-7,Vitreous (Glassy),,
+2.31,Volkovskite,colorless,2.5,Vitreous (Glassy),,
+2.31,Kornelite,"pink, pale rose",-,Silky,,
+2.31,Chlormanganokalite,yellow,2.5,Vitreous - Greasy,,
+2.31,Griffithite *,"green, dark",1,Vitreous - Dull,,
+2.31,Mantienneite,"brown, yellow",3,Vitreous (Glassy),,
+2.31,Studenitsite,colorless,5.5-6,Vitreous (Glassy),,
+2.31,Varennesite,"yellow, pale brownish",4,Vitreous (Glassy),,
+2.32,Okenite,white,5,Pearly,,
+2.32,Buddingtonite,colorless,5.5,Vitreous - Dull,,
+2.32,Hydroxycancrinite,colorless,6,Vitreous (Glassy),,
+2.32,Matveevite ?,colorless,2.5,Vitreous - Pearly,,
+2.32,Misenite,colorless,-,Silky - Pearly,,
+2.32,Natroxalate !,colorless,3,Vitreous (Glassy),,
+2.33,Jennite,white,3.5,Vitreous (Glassy),,
+2.33,Kalifersite !,"pink, brownish",2,Silky,,
+2.33,Brushite,colorless,2.5,Vitreous - Pearly,,
+2.33,Aplowite,pink,3,Vitreous (Glassy),,
+2.33,Hydrowoodwardite !,blue,-,Vitreous (Glassy),,
+2.33,Lovdarite,colorless,5-6,Vitreous (Glassy),,
+2.33,Matulaite,colorless,1,Pearly,,
+2.33,Mercallite,colorless,-,Vitreous (Glassy),,
+2.33,Nikischerite !,green,2,Earthy (Dull),,
+2.33,Pentagonite,"blue, greenish",3-4,Vitreous (Glassy),,
+2.34,Quadridavyne,colorless,5,Vitreous (Glassy),,
+2.34,Chukhrovite-(Y),colorless,3,Vitreous - Pearly,,
+2.34,Arnhemite *,white,-,Pearly,,
+2.34,Bukovskyite,"yellow, light",5,Vitreous - Dull,,
+2.34,Montesommaite,colorless,-,Vitreous (Glassy),,
+2.34,Wegscheiderite,colorless,2.5-3,Vitreous (Glassy),,
+2.34,Tatarskite,colorless,2.5,Vitreous - Pearly,,
+2.35,Metavauxite,colorless,3,Vitreous (Glassy),,
+2.35,Apophyllite-(KF),white,4-5,Vitreous - Pearly,,
+2.35,Apophyllite-(KOH),white,4-5,Vitreous - Pearly,,
+2.35,Apophyllite-(NaF),white,4-5,Vitreous - Pearly,,
+2.35,Apophyllite *,white,4-5,Vitreous - Pearly,,
+2.35,Gibbsite,bluish,2.5-3,Vitreous - Pearly,,
+2.35,Nosean,white,5.5-6,Vitreous - Greasy,,
+2.35,Thomsonite-Ca,colorless,5-5.5,Vitreous (Glassy),,
+2.35,Vanalite,"yellow, light",-,Vitreous - Waxy,,
+2.35,Wavellite,blue,3.5-4,Vitreous - Pearly,,
+2.35,Alloriite !,colorless,5,Vitreous (Glassy),,
+2.35,Ertixiite,colorless,5.8-6.5,Vitreous (Glassy),,
+2.35,Felsobanyaite,colorless,1.5,Vitreous - Pearly,,
+2.35,Giuseppettite,"blue, light violet",6-7,Vitreous (Glassy),,
+2.35,Heulandite-Ba !,colorelss,3.5,Vitreous - Pearly,,
+2.35,Kastningite !,white,1-2,Vitreous (Glassy),,
+2.35,Montmorillonite,white,1.5-2,Earthy (Dull),,
+2.35,Pirssonite,colorless,3,Vitreous (Glassy),,
+2.35,Sigloite,brown,3,Vitreous - Pearly,,
+2.35,Truscottite,white,-,Pearly,,
+2.35,Vlodavetsite !,colorless,-,Vitreous (Glassy),,
+2.36,Raite,brown,3,Vitreous - Silky,,
+2.36,Belyankinite,yellow,2-3,Vitreous - Greasy,,
+2.36,Foshagite,"white, snow",-,Silky,,
+2.36,Mangangordonite,colorless,3,Vitreous (Glassy),,
+2.36,Mereiterite !,"yellow, pale",2.5-3,Vitreous - Greasy,,
+2.36,Mountainite,white,-,Silky,,
+2.36,Nifontovite,colorless,3.5,Vitreous (Glassy),,
+2.36,Paravauxite,colorless,3,Vitreous - Pearly,,
+2.36,Paulkerrite,colorless,3,Vitreous (Glassy),,
+2.36,Rhodesite,"white, silky",3-4,Silky,,
+2.36,Tugtupite,white,4,Vitreous - Greasy,,
+2.36,Zorite,pink,3-4,Vitreous (Glassy),,
+2.37,Loweite,colorless,2.5-3,Vitreous (Glassy),,
+2.37,Pitiglianoite,colorless,5,Vitreous (Glassy),,
+2.37,Sanderite,white,-,Vitreous (Glassy),,
+2.37,Vishnevite,colorless,5-6,Vitreous - Pearly,,
+2.37,Erythrosiderite,"red, brown",-,Vitreous (Glassy),,
+2.37,Hambergite,colorless,7.5,Vitreous - Dull,,
+2.38,Coalingite,"brown, bronze",1-2,Resinous,,
+2.38,Lasalite !,yellow,1,Vitreous (Glassy),,
+2.38,Monohydrocalcite,gray,2-3,Earthy (Dull),,
+2.38,Northupite,brownish,3.5-4,Vitreous (Glassy),,
+2.38,Novgorodovaite !,colorless,2.5,Vitreous (Glassy),,
+2.38,Ushkovite,brown,3.5,Vitreous - Pearly,,
+2.39,Gravegliaite,colorless,-,Vitreous (Glassy),,
+2.39,Huemulite,yellow,2.5-3,Vitreous - Dull,,
+2.40,Brucite,blue,2.5-3,Vitreous - Pearly,,
+2.40,Ammonioalunite,"white, gray",2-3,Vitreous (Glassy),,
+2.40,Amstallite,colorless,4,Vitreous (Glassy),,
+2.40,Benyacarite,yellow,2.5-3,Vitreous (Glassy),,
+2.40,Camgasite,colorless,2,Vitreous (Glassy),,
+2.40,Cancrisilite,colorless,5,Vitreous (Glassy),,
+2.40,Glaucocerinite,white,1,Waxy,,
+2.40,Koninckite,yellow,3.5-4,Vitreous (Glassy),,
+2.40,Lazurite,blue,5.5,Vitreous - Dull,,
+2.40,Satpaevite,"yellow, greenish",1.5,Pearly,,
+2.40,Tunellite,colorless,2.5,Vitreous - Pearly,,
+2.40,Vauxite,"blue, sky",3.5,Vitreous (Glassy),,
+2.41,Marinellite !,colorless,5.5,Vitreous (Glassy),,
+2.41,Boyleite,white,2,Vitreous - Dull,,
+2.41,Chivruaiite !,"pink, pale",3,Vitreous (Glassy),,
+2.41,Liebigite,green,2.5-3,Vitreous - Pearly,,
+2.42,Mitscherlichite,green,2.5,Vitreous (Glassy),,
+2.42,Chukhrovite-(Nd) !,colorless,3.5-4,Vitreous - Greasy,,
+2.42,Colemanite,colorless,4.5,Vitreous (Glassy),,
+2.42,Dawsonite,colorless,3,Vitreous - Silky,,
+2.42,Intersilite !,yellow,3-4,Vitreous - Greasy,,
+2.42,Monteregianite-(Y),colorless,3.5,Vitreous - Silky,,
+2.42,Nordstrandite,beige,3,Vitreous - Pearly,,
+2.42,Partheite,white,4,Vitreous (Glassy),,
+2.42,Priceite,white,3-3.5,Earthy (Dull),,
+2.42,Sacrofanite,colorless,5.5-6,Vitreous (Glassy),,
+2.42,Santabarbaraite !,"brown, light",-,Vitreous - Greasy,,
+2.42,Tiettaite,colorless,3,Vitreous - Silky,,
+2.42,Tosudite,azure,1-2,Vitreous (Glassy),,
+2.43,Petalite,colorless,6-6.5,Vitreous - Pearly,,
+2.43,Bystrite,yellow,5,Vitreous (Glassy),,
+2.43,Juonniite !,colorless,4-4.5,Vitreous (Glassy),,
+2.43,Magnesiopascoite !,"orange, bright",2.5,Adamantine,,
+2.43,Munirite,"white, pearl",1-2,Pearly,,
+2.43,Panichiite !,colorless,-,Vitreous (Glassy),,
+2.43,Sulphohalite,colorless,3.5,Vitreous - Greasy,,
+2.43,Tobermorite,white,2.5,Silky,,
+2.44,Ekaterinite,"white, pearl",1,Pearly,,
+2.44,Ferristrunzite,"yellow, brownish",4,Vitreous (Glassy),,
+2.44,Haigerachite !,white,2,Vitreous (Glassy),,
+2.44,Kolbeckite,"gray, blue",5,Vitreous - Pearly,,
+2.44,Sulfoborite,colorless,4-4.5,Vitreous (Glassy),,
+2.45,Fairchildite,colorless,2.5,Vitreous (Glassy),,
+2.45,Alvanite,"green, bluish",3-3.5,Vitreous (Glassy),,
+2.45,Brewsterite-Sr,white,5,Vitreous (Glassy),,
+2.45,Cancrinite,blue,6,Vitreous (Glassy),,
+2.45,Carletonite,colorless,4-4.5,Vitreous - Pearly,,
+2.45,Hauyne,blue,5-6,Vitreous - Greasy,,
+2.45,Manganbelyankinite,"black, brownish",2-2.5,Vitreous - Greasy,,
+2.45,Metarossite,yellow,1-2,Vitreous - Pearly,,
+2.45,Rossite,yellow,2-3,Vitreous - Pearly,,
+2.45,Sauconite,"white, bluish",1-2,Earthy (Dull),,
+2.45,Searlesite,white,1-2,Vitreous (Glassy),,
+2.45,Stevensite,"white, beige",4,Resinous,,
+2.45,Brewsterite-Ba !,white,5,Vitreous (Glassy),,
+2.46,Despujolsite,lemon,2.5,Vitreous (Glassy),,
+2.46,Girvasite,colorless,3.5,Vitreous - Silky,,
+2.46,Minyulite,colorless,3.5,Silky,,
+2.46,Smolianinovite,yellow,2,Silky,,
+2.46,Uklonskovite,colorless,-,Vitreous (Glassy),,
+2.46,Zemkorite,colorless,2,Vitreous - Pearly,,
+2.46,Pseudolaueite,orange,3,Vitreous (Glassy),,
+2.47,Laueite,"orange, yellow",3,Vitreous (Glassy),,
+2.47,Tuperssuatsiaite,"brown, reddish",-,Vitreous (Glassy),,
+2.47,Harmotome,white,4-5,Vitreous (Glassy),,
+2.47,Angastonite !,white,2,Pearly,,
+2.47,Eriochalcite,"green, blue",2.5,Vitreous (Glassy),,
+2.47,Leucite,colorless,6,Vitreous (Glassy),,
+2.47,Metaborite,brownish,5,Vitreous (Glassy),,
+2.47,Mooreite,colorless,3,Vitreous (Glassy),,
+2.47,Natrolemoynite !,colorless,3,Vitreous (Glassy),,
+2.47,Thomsonite-Sr !,colorless,5,Vitreous (Glassy),,
+2.48,Davyne,colorless,6,Vitreous (Glassy),,
+2.48,Microsommite,colorless,6,Vitreous - Silky,,
+2.48,Lithiophosphate,colorless,4,Vitreous (Glassy),,
+2.48,Aerinite,blue,3,Vitreous (Glassy),,
+2.48,Ankinovichite !,colorless,2.5-3,Vitreous (Glassy),,
+2.48,Doyleite,white,2.5-3,Vitreous - Pearly,,
+2.48,Gyrolite,brown,2.5,Vitreous (Glassy),,
+2.48,Krohnkite,blue,2.5-3,Vitreous (Glassy),,
+2.48,Ussingite,white,6.5,Vitreous (Glassy),,
+2.49,Kochsandorite !,white,2-2.5,Vitreous - Silky,,
+2.49,Ferrosaponite !,"green, dark",2,Vitreous (Glassy),,
+2.49,Franzinite,"white, pearl",5,Vitreous (Glassy),,
+2.50,Montgomeryite,colorless,4,Vitreous (Glassy),,
+2.50,Bakhchisaraitsevite !,colorless,2-2.5,Vitreous (Glassy),,
+2.50,Changoite !,colorless,-,Vitreous (Glassy),,
+2.50,Charmarite-2H,"brown, orange",2.5,Vitreous (Glassy),,
+2.50,Charmarite-3T,"brown, orange",2,Vitreous (Glassy),,
+2.50,Defernite,colorless,3,Vitreous (Glassy),,
+2.50,Eugsterite,colorless,1-2,Vitreous (Glassy),,
+2.50,Ferrostrunzite,"brown, yellow",4,Vitreous (Glassy),,
+2.50,Hanksite,colorless,3,Vitreous - Greasy,,
+2.50,Hectorite,white,1-2,Earthy (Dull),,
+2.50,Kalborsite,"pink, brownish",6,Vitreous - Pearly,,
+2.50,Lalondeite !,pink,3,Pearly,,
+2.50,Lovozerite,"brown, dark",5,Vitreous - Resinous,,
+2.50,Machatschkiite,colorless,2-3,Vitreous (Glassy),,
+2.50,Metahewettite,red,-,Silky,,
+2.50,Metavoltine,"brown, greenish",2.5,Resinous,,
+2.50,Parasibirskite !,white,3,Vitreous - Pearly,,
+2.50,Pimelite ?,"green, bright",2.5,Waxy,,
+2.50,Pitticite,gray,2-3,Vitreous - Greasy,,
+2.50,Sphaerobertrandite !,colorless,5,Vitreous (Glassy),,
+2.50,Tychite,colorless,3.5,Vitreous (Glassy),,
+2.50,Vermiculite,colorless,1.5-2,Vitreous - Dull,,
+2.50,Zykaite,"white, greenish",2,Earthy (Dull),,
+2.51,Fedorite,colorless,-,Vitreous (Glassy),,
+2.51,Henmilite,"violet, bluish",1.5-2,Vitreous (Glassy),,
+2.51,Indialite,colorless,7-7.5,Vitreous (Glassy),,
+2.51,Kingsmountite,"brown, light",2.5,Pearly,,
+2.51,Lithosite,colorless,5.5,Vitreous (Glassy),,
+2.51,Poudretteite,colorless,5,Vitreous (Glassy),,
+2.51,Variscite,"green, blue",4-5,Earthy (Dull),,
+2.51,Solongoite,colorless,3.5,Vitreous (Glassy),,
+2.52,Pokrovskite,"yellow, beige",3,Earthy (Dull),,
+2.52,Strunzite,"yellow, brownish",4,Vitreous (Glassy),,
+2.52,Gaultite,colorless,6,Vitreous (Glassy),,
+2.52,Hannebachite,colorless,3.5,Vitreous (Glassy),,
+2.52,Milarite,colorless,6,Vitreous (Glassy),,
+2.52,Sanidine,colorless,6,Vitreous - Pearly,,
+2.52,Shomiokite-(Y),colorless,2-3,Earthy (Dull),,
+2.52,Theresemagnanite,pink,1.5-2,Pearly,,
+2.52,Carobbiite,colorless,2-2.5,Vitreous (Glassy),,
+2.53,Calcioferrite,"yellow, greenish",2.5,Pearly,,
+2.53,Chrysotile !,green,2.5,Silky,,
+2.53,Godovikovite,white,2,Earthy (Dull),,
+2.53,Overite,colorless,3.5-4,Vitreous (Glassy),,
+2.53,Chalcophyllite,"green, emerald",2,Vitreous - Pearly,,
+2.54,Switzerite,brown,2,Vitreous - Pearly,,
+2.54,Allanpringite !,"yellow, pale brownish",3,Vitreous (Glassy),,
+2.54,Arsenuranospathite,white,2,Vitreous (Glassy),,
+2.54,Elpidite,brown,7,Vitreous (Glassy),,
+2.54,Falcondoite,green,2-3,Resinous,,
+2.54,Metavariscite,"green, light",3.5,Vitreous (Glassy),,
+2.54,Natrite,colorless,3.5,Vitreous - Dull,,
+2.54,Nevadaite !,"green, pale",3,Vitreous (Glassy),,
+2.54,Parafransoletite,colorless,2.5,Vitreous - Silky,,
+2.54,Vimsite,colorless,4,Vitreous (Glassy),,
+2.54,Natrofairchildite,white,2.5,Vitreous (Glassy),,
+2.54,Tvedalite,white,4.5,Vitreous (Glassy),,
+2.55,Antigorite,green,3.5-4,Vitreous - Greasy,,
+2.55,Butlerite,"yellow, dark",2.5,Vitreous (Glassy),,
+2.55,Epididymite,colorless,5.5,Vitreous (Glassy),,
+2.55,Georgeite,"blue, light",1-2,Vitreous - Dull,,
+2.55,Gerasimovskite,brown,2,Pearly,,
+2.55,Hewettite,red,-,Silky,,
+2.55,Hisingerite,"black, brownish",3,Greasy (Oily),,
+2.55,Kvanefjeldite,"pink, violet",5.5-6,Vitreous (Glassy),,
+2.55,Lutecite *,gray,6,Vitreous (Glassy),,
+2.55,Parabutlerite,"orange, light brown",2.5,Vitreous (Glassy),,
+2.55,Ralstonite,colorless,4.5,Vitreous - Greasy,,
+2.55,Schrockingerite,yellow,2.5,Vitreous - Pearly,,
+2.55,Steigerite,"yellow, canary",2.5-3,Waxy,,
+2.55,Swinefordite,"gray, greenish",1,Earthy (Dull),,
+2.55,Senegalite,colorless,5.5,Vitreous (Glassy),,
+2.55,Eudidymite,blue,6,Vitreous (Glassy),,
+2.56,Ferrinatrite,white,2.5,Vitreous (Glassy),,
+2.56,Tounkite,"green, bottle",5-5.5,Vitreous (Glassy),,
+2.56,Reyerite,colorless,3-4,Vitreous - Pearly,,
+2.56,Barentsite,colorless,3,Vitreous - Pearly,,
+2.56,Charoite,violet,5-6,Vitreous - Pearly,,
+2.56,Fransoletite,colorless,3,Vitreous (Glassy),,
+2.56,Liottite,colorless,5,Vitreous (Glassy),,
+2.56,Marialite,bluish,5.5-6,Vitreous - Pearly,,
+2.56,Microcline,"green, bluish",6,Vitreous (Glassy),,
+2.56,Navajoite,"brown, dark",1.5,Adamantine,,
+2.56,Orthoclase,colorless,6,Vitreous (Glassy),,
+2.57,Varlamoffite *,yellow,6-6.5,Waxy,,
+2.57,Ansermetite !,"red, carmine",3,Adamantine,,
+2.57,Ashcroftine-(Ce) *,pink,-,Vitreous - Silky,,
+2.57,Burkeite,gray,3.5,Vitreous - Greasy,,
+2.57,Hornesite,white,1,Pearly,,
+2.57,Kieserite,colorless,3.5,Vitreous - Dull,,
+2.57,Leifite,colorless,6,Vitreous (Glassy),,
+2.58,Lechatelierite,colorless,6.5,Vitreous (Glassy),,
+2.58,Caresite,colorless,2,Vitreous (Glassy),,
+2.58,Clinotobermorite,colorless,4.5,Vitreous (Glassy),,
+2.58,Howlite,colorless,2.5-3.5,Earthy (Dull),,
+2.58,Jahnsite-(CaMgMg) !,yellow,4,Vitreous (Glassy),,
+2.58,Jahnsite-(NaFeMg) !,yellow,4,Vitreous (Glassy),,
+2.58,Jahnsite-(NaMnMg) !,yellow,4,Vitreous (Glassy),,
+2.58,Kaliophilite,colorless,5.5-6,Vitreous - Greasy,,
+2.58,Karpinskite,colorless,2.5-3,Greasy (Oily),,
+2.58,Megakalsilite !,colorless,6,Vitreous (Glassy),,
+2.58,Nahpoite,white,1-2,Earthy (Dull),,
+2.58,Nalipoite,white,4,Vitreous (Glassy),,
+2.58,Picropharmacolite,colorless,1-2,Pearly,,
+2.58,Syngenite,colorless,2.5,Vitreous (Glassy),,
+2.58,Tobelite,"green, yellowish",2,Vitreous - Silky,,
+2.58,Whiteite-(CaFeMg),yellow,4,Vitreous - Dull,,
+2.58,Wilhelmvierlingite,"yellow, brownish",4,Vitreous (Glassy),,
+2.59,Anorthoclase,colorless,6,Vitreous (Glassy),,
+2.59,Rabbittite,"green, pale",2.5,Silky,,
+2.59,Clinochrysotile ?,green,2.5-3,Resinous,,
+2.59,Orthochrysotile ?,brownish,2.5-3,Silky,,
+2.59,Parachrysotile ?,green,2.5-3,Silky,,
+2.59,Paraumbite,colorless,4.5,Vitreous - Pearly,,
+2.59,Parsettensite,"red, copper",1.5,Vitreous (Glassy),,
+2.59,Pertlikite !,"green, dark olive",-,Vitreous (Glassy),,
+2.59,Tungusite,"green, grass",2,Pearly,,
+2.60,Bertrandite,colorless,6-7,Vitreous (Glassy),,
+2.60,Afghanite,blue,5.5-6,Vitreous (Glassy),,
+2.60,Halloysite,white,2,Earthy (Dull),,
+2.60,Nepheline,white,6,Vitreous - Greasy,,
+2.60,Albrechtschraufite,"green, yellow",2-3,Vitreous (Glassy),,
+2.60,Bulachite,colorless,2,Silky,,
+2.60,Coeruleolactite,"white, milk",5,Vitreous - Waxy,,
+2.60,Dickite,blue,1.5-2,Pearly,,
+2.60,Kaolinite,white,1.5-2,Earthy (Dull),,
+2.60,Keckite,brown,4.5,Earthy (Dull),,
+2.60,Kimuraite-(Y),white,2.5,Vitreous - Silky,,
+2.60,Mcnearite,white,-,Pearly,,
+2.60,Middendorfite !,"orange, dark",3-3.5,Vitreous (Glassy),,
+2.60,Nacrite,colorless,1,Pearly,,
+2.60,Odinite,green,2.5,Silky,,
+2.60,Roedderite,"green, blue",5-6,Vitreous (Glassy),,
+2.60,Shortite,colorless,3,Vitreous (Glassy),,
+2.60,Spodiophyllite ?,"gray, ash",3-3.5,Pearly,,
+2.60,Uralborite,colorless,4,Vitreous (Glassy),,
+2.60,Wightmanite,colorless,5.5,Vitreous (Glassy),,
+2.60,Zaratite,"green, emerald",3-3.5,Vitreous - Greasy,,
+2.60,Zirklerite,white,3.5,Vitreous - Dull,,
+2.61,Kalsilite,colorless,6,Vitreous - Greasy,,
+2.61,Ashcroftine-(Y),"violet, light",5,Vitreous - Silky,,
+2.61,Kittatinnyite,"yellow, bright",4,Vitreous (Glassy),,
+2.61,Lanthanite-(La),colorless,3,Pearly,,
+2.61,Litvinskite !,"red, dark cherry",5,Vitreous (Glassy),,
+2.61,Sazhinite-(Ce),gray,2.5,Vitreous - Pearly,,
+2.61,Schairerite,colorless,3.5,Vitreous (Glassy),,
+2.61,Zakharovite,yellow,2,Earthy (Dull),,
+2.62,Afwillite,colorless,3,Vitreous (Glassy),,
+2.62,Albite,white,7,Vitreous (Glassy),,
+2.62,Avogadrite,colorless,-,Vitreous - Greasy,,
+2.62,Borocookeite !,"gray, light pinkish",3,Greasy (Oily),,
+2.62,Griceite,"white, green",4.5,Vitreous - Dull,,
+2.62,Oyelite,white,5,Vitreous (Glassy),,
+2.62,Thornasite,colorless,-,Vitreous - Waxy,,
+2.62,Veatchite,colorless,2,Vitreous - Pearly,,
+2.62,Naujakasite,gray,2-3,Pearly,,
+2.63,Quartz,brown,7,Vitreous (Glassy),,
+2.63,Veatchite-p !,colorless,2,Vitreous - Pearly,,
+2.63,Gordaite !,colorless,2.5,Vitreous - Pearly,,
+2.63,Carlosturanite,"brown, light",2.5,Vitreous - Pearly,,
+2.63,Fahleite,gray,2,Silky - Pearly,,
+2.63,Osumilite-(Mg),brown,5-6,Vitreous (Glassy),,
+2.63,Penkvilksite,colorless,5,Pearly,,
+2.63,Ransomite,blue,2.5,Vitreous - Pearly,,
+2.63,Trikalsilite,colorless,6,Vitreous (Glassy),,
+2.63,Whiteite-(CaMnMg),"yellow, greenish",3.5,Vitreous (Glassy),,
+2.64,Donbassite,white,2-2.5,Pearly,,
+2.64,Berlinite,colorless,6.5,Vitreous (Glassy),,
+2.64,Chiavennite,yellow,3,Vitreous (Glassy),,
+2.64,Ehrleite,colorless,3.5,Vitreous (Glassy),,
+2.64,Osumilite-(Fe),blue,5-6,Vitreous (Glassy),,
+2.64,Perhamite,"brown, light",5,Vitreous (Glassy),,
+2.64,Riversideite,white,3,Silky,,
+2.64,Simplotite,"black, greenish",1,Vitreous (Glassy),,
+2.65,Clinochlore,"green, blackish",2-2.5,Vitreous - Pearly,,
+2.65,Cordierite,colorless,7,Vitreous (Glassy),,
+2.65,Jaffeite,colorless,-,Vitreous (Glassy),,
+2.65,Schaurteite,"white, silky",2.5,Silky,,
+2.65,Tiptopite,colorless,3.5,Vitreous (Glassy),,
+2.65,Whiteite-(MnFeMg),"brown, chocolate",4,Vitreous (Glassy),,
+2.65,Oligoclase,brown,7,Vitreous (Glassy),,
+2.65,Vivianite,colorless,1.5-2,Vitreous - Pearly,,
+2.66,Altisite,white,6,Vitreous (Glassy),,
+2.66,Sudoite,white,2.5-3.5,Pearly,,
+2.66,Berezanskite !,white,2.5-3,Vitreous - Pearly,,
+2.66,Bigcreekite !,colorless,2-3,Vitreous - Pearly,,
+2.66,Carbonatecyanotrichite,blue,2,Silky,,
+2.66,Dozyite,colorless,2.5,Pearly,,
+2.66,Glagolevite !,colorless,3-4,Vitreous - Pearly,,
+2.66,Lunokite,colorless,3-4,Vitreous (Glassy),,
+2.66,Zincowoodwardite-3R !,"white, pale bluish",1,Waxy,,
+2.66,Zincsilite,"white, bluish",1.5-2,Pearly,,
+2.66,Chkalovite,colorless,6,Vitreous - Greasy,,
+2.66,Arcanite,colorless,2,Vitreous (Glassy),,
+2.67,Hieratite,colorless,2.5,Vitreous - Greasy,,
+2.67,Pharmacolite,white,2-2.5,Vitreous - Pearly,,
+2.67,Scapolite *,white,6,Vitreous (Glassy),,
+2.67,Torreyite,"white, bluish",3,Vitreous - Pearly,,
+2.67,Montroyalite,white,3.5,Waxy,,
+2.67,Andesine *,colorless,7,Vitreous (Glassy),,
+2.67,Cookeite,white,2.5,Vitreous (Glassy),,
+2.67,Eifelite,colorless,5-6,Vitreous (Glassy),,
+2.67,Eucryptite,brown,6.5,Vitreous (Glassy),,
+2.67,Manganonaujakasite !,"blue, bright",3-4,Vitreous (Glassy),,
+2.67,Rimkorolgite !,"brown, yellowish",3,Vitreous - Silky,,
+2.67,Rouvilleite,colorless,3,Vitreous - Waxy,,
+2.67,Segelerite,green,4,Vitreous - Adamantine,,
+2.67,Tsepinite-Sr !,colorless,5,Vitreous (Glassy),,
+2.68,Glauconite,"green, blue",2,Earthy (Dull),,
+2.68,Szaibelyite,white,3-3.5,Vitreous - Dull,,
+2.68,Kogarkoite,colorless,3.5,Vitreous (Glassy),,
+2.68,Calciohilairite,"white, blue",4,Vitreous (Glassy),,
+2.68,Englishite,colorless,3,Vitreous - Pearly,,
+2.68,Frankamenite !,"blue, greenish",5.5,Vitreous (Glassy),,
+2.68,Guerinite,colorless,1.5,Vitreous - Pearly,,
+2.68,Metasideronatrite,yellow,1.5-2.5,Silky,,
+2.68,Planerite,"green, bluish",5,Vitreous - Dull,,
+2.68,Pyatenkoite-(Y) !,colorless,4-5,Vitreous (Glassy),,
+2.68,Zodacite,"yellow, light",4,Vitreous (Glassy),,
+2.68,Suolunite,colorless,3.5,Vitreous - Resinous,,
+2.69,Plagioclase *,white,6-6.5,Vitreous (Glassy),,
+2.69,Caminite,colorless,2.5,Vitreous (Glassy),,
+2.69,Sabieite,white,2,Earthy (Dull),,
+2.69,Thenardite,white,2.5,Vitreous - Greasy,,
+2.69,Zincowoodwardite !,"blue, pale",1,Waxy,,
+2.69,Liberite,brown,7,Vitreous - Greasy,,
+2.69,Hilgardite,colorless,5,Vitreous (Glassy),,
+2.69,Kaluginite *,"yellow, green",3.5,Vitreous - Greasy,,
+2.69,Lopezite,"red, orange",2.5,Vitreous (Glassy),,
+2.69,Sazykinaite-(Y),"green, light",5,Vitreous (Glassy),,
+2.69,Tinsleyite,"red, dark",5,Vitreous (Glassy),,
+2.69,Tisinalite,"orange, yellow",5,Vitreous (Glassy),,
+2.69,Vanthoffite,colorless,3.5,Vitreous - Pearly,,
+2.70,Svyatoslavite,colorless,6,Vitreous (Glassy),,
+2.70,Edingtonite,"gray, brownish",4-5,Vitreous (Glassy),,
+2.70,Labradorite *,colorless,7,Vitreous (Glassy),,
+2.70,Meionite,bluish,5-6,Vitreous - Resinous,,
+2.70,Augelite,colorless,4.5-5,Vitreous - Pearly,,
+2.70,Huntite,white,1-2,Earthy (Dull),,
+2.70,Aluminum,white,1.5,Metallic - Dull,,
+2.70,Aphthitalite,blue,3,Vitreous - Resinous,,
+2.70,Bassanite,colorless,-,Earthy (Dull),,
+2.70,Bavenite,white,5.5,Vitreous - Pearly,,
+2.70,Franklinphilite,"brown, dark",4,Vitreous - Resinous,,
+2.70,Hillebrandite,colorless,5.5,Vitreous (Glassy),,
+2.70,Kankite,"green, yellow",2-3,Vitreous - Dull,,
+2.70,Kulkeite,colorless,2,Vitreous - Pearly,,
+2.70,Manganotychite,brown,4,Vitreous - Dull,,
+2.70,Nafertisite !,green,2-3,Vitreous - Silky,,
+2.70,Narsarsukite,brown,7,Vitreous (Glassy),,
+2.70,Osakaite !,white,1,Vitreous (Glassy),,
+2.70,Polylithionite,bluish,2-3,Pearly,,
+2.70,Shkatulkalite !,colorless,3,Pearly,,
+2.70,Turquoise,blue,5-6,Waxy,,
+2.70,Voggite,colorless,-,Vitreous (Glassy),,
+2.70,Voltaite,"black, greenish",3-3.5,Silky,,
+2.70,Xonotlite,colorless,6.5,Vitreous - Silky,,
+2.70,Yagiite,colorless,5-6,Vitreous (Glassy),,
+2.70,Hydroniumjarosite,yellow,4-4.5,Vitreous - Resinous,,
+2.71,Armstrongite,"brown, light",4.5,Vitreous (Glassy),,
+2.71,Canasite,"yellow, brownish",-,Vitreous (Glassy),,
+2.71,Bytownite *,colorless,7,Vitreous (Glassy),,
+2.71,Calcite,colorless,3,Vitreous (Glassy),,
+2.71,Callaghanite,azure,3-3.5,Vitreous (Glassy),,
+2.71,Creedite,colorless,3.5,Vitreous - Greasy,,
+2.71,Gjerdingenite-Na !,colorless,5,Vitreous (Glassy),,
+2.71,Karupmollerite-Ca !,white,5,Vitreous - Dull,,
+2.71,Pakhomovskyite !,"pink, bright",2,Pearly,,
+2.71,Spheniscidite,brown,1-1.5,Earthy (Dull),,
+2.71,Strontiodresserite,white,2-3,Vitreous (Glassy),,
+2.71,Terskite,white,5,Vitreous (Glassy),,
+2.71,Zincowoodwardite-1T !,"blue, pale",1,Waxy,,
+2.71,Jahnsite-(CaMnMg),brown,4,Vitreous - Adamantine,,
+2.72,Ershovite,"green, olive",2.5-3,Vitreous (Glassy),,
+2.72,Franconite,white,4,Vitreous - Silky,,
+2.72,Hilairite,"brown, light",4.5,Vitreous (Glassy),,
+2.72,Lennilenapeite,"black, brownish",3,Vitreous - Resinous,,
+2.72,Walentaite,"yellow, greenish",3,Vitreous (Glassy),,
+2.72,Chaidamuite,brown,2.5-3,Vitreous (Glassy),,
+2.73,Guildite,brown,2.5,Vitreous (Glassy),,
+2.73,Manaksite,colorless,5,Vitreous (Glassy),,
+2.73,Telyushenkoite !,white,6,Vitreous (Glassy),,
+2.73,Tsepinite-Ca !,white,-,Vitreous (Glassy),,
+2.73,Veatchite-A,colorless,2,Vitreous - Pearly,,
+2.73,Bradleyite,gray,3-4,Vitreous (Glassy),,
+2.73,Malladrite,rose,3,Vitreous - Greasy,,
+2.74,Anorthite,colorless,6,Vitreous (Glassy),,
+2.74,Eitelite,colorless,3.5,Vitreous (Glassy),,
+2.74,Kostylevite,colorless,5,Vitreous (Glassy),,
+2.74,Lisitsynite !,colorless,5-6,Vitreous (Glassy),,
+2.74,Murmanite,pink,2.5-3,Vitreous - Greasy,,
+2.74,Sugilite,"yellow, brownish",6-6.5,Vitreous (Glassy),,
+2.74,Tarapacaite,yellow,-,Vitreous (Glassy),,
+2.74,Tsepinite-Na !,colorless,5,Vitreous (Glassy),,
+2.74,Fenaksite,brown,5-5.5,Pearly,,
+2.75,Alunite,white,3.5-4,Vitreous - Pearly,,
+2.75,Catapleiite,blue,6,Vitreous (Glassy),,
+2.75,Gearksutite,white,2,Vitreous - Dull,,
+2.75,Illite *,white,1-2,Earthy (Dull),,
+2.75,Knasibfite !,colorless,-,Vitreous (Glassy),,
+2.75,Litidionite,blue,5-6,Vitreous (Glassy),,
+2.75,Lunijianlaite,colorless,2,Vitreous - Pearly,,
+2.75,Natroalunite,white,3.5-4,Vitreous - Pearly,,
+2.75,Orlymanite,"brown, dark",4-5,Vitreous (Glassy),,
+2.75,Saliotite,colorless,2-3,Pearly,,
+2.75,Silvialite !,"white, slightly yellowish",5.5,Vitreous (Glassy),,
+2.75,Talc,"green, pale",1,Vitreous - Pearly,,
+2.75,Tancoite,colorless,4-4.5,Vitreous (Glassy),,
+2.75,Heidornite,colorless,4-5,Vitreous (Glassy),,
+2.76,Pyrophosphite *,white,-,Vitreous (Glassy),,
+2.76,Zeophyllite,white,3,Pearly,,
+2.76,Zincovoltaite,green,3,Vitreous - Resinous,,
+2.76,Alluaivite,"pink, brownish",5-6,Vitreous (Glassy),,
+2.76,Armenite,colorless,7.5,Vitreous (Glassy),,
+2.76,Davanite,colorless,5,Vitreous (Glassy),,
+2.76,Denisovite,"gray, greenish",4-5,Pearly,,
+2.76,Eggletonite,"brown, golden",3-4,Vitreous (Glassy),,
+2.76,Emeleusite,colorless,5-6,Vitreous (Glassy),,
+2.76,Katoite,colorless,5-6,Vitreous (Glassy),,
+2.76,Lanthanite-(Ce),colorless,2.5,Vitreous (Glassy),,
+2.76,Manganosegelerite,yellow,3-4,Vitreous (Glassy),,
+2.76,Phosphosiderite,colorless,3.5-4,Vitreous (Glassy),,
+2.76,Seidite-(Ce) !,yellow,3-4,Vitreous - Silky,,
+2.76,Tokkoite,"yellow, brownish",4-5,Vitreous (Glassy),,
+2.76,Zanazziite,"green, pale olive",5,Vitreous - Pearly,,
+2.77,Beryl,green,7.5-8,Vitreous - Resinous,,
+2.77,Rusakovite,"orange, yellow",1.5-2,Earthy (Dull),,
+2.77,Shafranovskite,"green, yellow",2-3,Vitreous (Glassy),,
+2.77,Amesite,white,2.5-3,Pearly,,
+2.77,Borcarite,"green, blue",4,Vitreous - Pearly,,
+2.77,Calciocatapleiite,"yellow, light",4.5-5,Vitreous - Dull,,
+2.77,Epistolite,white,1-1.5,Pearly,,
+2.77,Fabianite,colorless,6,Vitreous (Glassy),,
+2.77,Fukalite,white,4,Vitreous (Glassy),,
+2.77,Lintisite,colorless,5-6,Vitreous - Pearly,,
+2.77,Namuwite,"green, light",2,Pearly,,
+2.77,Paravinogradovite !,white,5,Vitreous - Pearly,,
+2.77,Scawtite,colorless,4-5,Vitreous (Glassy),,
+2.77,Sekaninaite,blue,7.5,Vitreous (Glassy),,
+2.78,Polyhalite,colorless,2.5-3.5,Vitreous (Glassy),,
+2.78,Glauberite,colorless,2.5-3,Vitreous (Glassy),,
+2.78,Reedmergnerite,"yellow, beige",6-6.5,Vitreous (Glassy),,
+2.78,Armbrusterite !,"brown, dark reddish",3.5,Vitreous (Glassy),,
+2.78,Cryolithionite,colorless,2.5,Vitreous - Greasy,,
+2.78,Goldquarryite !,"blue, pale",3-4,Vitreous (Glassy),,
+2.78,Jahnsite-(CaMnMn),"yellow, brownish",4,Vitreous (Glassy),,
+2.78,Kapustinite !,"red, dark cherry",6,Vitreous (Glassy),,
+2.78,Paragonite,white,2.5,Pearly,,
+2.78,Ponomarevite,"red, orange",2.5,Vitreous - Resinous,,
+2.78,Rorisite,colorless,2,Vitreous (Glassy),,
+2.78,Tumchaite !,colorless,4.5,Vitreous (Glassy),,
+2.78,Hendersonite,"black, greenish",2.5,Adamantine - Pearly,,
+2.79,Ferrotychite,colorless,4,Vitreous (Glassy),,
+2.79,Gjerdingenite-Ca !,white,5,Vitreous (Glassy),,
+2.79,Natropharmacosiderite,"green, pale",3,Vitreous (Glassy),,
+2.79,Stoppaniite !,"blue, light",7.5,Vitreous (Glassy),,
+2.79,Thermessaite !,colorless,-,Vitreous (Glassy),,
+2.79,Umbite,colorless,4.5,Vitreous (Glassy),,
+2.79,Zektzerite,colorless,6,Vitreous - Pearly,,
+2.80,Villiaumite,colorless,2.5,Vitreous (Glassy),,
+2.80,Takovite,"green, blue",2,Pearly,,
+2.80,Bakerite,colorless,4.5,Vitreous (Glassy),,
+2.80,Barium-zinc-alumopharmacosiderite *,colorless,2.5,Vitreous (Glassy),,
+2.80,Bazzite,"blue, azure",6.5,Vitreous (Glassy),,
+2.80,Beryllonite,colorless,5.5-6,Vitreous - Pearly,,
+2.80,Ferripyrophyllite,"yellow, brownish",1.5-2,Pearly,,
+2.80,Guarinoite,pink,1.5-2,Vitreous - Pearly,,
+2.80,Hydrodresserite,colorless,3-4,Vitreous (Glassy),,
+2.80,Lemmleinite-K !,colorless,5,Vitreous (Glassy),,
+2.80,Minamiite,white,3-4,Vitreous (Glassy),,
+2.80,Neotocite,black,3-4,Resinous,,
+2.80,Olympite,colorless,4,Vitreous (Glassy),,
+2.80,Phlogopite,brown,2-2.5,Vitreous - Pearly,,
+2.80,Sherwoodite,"green, blue",2,Vitreous - Dull,,
+2.80,Voglite,"green, emerald",-,Vitreous - Pearly,,
+2.80,Yukonite,"black, brownish",2-3,Resinous,,
+2.81,Anapaite,white,3-4,Vitreous (Glassy),,
+2.81,Sakhaite,colorless,5,Vitreous - Greasy,,
+2.81,Strontioborite,colorless,-,Vitreous (Glassy),,
+2.81,Bandylite,"blue, dark",2.5,Vitreous - Pearly,,
+2.81,Boromuscovite,white,2.5-3,Vitreous - Dull,,
+2.81,Hyalophane,colorless,6-6.5,Vitreous (Glassy),,
+2.81,Lanthanite-(Nd),"pink, light",2.5-3,Vitreous - Pearly,,
+2.81,Rittmannite,"yellow, light",3.5,Vitreous (Glassy),,
+2.81,Zharchikhite,colorless,4.5,Vitreous (Glassy),,
+2.82,Wycheproofite,"orange, pale pinkish",4-5,Vitreous - Pearly,,
+2.82,Corvusite,brown,2.5-3,Earthy (Dull),,
+2.82,Gjerdingenite-Fe !,"yellow, pale",5,Vitreous - Waxy,,
+2.82,Ikranite !,"yellow, brownish",5,Vitreous (Glassy),,
+2.82,Tinaksite,pink,6,Vitreous (Glassy),,
+2.82,Vonbezingite,azure,4,Vitreous (Glassy),,
+2.82,Kuzmenkoite-Mn !,yellow,5,Vitreous (Glassy),,
+2.83,Karlite !,"green, light",5.5,Silky,,
+2.83,Kuzmenkoite-Zn !,colorless,-,Vitreous (Glassy),,
+2.83,Muscovite,white,2-2.5,Vitreous (Glassy),,
+2.83,Andersonite,"green, bright yellow",2.5,Vitreous - Pearly,,
+2.83,Bottinoite,"blue, greenish",3.5,Vitreous (Glassy),,
+2.83,Gutkovaite-Mn !,"pink, pale yellowish",5,Vitreous (Glassy),,
+2.83,Kamaishilite,colorless,-,Vitreous (Glassy),,
+2.83,Langbeinite,colorless,3.5-4,Vitreous (Glassy),,
+2.83,Laplandite-(Ce),"gray, bluish",2-3,Vitreous - Greasy,,
+2.83,Tuscanite,colorless,5.5-6,Vitreous (Glassy),,
+2.83,Yakovenchukite-(Y) !,creamy,5,Vitreous (Glassy),,
+2.83,Yoshiokaite,white,-,Vitreous (Glassy),,
+2.84,Bannisterite,"brown, dark",4,Resinous,,
+2.84,Bermanite,"red, light",3.5,Vitreous - Resinous,,
+2.84,Dalyite,colorless,7.5,Vitreous (Glassy),,
+2.84,Dualite !,yellow,5,Vitreous (Glassy),,
+2.84,Ganophyllite,"yellow, brownish",4-4.5,Vitreous (Glassy),,
+2.84,Kazakovite,"yellow, light",4,Vitreous - Greasy,,
+2.84,Khaidarkanite !,"blue, bright",2.5,Vitreous (Glassy),,
+2.84,Krausite,"green, yellow",2.5,Vitreous (Glassy),,
+2.84,Reevesite,"yellow, green",2,Pearly,,
+2.84,Reinhardbraunsite,"pink, light",5-6,Vitreous (Glassy),,
+2.84,Ronneburgite !,"brown, reddish",3,Adamantine,,
+2.84,Wardite,"green, blue",5,Vitreous (Glassy),,
+2.84,Zircosulfate,colorless,2.5-3,Earthy (Dull),,
+2.84,Jungite,"green, dark",1,Vitreous - Silky,,
+2.85,Cyanotrichite,"blue, sky",2,Silky,,
+2.85,Atencioite !,"brown, greenish",4.5,Vitreous (Glassy),,
+2.85,Cacoxenite,"yellow, brownish",3-3.5,Silky,,
+2.85,Chantalite,colorless,-,Vitreous (Glassy),,
+2.85,Crandallite,gray,4,Vitreous - Dull,,
+2.85,Cuspidine,colorless,5-6,Vitreous (Glassy),,
+2.85,Dolomite,white,3.5-4,Vitreous (Glassy),,
+2.85,Lepidolite,colorless,2.5-3,Vitreous - Pearly,,
+2.85,Pyrophyllite,"green, brown",1.5-2,Pearly,,
+2.85,Wollastonite-1A,white,5,Vitreous - Silky,,
+2.85,Wollastonite-2M *,white,5,Vitreous - Silky,,
+2.85,Wollastonite-3A-4A-5A-7A *,white,5,Vitreous - Silky,,
+2.85,Aheylite,"green, blue",5-6,Vitreous - Dull,,
+2.85,Demartinite !,colorless,-,Vitreous (Glassy),,
+2.85,Eveslogite !,"brown, light",5,Vitreous - Silky,,
+2.85,Mineevite-(Y),green,4,Vitreous - Pearly,,
+2.85,Nacaphite,colorless,3,Vitreous (Glassy),,
+2.85,Nepouite,"green, pale",2-2.5,Vitreous - Pearly,,
+2.85,Tamaite !,colorless,4,Vitreous - Pearly,,
+2.85,Wallkilldellite,"red, dark",3,Vitreous (Glassy),,
+2.86,Brammallite *,white,2.5-3,Earthy (Dull),,
+2.86,Carlhintzeite,colorless,-,Vitreous (Glassy),,
+2.86,Furongite,yellow,2-3,Vitreous (Glassy),,
+2.86,Jahnsite-(CaMnFe),brown,4,Vitreous - Adamantine,,
+2.86,Manganokukisvumite !,colorless,5.5-6,Vitreous (Glassy),,
+2.86,Pectolite,white,5,Vitreous - Silky,,
+2.86,Sheldrickite !,colorless,3,Vitreous (Glassy),,
+2.86,Sitinakite,colorless,4.5,Vitreous (Glassy),,
+2.86,Nenadkevichite !,brown,5,Earthy (Dull),,
+2.87,Clinophosinaite !,"violet, light",4,Vitreous (Glassy),,
+2.87,Stilpnomelane,"red, brown",3,Vitreous - Dull,,
+2.87,Caryopilite,"brown, reddish",3-3.5,Vitreous (Glassy),,
+2.87,Chiolite,colorless,3.5-4,Vitreous - Greasy,,
+2.87,Cianciulliite,"brown, dark",2,Pearly,,
+2.87,Feklichevite !,"brown, dark",5.5,Vitreous (Glassy),,
+2.87,Merrihueite,"blue, greenish",5-6,Vitreous (Glassy),,
+2.87,Strengite,colorless,3.5,Vitreous (Glassy),,
+2.87,Tinticite,white,2.5,Earthy (Dull),,
+2.87,Whitmoreite,brown,3,Vitreous - Adamantine,,
+2.88,Prehnite,colorless,6-6.5,Vitreous - Pearly,,
+2.88,Hurlbutite,colorless,6,Vitreous - Greasy,,
+2.88,Vinogradovite,colorless,4,Vitreous (Glassy),,
+2.88,Chromphyllite !,"green, emerald",3,Vitreous (Glassy),,
+2.88,Ferrisymplesite,"brown, yellow",2.5,Resinous,,
+2.88,Grossite,colorless,-,Vitreous (Glassy),,
+2.88,Labuntsovite-Mg !,colorless,5,Vitreous (Glassy),,
+2.88,Labyrinthite !,"pink, vivid",-,Vitreous (Glassy),,
+2.88,Neskevaaraite-Fe !,"brown, pale",5,Vitreous (Glassy),,
+2.88,Organovaite-Mn !,"brown, rose",5,Vitreous (Glassy),,
+2.88,Organovaite-Zn !,pink,5,Vitreous (Glassy),,
+2.88,Paratsepinite-Ba !,brown,5,Vitreous (Glassy),,
+2.88,Petarasite,"yellow, brownish",5-5.5,Vitreous (Glassy),,
+2.88,Tsepinite-K !,"brown, light",5,Vitreous (Glassy),,
+2.88,Yavapaiite,"pink, light",2.5-3,Vitreous (Glassy),,
+2.88,Zunyite,colorless,7,Vitreous (Glassy),,
+2.89,Miserite,"pink, lilac",5.5-6,Vitreous - Pearly,,
+2.89,Prosopite,white,4-5,Vitreous - Dull,,
+2.89,Xanthoxenite,"yellow, brownish",2.5,Earthy (Dull),,
+2.89,Agrellite,white,5.5,Vitreous - Pearly,,
+2.89,Fluoborite,colorless,3.5,Vitreous - Silky,,
+2.89,Golyshevite !,"brown, dark reddish",5.5,Vitreous (Glassy),,
+2.89,Hydroxylborite !,colorless,3.5,Vitreous (Glassy),,
+2.89,Manandonite,colorless,2.5-3.5,Pearly,,
+2.90,Hochelagaite,white,4,Vitreous (Glassy),,
+2.90,Alsakharovite-Zn !,white,5,Vitreous (Glassy),,
+2.90,Beraunite,green,2,Vitreous - Dull,,
+2.90,Boracite,"green, blue",7,Vitreous - Adamantine,,
+2.90,Carpholite,"yellow, straw",5.5,Silky,,
+2.90,Chromceladonite !,"green, emerald",1-2,Vitreous - Silky,,
+2.90,Datolite,brown,5.5,Vitreous (Glassy),,
+2.90,Earlshannonite,yellow,3-4,Vitreous (Glassy),,
+2.90,Eudialyte,"red, pinkish",5-5.5,Vitreous (Glassy),,
+2.90,Kukisvumite,colorless,5.5-6,Vitreous (Glassy),,
+2.90,Malinkoite !,white,5,Vitreous (Glassy),,
+2.90,Mogovidite !,"brown, dark reddish",5.5,Vitreous (Glassy),,
+2.90,Pharmacosiderite,"green, olive",2.5,Adamantine - Resinous,,
+2.90,Phosphofibrite,yellow,4,Vitreous (Glassy),,
+2.90,Pollucite,colorless,6.5,Vitreous - Dull,,
+2.90,Sidorenkite,"pink, light",2,Vitreous - Pearly,,
+2.90,Sogdianite,violet,7,Vitreous (Glassy),,
+2.90,Sorensenite,colorless,5.5,Vitreous - Silky,,
+2.90,Tainiolite,brownish,2.5-3,Vitreous (Glassy),,
+2.90,Zirsinalite,colorless,5,Vitreous (Glassy),,
+2.90,Braitschite-(Ce),colorless,-,Vitreous (Glassy),,
+2.91,Rosenhahnite,"white, beige",4.5-5,Vitreous (Glassy),,
+2.91,Katayamalite,white,3.5-4,Vitreous - Pearly,,
+2.91,Moskvinite-(Y) !,white,5,Vitreous (Glassy),,
+2.91,Poldervaartite,colorless,5,Vitreous (Glassy),,
+2.91,Reederite-(Y) !,yellow,3-3.5,Vitreous (Glassy),,
+2.91,Suanite,"white, gray",5.5,Silky - Pearly,,
+2.92,Baratovite,"white, pearl",3.5,Vitreous - Pearly,,
+2.92,Darapiosite,blue,5,Vitreous (Glassy),,
+2.92,Faustite,"green, apple",5.5,Earthy (Dull),,
+2.92,Gatumbaite,white,4-5,Pearly,,
+2.92,Isoclasite,colorless,1.5,Vitreous - Pearly,,
+2.92,Karnasurtite-(Ce),yellow,2,Greasy (Oily),,
+2.92,Lokkaite-(Y),"white, snow",-,Vitreous (Glassy),,
+2.92,Natrobetpakdalite,"yellow, lemon",-,Earthy (Dull),,
+2.92,Rauvite,"black, bluish",-,Adamantine - Waxy,,
+2.93,Monetite,colorless,3.5,Vitreous (Glassy),,
+2.93,Aragonite,colorless,3.5-4,Vitreous (Glassy),,
+2.93,Bostwickite,"red, dark",1,Vitreous - Metallic,,
+2.93,Burgessite !,"pink, purplish",3,Adamantine,,
+2.93,Coesite,colorless,7.5,Vitreous (Glassy),,
+2.93,Eakerite,colorless,5.5,Vitreous (Glassy),,
+2.93,Ferroaluminoceladonite !,"green, dark bluish",2-2.5,Earthy (Dull),,
+2.93,Greifensteinite !,"green, dark olive",4.5,Vitreous (Glassy),,
+2.93,Imandrite,"yellow, honey",5-5.5,Vitreous (Glassy),,
+2.93,Latiumite,white,5.5-6,Vitreous (Glassy),,
+2.93,Mandarinoite,"white, greenish",2.5,Vitreous - Greasy,,
+2.93,Minehillite,colorless,4,Vitreous - Pearly,,
+2.94,Roweite,"brown, light",5,Vitreous (Glassy),,
+2.94,Sarcolite,"pink, flesh",6,Vitreous (Glassy),,
+2.94,Aluminobarroisite !,,5-6,Vitreous (Glassy),,
+2.94,Aminoffite,colorless,5.5,Vitreous (Glassy),,
+2.94,Chudobaite,pink,2.5-3,Vitreous (Glassy),,
+2.94,Dellaite,colorless,-,Vitreous (Glassy),,
+2.94,Gainesite,blue,4,Vitreous (Glassy),,
+2.94,Grantsite,"black, green",1-2,Silky,,
+2.94,Holtedahlite,colorless,4.5-5,Vitreous (Glassy),,
+2.94,Hydroxylherderite,blue,5-5.5,Vitreous (Glassy),,
+2.94,Ktenasite,blue,2-2.5,Vitreous (Glassy),,
+2.94,Labuntsovite-Fe !,orange,5,Vitreous (Glassy),,
+2.94,Maricopaite,white,1-1.5,Vitreous - Silky,,
+2.94,Masutomilite,"pink, purple",2.5,Vitreous - Pearly,,
+2.94,Meurigite-Na !,cream,3,Silky,,
+2.94,Selwynite,"blue, deep purplish",4,Vitreous (Glassy),,
+2.94,Spodiosite ?,gray,5,Earthy (Dull),,
+2.94,Akermanite,colorless,5-6,Vitreous - Resinous,,
+2.95,Leucophosphite,brown,3.5,Vitreous - Dull,,
+2.95,Collinsite,colorless,3-3.5,Silky,,
+2.95,Gorgeyite,colorless,3.5,Vitreous (Glassy),,
+2.95,Haidingerite,colorless,2-2.5,Vitreous - Adamantine,,
+2.95,Leightonite,"green, blue",3,Vitreous (Glassy),,
+2.95,Liroconite,"blue, light",2-2.5,Vitreous - Resinous,,
+2.95,Mapimite,blue,3,Vitreous (Glassy),,
+2.95,Melilite,white,5-5.5,Vitreous - Greasy,,
+2.95,Metaswitzerite,brown,2.5,Pearly,,
+2.95,Panethite,"yellow, brownish",-,Vitreous (Glassy),,
+2.95,Raslakite !,"red, brownish",5,Vitreous (Glassy),,
+2.95,Steacyite,brown,5,Vitreous - Dull,,
+2.95,Sterlinghillite,white,3,Silky - Pearly,,
+2.95,Stronalsite,white,6.5,Vitreous (Glassy),,
+2.95,Ternovite !,white,3,Adamantine - Silky,,
+2.95,Vuoriyarvite-K !,white,4.5,Vitreous (Glassy),,
+2.95,Amakinite,"green, yellow",3.5-4,Pearly,,
+2.96,Labuntsovite-Mn !,"yellow, brownish",6,Greasy (Oily),,
+2.96,Harkerite,colorless,-,Vitreous (Glassy),,
+2.96,Ajoite,"green, blue",-,Vitreous (Glassy),,
+2.96,Cebollite,colorless,5,Vitreous - Dull,,
+2.96,Dresserite,white,2.5-3,Vitreous - Silky,,
+2.96,Dusmatovite,blue,4.5,Vitreous (Glassy),,
+2.96,Lepkhenelmite-Zn !,"brown, pale",5,Vitreous (Glassy),,
+2.96,Leucophanite,white,4,Vitreous (Glassy),,
+2.96,Meurigite-K !,white,3,Silky,,
+2.96,Numanoite !,colorless,4.5,Vitreous (Glassy),,
+2.96,Odintsovite,colorless,5-5.5,Vitreous (Glassy),,
+2.96,Preiswerkite,"white, greenish",2.5,Vitreous - Pearly,,
+2.96,Ternesite !,colorless,4.5,Vitreous (Glassy),,
+2.96,Weberite,greenish,3.5,Vitreous (Glassy),,
+2.96,Winchite,"blue, cobalt",5.5,Vitreous (Glassy),,
+2.96,Morinite,colorless,4-4.5,Vitreous - Greasy,,
+2.97,Anhydrite,colorless,3.5,Vitreous - Pearly,,
+2.97,Althausite,gray,3.5,Vitreous (Glassy),,
+2.97,Pezzottaite !,"red, raspberry",8,Vitreous (Glassy),,
+2.97,Phosinaite-(Ce) !,colorless,3.5,Vitreous (Glassy),,
+2.97,Roscoelite,"green, brown",2.5,Pearly,,
+2.97,Sincosite,green,1-2,Vitreous - Metallic,,
+2.97,Vlasovite,colorless,6,Vitreous - Greasy,,
+2.97,Voronkovite !,"brown, light",5,Vitreous (Glassy),,
+2.97,Melkovite,"yellow, brownish",3,Earthy (Dull),,
+2.98,Cryolite,"black, brownish",2.5-3,Vitreous - Greasy,,
+2.98,Grandidierite,"green, bluish",7.5,Vitreous (Glassy),,
+2.98,Bementite,brown,6,Vitreous (Glassy),,
+2.98,Brannockite,colorless,5-6,Vitreous (Glassy),,
+2.98,Brazilianite,colorless,5.5,Vitreous (Glassy),,
+2.98,Bykovaite !,"yellow, creamy",3,Silky,,
+2.98,Mcgillite,"pink, light",5,Pearly,,
+2.98,Pachnolite,colorless,3,Vitreous - Greasy,,
+2.98,Rankinite,colorless,5.5,Vitreous (Glassy),,
+2.98,Symplesite,blue,2.5,Vitreous - Pearly,,
+2.98,Thomsenolite,colorless,2,Vitreous - Greasy,,
+2.98,Ephesite,"pink, brownish",3.5-4.5,Vitreous - Pearly,,
+2.99,Gehlenite,brown,5-6,Vitreous - Greasy,,
+2.99,Hsianghualite,white,6.5,Vitreous (Glassy),,
+2.99,Phenakite,colorless,7.5-8,Vitreous (Glassy),,
+2.99,Caryochroite !,"brown, hazel",2.5,Waxy,,
+2.99,Jeffreyite,colorless,5,Vitreous (Glassy),,
+2.99,Kurgantaite !,white,6-6.5,Vitreous (Glassy),,
+3.00,Danburite,colorless,7,Vitreous - Greasy,,
+3.00,Elpasolite,colorless,2.5,Vitreous - Greasy,,
+3.00,Akaganeite,brown,-,Adamantine - Metallic,,
+3.00,Bityite,"white, brown",5.5,Vitreous (Glassy),,
+3.00,Brianite,colorless,4-5,Vitreous (Glassy),,
+3.00,Bussyite-(Ce) !,"orange, pale pinkish",-,Vitreous (Glassy),,
+3.00,Campigliaite,"blue, light",-,Vitreous (Glassy),,
+3.00,Celadonite,"green, gray",2,Earthy (Dull),,
+3.00,Clinoholmquistite ?,"gray, blue",5-6,Vitreous (Glassy),,
+3.00,Coombsite !,brown,-,Vitreous (Glassy),,
+3.00,Fluoro-sodic-pedrizite !,"blue, pale",5-6,Vitreous (Glassy),,
+3.00,Greenalite,"green, blue",2.5,Earthy (Dull),,
+3.00,Herderite,white,5,Vitreous (Glassy),,
+3.00,Hopeite,colorless,3,Vitreous (Glassy),,
+3.00,Koashvite,"yellow, brownish",6,Vitreous (Glassy),,
+3.00,Magnesite,colorless,4,Vitreous (Glassy),,
+3.00,Monsmedite ?,"green, dark",2,Resinous,,
+3.00,Orientite,brown,4-5,Vitreous (Glassy),,
+3.00,Orthoserpierite,"green, pale blue",-,Vitreous (Glassy),,
+3.00,Parakuzmenkoite-Fe !,orange,5,Vitreous (Glassy),,
+3.00,Phosphoellenbergerite !,blue,6.5,Vitreous (Glassy),,
+3.00,Rossmanite !,pink,7,Vitreous (Glassy),,
+3.00,Schlossmacherite,"green, gray",3-4,Vitreous (Glassy),,
+3.00,Siderophyllite,"green, blue",2.5,Vitreous - Dull,,
+3.00,Spurrite,gray,5,Vitreous (Glassy),,
+3.00,Wallkilldellite-(Fe) !,"yellow, brownish",2-3,Vitreous - Resinous,,
+3.00,Wawayandaite,colorless,1,Pearly,,
+3.00,Xiangjiangite,yellow,1-2,Silky,,
+3.00,Zinnwaldite,"brown, light",3.5-4,Vitreous - Pearly,,
+3.01,Cascandite,"pink, light",4.5-5.5,Vitreous (Glassy),,
+3.01,Chladniite,colorless,4,Vitreous - Resinous,,
+3.01,Gonyerite,"brown, dark",2.5,Pearly,,
+3.01,Minnesotaite,"green, pale",1.5-2,Pearly,,
+3.01,Nefedovite,colorless,4.5,Vitreous (Glassy),,
+3.01,Olenite !,"pink, light",7,Vitreous - Greasy,,
+3.01,Woodhouseite,colorless,4.5,Vitreous - Pearly,,
+3.02,Betpakdalite,"yellow, bright lemon",3,Vitreous - Waxy,,
+3.02,Ogdensburgite,"red, brownish",2,Resinous,,
+3.02,Heneuite,"violet, bluish",5,Vitreous (Glassy),,
+3.02,Bromellite,white,9,Vitreous (Glassy),,
+3.02,Meliphanite,colorless,5-5.5,Vitreous (Glassy),,
+3.02,Ammoniojarosite,yellow,3.5-4.5,Earthy (Dull),,
+3.02,Arthurite,"green, apple",3-4,Vitreous (Glassy),,
+3.02,Clinojimthompsonite,colorless,2-2.5,Silky - Pearly,,
+3.02,Ellestadite-(OH),"pink, light",4.5,Vitreous (Glassy),,
+3.02,Hubeite !,"brown, dark",5.5,Vitreous (Glassy),,
+3.02,Kurchatovite,"gray, light",4.5,Vitreous (Glassy),,
+3.02,Liddicoatite !,blue,7.5,Vitreous (Glassy),,
+3.02,Manganolangbeinite,pink,2.5-3,Vitreous (Glassy),,
+3.02,Sieleckiite,"blue, sky",3,Pearly,,
+3.02,Thorosteenstrupine,"brown, dark",4,Vitreous - Greasy,,
+3.03,Montebrasite ?,bluish,5.5-6,Vitreous - Greasy,,
+3.03,Szmikite,"white, brown",1.5,Vitreous (Glassy),,
+3.03,Edenite,"green, bluish",6,Vitreous (Glassy),,
+3.03,Avdoninite !,green,3,Vitreous (Glassy),,
+3.03,Barahonaite-(Fe) !,"yellow, greenish",-,Vitreous (Glassy),,
+3.03,Berthierine,"green, brown",2.5,Pearly,,
+3.03,Caysichite-(Y),colorless,4.5,Vitreous (Glassy),,
+3.03,Gugiaite,colorless,3-4,Vitreous (Glassy),,
+3.03,Jasmundite,"green, brownish",5,Resinous,,
+3.03,Jimthompsonite,colorless,2-2.5,Silky - Pearly,,
+3.03,Lemmleinite-Ba !,"orange, bright",-,Vitreous (Glassy),,
+3.03,Neighborite,colorless,4.5,Vitreous (Glassy),,
+3.03,Sobolevite,brown,4.5-5,Resinous,,
+3.03,Balangeroite,"yellow, brownish",-,Vitreous - Greasy,,
+3.03,Mansfieldite,white,3.5-4,Vitreous (Glassy),,
+3.04,Boehmite,white,3,Vitreous - Pearly,,
+3.04,Bokite,black,3,Metallic - Dull,,
+3.04,George-ericksenite !,"yellow, pale",3-4,Vitreous (Glassy),,
+3.04,Margarite,white,4,Pearly,,
+3.04,Actinolite,green,5.5,Vitreous (Glassy),,
+3.04,Ferrocarpholite,"green, gray",5.5,Silky,,
+3.04,Kidwellite,"yellow, greenish",3,Silky,,
+3.04,Kotoite,colorless,6.5,Vitreous (Glassy),,
+3.04,Natromontebrasite ?,white,5.5,Vitreous - Greasy,,
+3.04,Sainfeldite,colorless,4,Vitreous (Glassy),,
+3.04,Werdingite,"yellow, brownish",7,Vitreous (Glassy),,
+3.04,Euclase,blue,7.5,Vitreous (Glassy),,
+3.05,Amblygonite,white,5.5-6,Vitreous - Pearly,,
+3.05,Leucosphenite,colorless,6-6.5,Vitreous (Glassy),,
+3.05,Ankerite,brown,3.5-4,Vitreous (Glassy),,
+3.05,Annabergite,"green, apple",2,Pearly,,
+3.05,Clintonite,colorless,4-5,Pearly,,
+3.05,Comblainite,blue,2,Pearly,,
+3.05,Elbaite !,blue,7.5,Vitreous (Glassy),,
+3.05,Ellestadite-(F),blue,4.5,Vitreous - Greasy,,
+3.05,Ferroceladonite !,"green, dark bluish",2-2.5,Earthy (Dull),,
+3.05,Ferro-edenite,green,5-6,Vitreous (Glassy),,
+3.05,Fluorocannilloite !,"gray, greenish",6,Vitreous (Glassy),,
+3.05,Geigerite,red,3,Vitreous - Pearly,,
+3.05,Georgbarsanovite !,"green, yellowish",5,Vitreous (Glassy),,
+3.05,Lazulite,blue,5-6,Vitreous (Glassy),,
+3.05,Mullite,colorless,6-7,Vitreous (Glassy),,
+3.05,Olmiite !,"pink, reddish",5-5.5,Vitreous (Glassy),,
+3.05,Simmonsite !,"cream, pale buff",2.5-3,Greasy (Oily),,
+3.05,Szomolnokite,bluish,2.5,Vitreous (Glassy),,
+3.05,Tetraferriannite,brown,2.5-3,Vitreous - Adamantine,,
+3.05,Tremolite,brown,5-6,Vitreous - Pearly,,
+3.05,Wulfingite,colorless,3,Waxy,,
+3.05,Yuksporite,"pink, brown",4.5-5,Vitreous (Glassy),,
+3.06,Znucalite,white,-,Silky,,
+3.06,Bonshtedtite,colorless,4,Vitreous (Glassy),,
+3.06,Boralsilite !,white,-,Vitreous (Glassy),,
+3.06,Christelite !,"blue, greenish",2-3,Vitreous (Glassy),,
+3.06,Ferrokentbrooksite !,"brown, reddish",5-6,Vitreous (Glassy),,
+3.06,Hauckite,"orange, bright",2-3,Vitreous - Pearly,,
+3.06,Mikasaite,white,2,Earthy (Dull),,
+3.06,Pennantite,"red, orange",2-3,Pearly,,
+3.06,Sellaite,colorless,5-6,Vitreous - Greasy,,
+3.06,Wadalite,colorless,-,Vitreous (Glassy),,
+3.06,Inesite,brown,6,Vitreous (Glassy),,
+3.07,Banalsite,white,6,Vitreous - Pearly,,
+3.07,Crawfordite,colorless,3,Vitreous (Glassy),,
+3.07,Nagelschmidtite,brown,-,Vitreous (Glassy),,
+3.07,Nasledovite,"white, snow",2,Silky,,
+3.07,Ellestadite-(Cl),colorless,4.5,Vitreous (Glassy),,
+3.07,Friedelite,brown,4-5,Vitreous (Glassy),,
+3.07,Kellyite,"yellow, golden",2.5,Vitreous - Resinous,,
+3.07,Manganocummingtonite,brownish,6-6.5,Vitreous (Glassy),,
+3.07,Parasymplesite,"blue, greenish",2,Silky,,
+3.07,Parvowinchite,"yellow, straw",5-6,Vitreous (Glassy),,
+3.07,Polyphite-VII,brown,5,Vitreous - Resinous,,
+3.07,Polyphite-VIII,brown,5,Vitreous - Resinous,,
+3.07,Rodolicoite !,brown,-,Greasy (Oily),,
+3.07,Serpierite,"blue, sky",3.5-4,Vitreous - Pearly,,
+3.08,Glaucophane,gray,6-6.5,Vitreous - Pearly,,
+3.08,Apatite-(CaOH),colorless,5,Vitreous - Dull,,
+3.08,Cuprorivaite,blue,5,Vitreous (Glassy),,
+3.08,Cyrilovite,yellow,4,Vitreous (Glassy),,
+3.08,Ekanite,green,4.5,Vitreous (Glassy),,
+3.08,Eosphorite,"pink, light",5,Vitreous - Resinous,,
+3.08,Messelite,colorless,3.5,Vitreous - Pearly,,
+3.08,Potassiccarpholite !,white,5,Silky,,
+3.08,Trabzonite,colorless,-,Vitreous (Glassy),,
+3.09,Eckermannite,"green, blue",5-6,Vitreous (Glassy),,
+3.09,Kentbrooksite !,"brown, yellowish",5-6,Vitreous (Glassy),,
+3.09,Souzalite,"green, blue",5.5-6,Vitreous (Glassy),,
+3.09,Dravite !,black,7-7.5,Vitreous - Resinous,,
+3.09,Ferrobustamite,green,6,Vitreous (Glassy),,
+3.09,Fluoro-magnesio-arfvedsonite !,"gray, light",5.5,Vitreous (Glassy),,
+3.09,Irhtemite,colorless,-,Silky,,
+3.09,Lawsonite,colorless,7.5,Vitreous - Greasy,,
+3.09,Richterite,blue,6,Vitreous (Glassy),,
+3.09,Trembathite,colorless,6-8,Vitreous (Glassy),,
+3.09,Trolleite,"blue, light",5.5-6,Vitreous (Glassy),,
+3.09,Yaroslavite,white,4.5,Vitreous (Glassy),,
+3.09,Zeravshanite !,colorless,6,Vitreous (Glassy),,
+3.10,Holmquistite,blue,5.5,Vitreous (Glassy),,
+3.10,Biotite *,"brown, dark",2.5-3,Vitreous - Pearly,,
+3.10,Jarosite,brown,2.5-3.5,Vitreous (Glassy),,
+3.10,Natrojarosite,yellow,2.5-3.5,Vitreous (Glassy),,
+3.10,Alumoklyuchevskite,"green, dark",2,Vitreous (Glassy),,
+3.10,Bertossaite,"pink, light",6,Vitreous (Glassy),,
+3.10,Blakeite,brown,2-3,Earthy (Dull),,
+3.10,Camerolaite,"green, blue",-,Silky,,
+3.10,Cassidyite,green,3.5,Vitreous (Glassy),,
+3.10,Chalcosiderite,"green, apple",4.5,Vitreous (Glassy),,
+3.10,Cyanophyllite,"blue, greenish",2,Silky - Pearly,,
+3.10,Delrioite,"brown, yellow",2,Vitreous - Pearly,,
+3.10,Fairfieldite,"white, greenish",3.5,Vitreous - Pearly,,
+3.10,Phosphophyllite,"green, blue",3-3.5,Vitreous (Glassy),,
+3.10,Rancieite,"brown, violet",2.5-3,Metallic - Dull,,
+3.10,Reddingite,white,3.5,Vitreous - Resinous,,
+3.10,Spangolite,"green, blue",2.5-3,Vitreous (Glassy),,
+3.10,Takedaite,white,4.5,Vitreous (Glassy),,
+3.11,Haiweeite,"yellow, greenish",3.5,Pearly,,
+3.11,Wagnerite,greenish,5-5.5,Vitreous (Glassy),,
+3.11,Erlianite,black,3.5,Silky,,
+3.11,Gladiusite !,"green, dark",4-4.5,Vitreous (Glassy),,
+3.11,Leakeite,"red, dark",6,Vitreous (Glassy),,
+3.11,Nanpingite,white,2.5-3,Vitreous - Pearly,,
+3.11,Saryarkite-(Y),white,3.5-4,Greasy (Oily),,
+3.11,Scholzite,colorless,4,Vitreous (Glassy),,
+3.11,Kutnohorite,white,3.5-4,Vitreous - Dull,,
+3.12,Devilline,blue,2.5,Vitreous - Pearly,,
+3.12,Wadeite,colorless,5.5-6,Adamantine,,
+3.12,Arctite,colorless,5,Vitreous - Pearly,,
+3.12,Carbonate-fluorapatite ?,colorless,5,Vitreous - Resinous,,
+3.12,Erythrite,colorless,1.5-2,Pearly,,
+3.12,Mccrillisite,colorless,4.5,Vitreous (Glassy),,
+3.12,Mcguinnessite,"green, blue",2.5,Vitreous - Silky,,
+3.12,Nyboite,blue,6,Vitreous (Glassy),,
+3.12,Paranatisite,yellow,5,Vitreous - Adamantine,,
+3.12,Parascholzite,colorless,4,Vitreous (Glassy),,
+3.12,Quadruphite-VII,brown,5,Vitreous - Resinous,,
+3.12,Quadruphite-VIII,brown,5,Vitreous - Resinous,,
+3.12,Sidwillite,yellow,2.5,Resinous,,
+3.12,Spencerite,white,3,Vitreous - Pearly,,
+3.12,Sussexite,white,3,Pearly,,
+3.12,Tengerite-(Y),white,-,Vitreous - Dull,,
+3.13,Orthochamosite !,green,2,Pearly,,
+3.13,Pargasite,"green, bluish",6,Vitreous (Glassy),,
+3.13,Pyrosmalite-(Fe),green blackish,4.5,Vitreous (Glassy),,
+3.13,Pyrosmalite-(Mn),green blackish,4.5,Vitreous (Glassy),,
+3.13,Fluorite,white,4,Vitreous (Glassy),,
+3.13,Gormanite,"green, blue",4-5,Vitreous (Glassy),,
+3.13,Hibschite,colorless,6.5,Vitreous (Glassy),,
+3.13,Hydroxylclinohumite !,"orange, yellow",6.5,Vitreous - Dull,,
+3.13,Magnesiocummingtonite,brown,5-6,Silky,,
+3.13,Manganokhomyakovite !,orange,5-6,Vitreous (Glassy),,
+3.13,Moydite-(Y),yellow,1-2,Vitreous (Glassy),,
+3.13,Seamanite,yellow,4,Vitreous (Glassy),,
+3.13,Shabaite-(Nd),"yellow, pale greenish",2.5,Pearly,,
+3.13,Vuonnemite,"yellow, light",2-3,Vitreous - Greasy,,
+3.13,Whitlockite,colorless,5,Vitreous - Resinous,,
+3.13,Widgiemoolthalite,"green, blue",3.5,Silky,,
+3.14,Ferroglaucophane,blue,6,Vitreous - Dull,,
+3.14,Lomonosovite,"brown, dark",3-4,Vitreous - Adamantine,,
+3.14,Carbokentbrooksite !,yellow,5,Vitreous (Glassy),,
+3.14,Chernykhite,"green, dark",3-4,Vitreous (Glassy),,
+3.14,Krauskopfite,colorless,4,Vitreous - Pearly,,
+3.14,Mahnertite !,blue,2-3,Vitreous (Glassy),,
+3.14,Semenovite,brown,3.5-4,Vitreous (Glassy),,
+3.14,Vladimirite,colorless,3.5,Vitreous (Glassy),,
+3.15,Zussmanite,"green, light",-,Vitreous (Glassy),,
+3.15,Hainite,"yellow, honey",5,Adamantine,,
+3.15,Mongolite,"lilac, gray",2,Silky,,
+3.15,Andalusite,"green, dark",6.5-7,Vitreous (Glassy),,
+3.15,Barnesite,"red, brown",-,Adamantine,,
+3.15,Davreuxite,"white, cream",2-3,Silky,,
+3.15,Hydroastrophyllite,"brown, dark",3-4,Vitreous - Adamantine,,
+3.15,Ludlamite,"green, apple",3.5,Vitreous (Glassy),,
+3.15,Merwinite,colorless,6,Vitreous (Glassy),,
+3.15,Natisite,"gray, greenish",3-4,Vitreous - Adamantine,,
+3.15,Skorpionite !,white,-,Vitreous (Glassy),,
+3.15,Sodic-ferripedrizite !,green,6,Vitreous (Glassy),,
+3.15,Stanfieldite,"brown, yellow",4-5,Vitreous (Glassy),,
+3.15,Tuliokite,"brown, light",3-4,Vitreous (Glassy),,
+3.15,Zirsilite-(Ce) !,cream,5,Vitreous (Glassy),,
+3.15,Apatite-(CaCl),white,5,Vitreous - Dull,,
+3.15,Apatite-(CaF),blue,5,Vitreous - Resinous,,
+3.15,Autunite,yellow,2-2.5,Vitreous - Pearly,,
+3.15,Chondrodite,yellow,6-6.5,Vitreous - Greasy,,
+3.15,Humite,brown,6-6.5,Vitreous (Glassy),,
+3.15,Norbergite,white,6-6.5,Vitreous - Resinous,,
+3.15,Schorl !,black,7.5,Vitreous (Glassy),,
+3.15,Spodumene,"white, grayish",6.5-7,Vitreous (Glassy),,
+3.15,Tyrolite,blue,1.5-2,Vitreous - Pearly,,
+3.15,Uvite !,"brown, yellowish",7.5,Vitreous - Greasy,,
+3.15,Viitaniemiite,colorless,5,Vitreous (Glassy),,
+3.16,Cahnite,colorless,3,Vitreous (Glassy),,
+3.16,Crossite ?,blue,6,Vitreous (Glassy),,
+3.16,Garyansellite,brown,4,Vitreous (Glassy),,
+3.16,Harstigite,colorless,5.5,Vitreous (Glassy),,
+3.16,Hillite !,colorless,3.5,Vitreous - Pearly,,
+3.16,Kinoite,"blue, azure",5,Vitreous (Glassy),,
+3.16,Niksergievite !,"white, light greenish",1-1.5,Pearly,,
+3.17,Gotzenite,colorless,5.5-6,Vitreous - Greasy,,
+3.17,Brindleyite,"green, yellow",2.5-3,Vitreous - Pearly,,
+3.17,Foitite !,"black, bluish",7,Vitreous (Glassy),,
+3.17,Lourenswalsite,"gray, brownish",-,Pearly,,
+3.17,Magnesio-arfvedsonite,black,5-6,Vitreous (Glassy),,
+3.17,Robertsite,"red, blood",3.5,Adamantine,,
+3.17,Serrabrancaite !,"brown, dark",3.5,Adamantine,,
+3.18,Muskoxite,"brown, dark reddish",3,Vitreous (Glassy),,
+3.18,Nierite,colorless,9,Adamantine,,
+3.18,Baileychlore,"green, yellow",2.5-3,Pearly,,
+3.18,Cualstibite,"green, blue",2,Vitreous (Glassy),,
+3.18,Fluoropargasite !,black,6,Vitreous (Glassy),,
+3.18,Hureaulite,red,5,Vitreous - Greasy,,
+3.18,Kambaldaite,"green, light",3,Vitreous (Glassy),,
+3.18,Zn-Schulenbergite !,white,1-2,Pearly,,
+3.19,Ellenbergerite,colorless,6.5,Vitreous (Glassy),,
+3.19,Ferri-clinoholmquistite !,black,6,Vitreous (Glassy),,
+3.19,Holdawayite,pink,3,Vitreous (Glassy),,
+3.19,Kamphaugite-(Y),brown,2-3,Vitreous (Glassy),,
+3.19,Magnesioriebeckite,"blue, light",5,Vitreous - Silky,,
+3.19,Nchwaningite,"brown, light",5.5,Vitreous (Glassy),,
+3.19,Apatite *,white,5,Vitreous (Glassy),,
+3.19,Kosnarite,colorless,4.5,Vitreous (Glassy),,
+3.20,Gunningite,white,2.5,Vitreous (Glassy),,
+3.20,Vayrynenite,pink,5,Vitreous (Glassy),,
+3.20,Attikaite !,"blue, light",2-2.5,Vitreous (Glassy),,
+3.20,Chamosite,gray,3,Vitreous - Dull,,
+3.20,Enstatite,white,5.5,Vitreous - Pearly,,
+3.20,Johnsenite-(Ce) !,"yellow, pale",5-6,Vitreous (Glassy),,
+3.20,Kalistrontite,colorless,2,Vitreous (Glassy),,
+3.20,Monticellite,colorless,5,Vitreous (Glassy),,
+3.20,Oneillite !,"brown, yellowish",5-6,Vitreous (Glassy),,
+3.20,Pumpellyite-(Fe++),"green, blue",5.5,Vitreous (Glassy),,
+3.20,Pumpellyite-(Fe+++),"green, blue",5.5,Vitreous (Glassy),,
+3.20,Pumpellyite-(Mg),"green, blue",5.5,Vitreous (Glassy),,
+3.20,Pumpellyite-(Mn++),"green, blue",5.5,Vitreous (Glassy),,
+3.20,Sabugalite,"yellow, light",2.5,Vitreous (Glassy),,
+3.20,Sampleite,"green, bluish",4,Pearly,,
+3.20,Scorodite,"green, yellowish",3.5-4,Vitreous - Greasy,,
+3.20,Serandite,"brown, light",4.5-5.5,Vitreous - Pearly,,
+3.20,Shirozulite !,"brown, dark reddish",3,Vitreous - Pearly,,
+3.20,Simonkolleite,colorless,1.5,Vitreous (Glassy),,
+3.20,Stokesite,colorless,6,Vitreous (Glassy),,
+3.20,Straczekite,"black, greenish",1-2,Greasy (Oily),,
+3.20,Torbernite,green,2-2.5,Vitreous - Pearly,,
+3.20,Villyaellenite,colorless,4,Vitreous (Glassy),,
+3.20,Wesselsite !,blue,4-5,Vitreous (Glassy),,
+3.20,Yvonite !,"blue, turquoise",3.5-4,Vitreous (Glassy),,
+3.21,Fedotovite,"green, blue",2.5,Vitreous - Silky,,
+3.21,Karasugite,colorless,-,Vitreous (Glassy),,
+3.21,Feruvite !,"black, brownish",7,Vitreous - Dull,,
+3.21,Abenakiite-(Ce),"brown, pale",4,Vitreous (Glassy),,
+3.21,Anthophyllite,white,5-6,Vitreous - Pearly,,
+3.21,Mopungite,colorless,3,Vitreous - Dull,,
+3.21,Nimite,"green, yellow",3,Pearly,,
+3.21,Parascorodite !,white,1-2,Vitreous (Glassy),,
+3.22,Childrenite,white,4.5-5,Vitreous - Resinous,,
+3.22,Fianelite !,"red, orange",3,Vitreous - Adamantine,,
+3.22,Kupletskite,"brown, yellow",4,Vitreous - Adamantine,,
+3.22,Goyazite,"yellow, lemon",4-5,Vitreous - Greasy,,
+3.22,Clinotyrolite,"green, emerald",-,Silky - Pearly,,
+3.22,Cobaltarthurite !,"yellow, straw",3.5-4,Vitreous - Silky,,
+3.22,Ericaite,purple,7-7.5,Vitreous (Glassy),,
+3.22,Jervisite,"green, light",6-7,Vitreous (Glassy),,
+3.22,Magnesiodumortierite,"red, pinkish",7.5,Vitreous (Glassy),,
+3.22,Palermoite,colorless,5.5,Vitreous - Adamantine,,
+3.22,Pararobertsite,bronze,2,Vitreous (Glassy),,
+3.22,Svanbergite,colorless,5,Vitreous - Adamantine,,
+3.22,Uramarsite !,"green, pale",2.5,Vitreous - Dull,,
+3.22,Weloganite,white,3.5,Vitreous (Glassy),,
+3.23,Tritomite-(Y),"black, greenish",3.5-6.5,Vitreous - Resinous,,
+3.23,Magnesiohastingsite,green,5-6,Vitreous (Glassy),,
+3.23,Metakirchheimerite,"pink, light",2-2.5,Pearly,,
+3.23,Vuagnatite,colorless,6,Vitreous (Glassy),,
+3.23,Chesterite,colorless,2-2.5,Silky - Pearly,,
+3.23,Manganoneptunite,red,5-6,Vitreous (Glassy),,
+3.23,Natrodufrenite,"green, light blue",3.5-4.5,Silky,,
+3.23,Neptunite,black,5-6,Vitreous (Glassy),,
+3.24,Ferrohornblende,brown,5-6,Vitreous - Pearly,,
+3.24,Magnesiohornblende,brown,5-6,Vitreous - Pearly,,
+3.24,Esperanzaite !,"green, blue",4.5,Vitreous (Glassy),,
+3.24,Kaersutite,"brown, dark",5-6,Vitreous - Resinous,,
+3.24,Mitridatite,"red, bronze",3.5,Adamantine - Resinous,,
+3.24,Scandiobabingtonite !,gray,6,Vitreous (Glassy),,
+3.24,Shuiskite,"brown, dark",6,Vitreous (Glassy),,
+3.24,Sillimanite,bluish,7,Vitreous (Glassy),,
+3.24,Taseqite !,"brown, clove",-,Vitreous (Glassy),,
+3.25,Simferite,"red, dark",5,Vitreous - Resinous,,
+3.25,Tschermakite,green,5-6,Vitreous (Glassy),,
+3.25,Arsenocrandallite,blue,5.5,Vitreous (Glassy),,
+3.25,Celsian,colorless,6-6.5,Vitreous (Glassy),,
+3.25,Jonesite,colorless,3-4,Vitreous (Glassy),,
+3.25,Manganogrunerite,brown,5-6,Vitreous - Silky,,
+3.25,Nitrobarite,colorless,3,Vitreous (Glassy),,
+3.25,Papagoite,"blue, light",5-5.5,Vitreous (Glassy),,
+3.25,Potassicpargasite !,black,6-6.5,Vitreous (Glassy),,
+3.25,Richelsdorfite,"blue, sky",2,Vitreous (Glassy),,
+3.25,Thadeuite,"orange, yellow",3.5-4,Vitreous (Glassy),,
+3.25,Uranosilite,"white, yellowish",-,Vitreous (Glassy),,
+3.25,Zellerite,"yellow, white",2,Earthy (Dull),,
+3.26,Lithiophorite,"black, bluish",2.5-3,Metallic - Dull,,
+3.26,Sursassite,"brown, deep reddish",-,Vitreous (Glassy),,
+3.26,Clinohumite,brown,6,Vitreous (Glassy),,
+3.26,Helvite,brown,6-6.5,Vitreous - Resinous,,
+3.26,Povondraite !,black,7,Resinous,,
+3.26,Pyrochroite,colorless,2.5-3,Adamantine,,
+3.26,Tikhonenkovite,colorless,3.5,Vitreous (Glassy),,
+3.27,Churchite-(Y),colorless,3,Vitreous - Pearly,,
+3.27,Hiortdahlite,brown,5.5,Vitreous - Greasy,,
+3.27,Deliensite !,yellow,2,Vitreous (Glassy),,
+3.27,Forsterite,colorless,6-7,Vitreous (Glassy),,
+3.27,Haydeeite !,"green, bluish",2,Vitreous (Glassy),,
+3.27,Iraqite-(La),"yellow, greenish",4.5,Earthy (Dull),,
+3.27,Isokite,colorless,5,Silky - Pearly,,
+3.27,Loseyite,"white, bluish",3,Vitreous (Glassy),,
+3.27,Panasqueiraite,white,5,Silky - Pearly,,
+3.27,Potassic-magnesiosadanagaite,"brown, dark",6,Vitreous (Glassy),,
+3.27,Saleeite,yellow,2.5,Vitreous (Glassy),,
+3.27,Scorzalite,"blue, dark",5.5-6,Vitreous - Dull,,
+3.27,Wroewolfeite,"blue, greenish",2.5,Vitreous (Glassy),,
+3.28,Slawsonite,colorless,5.5-6.5,Vitreous (Glassy),,
+3.28,Burtite,colorless,3,Vitreous (Glassy),,
+3.28,Cafetite,colorless,4-5,Adamantine,,
+3.28,Clinochalcomenite,"green, bluish",2,Vitreous (Glassy),,
+3.28,Jacquesdietrichite !,blue,2,Vitreous (Glassy),,
+3.28,Larnite,colorless,6,Vitreous (Glassy),,
+3.28,Samfowlerite,colorless,2.5-3,Vitreous (Glassy),,
+3.28,Schubnelite,black,-,Adamantine,,
+3.28,Schulenbergite,"blue, green",2,Silky,,
+3.28,Axinite-(Fe),brown,6.5-7,Vitreous (Glassy),,
+3.28,Axinite-(Mg),brown,6.5-7,Vitreous (Glassy),,
+3.28,Axinite-(Mn),brown,6.5-7,Vitreous (Glassy),,
+3.28,Shcherbinaite,"green, yellow",3-3.5,Vitreous (Glassy),,
+3.29,Tavorite,"green, grass",5,Vitreous (Glassy),,
+3.29,Lacroixite,colorless,4.5,Vitreous - Resinous,,
+3.29,Mosandrite,yellow,4,Vitreous (Glassy),,
+3.29,Phosphoferrite,colorless,3-3.5,Vitreous - Resinous,,
+3.29,Potassic-chloropargasite !,black,5.5,Vitreous (Glassy),,
+3.29,Tienshanite,"green, pistachio",6-6.5,Vitreous (Glassy),,
+3.29,Tinzenite,yellow,6.5-7,Vitreous (Glassy),,
+3.30,Acuminite,colorless,3.5,Vitreous (Glassy),,
+3.30,Jeremejevite,colorless,7,Vitreous (Glassy),,
+3.30,Ashoverite,colorless,-,Vitreous - Dull,,
+3.30,Delindeite,"pink, gray",-,Pearly,,
+3.30,Diaoyudaoite,colorless,7.6,Vitreous (Glassy),,
+3.30,Dilithium *,"brown, bottle",5,Adamantine - Resinous,,
+3.30,Donnayite-(Y),brown,3,Vitreous (Glassy),,
+3.30,Dufrenite,brown,3.5-4,Silky,,
+3.30,Jadeite,green,6.5,Vitreous (Glassy),,
+3.30,Keldyshite,white,3.5-4.5,Vitreous - Greasy,,
+3.30,Kinoshitalite,"brown, yellow",2.5-3,Vitreous (Glassy),,
+3.30,Kolfanite,yellow,2.5,Adamantine,,
+3.30,Kozulite,"black, reddish",5,Vitreous (Glassy),,
+3.30,Kristiansenite !,colorless,5.5-6,Vitreous (Glassy),,
+3.30,Magnesiozippeite,yellow,5-5.5,Earthy (Dull),,
+3.30,Natrokomarovite *,white,4,Adamantine,,
+3.30,Okayamalite !,"white, creamy",5.5,Earthy (Dull),,
+3.30,Oxykinoshitalite !,"orange, bright",2.5,Vitreous (Glassy),,
+3.30,Parahopeite,colorless,3.5,Vitreous - Pearly,,
+3.30,Paraotwayite,"green, emerald",4,Silky,,
+3.30,Poitevinite,pink,3-3.5,Vitreous (Glassy),,
+3.30,Rosenbuschite,gray,5-6,Vitreous - Silky,,
+3.30,Sadanagaite,"brown, dark",6,Vitreous (Glassy),,
+3.30,Taneyamalite,"yellow, greenish",5-6,Vitreous (Glassy),,
+3.30,Zeunerite,green,2.5,Vitreous (Glassy),,
+3.30,Zoisite,gray,6.5,Vitreous - Pearly,,
+3.31,Fuenzalidaite,white,2.5-3,Vitreous (Glassy),,
+3.31,Komkovite,brown,3-4,Vitreous (Glassy),,
+3.31,Kryzhanovskite,bronze,3.5-4,Vitreous - Dull,,
+3.31,Santaclaraite,"pink, light",6.5,Vitreous (Glassy),,
+3.31,Chalcomenite,"blue, light",2-2.5,Vitreous (Glassy),,
+3.32,Dioptase,"green, dark blue",5,Vitreous (Glassy),,
+3.32,Paracelsian,colorless,6,Vitreous (Glassy),,
+3.32,Bernalite,"green, yellow",4,Vitreous - Resinous,,
+3.32,Kochite !,colorless,5,Vitreous (Glassy),,
+3.32,Kornerupine,brown,7,Vitreous (Glassy),,
+3.32,Lithiomarsturite,"brown, yellow",6,Vitreous (Glassy),,
+3.32,Magnesioastrophyllite,"yellow, brownish",3,Vitreous (Glassy),,
+3.32,Marianoite !,"yellow, pale",6,Vitreous - Greasy,,
+3.32,Niocalite,"yellow, light",6,Vitreous (Glassy),,
+3.32,Pauflerite !,"green, light",3-4,Vitreous (Glassy),,
+3.32,Perloffite,"black, brownish",5,Vitreous - Adamantine,,
+3.32,Vanadiumdravite !,"green, dark",7.5,Resinous,,
+3.32,Olivine *,"green, yellowish",6.5-7,Vitreous (Glassy),,
+3.32,Gorceixite,brown,6,Vitreous - Dull,,
+3.33,Niobokupletskite !,beige,3-4,Vitreous (Glassy),,
+3.33,Burpalite,colorless,5-6,Vitreous (Glassy),,
+3.33,Clinohedrite,colorless,5.5,Vitreous (Glassy),,
+3.33,Gillespite,red,4,Vitreous (Glassy),,
+3.33,Kottigite,red,2.5-3,Silky,,
+3.33,Laubmannite ?,brown,3.5-4,Vitreous - Silky,,
+3.34,Alarsite !,colorless,3,Vitreous (Glassy),,
+3.34,Olmsteadite,brown,4,Subadamantine,,
+3.34,Arsenogoyazite,"white, greenish",4,Vitreous (Glassy),,
+3.34,Balipholite,white,5-5.5,Silky,,
+3.34,Dickinsonite !,"green, brownish",3.5-4,Vitreous - Pearly,,
+3.34,Dwornikite,white,2-3,Vitreous (Glassy),,
+3.34,Henritermierite,"brown, clove",-,Vitreous (Glassy),,
+3.34,Lithiophilite,brown,4-5,Vitreous - Resinous,,
+3.34,Londonite !,colorless,8,Vitreous (Glassy),,
+3.34,Omphacite,"green, grass",5-6,Vitreous - Silky,,
+3.34,Shcherbakovite,"brown, dark",6.5,Vitreous - Greasy,,
+3.34,Zircophyllite,"brown, dark",4-4.5,Vitreous - Adamantine,,
+3.34,Prismatine !,"brown, yellow",6.5-7,Vitreous (Glassy),,
+3.35,Cronstedtite,"black, brownish",3.5,Vitreous - Resinous,,
+3.35,Astrophyllite,brown,3-3.5,Adamantine - Pearly,,
+3.35,Clinozoisite !,colorless,7,Vitreous (Glassy),,
+3.35,Dumortierite,blue,8.5,Vitreous (Glassy),,
+3.35,Khibinskite,white,4.5-5.5,Greasy (Oily),,
+3.35,Claraite,blue,2,Vitreous (Glassy),,
+3.35,Cummingtonite,white,5-6,Vitreous - Silky,,
+3.35,Johnsomervilleite,"brown, dark",4.5,Vitreous (Glassy),,
+3.35,Katophorite,black,5,Vitreous (Glassy),,
+3.35,Lindackerite,"blue, greenish",2-2.5,Vitreous (Glassy),,
+3.35,Metahaiweeite,"yellow, greenish",3.5,Pearly,,
+3.35,Paramendozavilite,yellow,1,Vitreous (Glassy),,
+3.35,Pekovite !,colorless,7,Vitreous (Glassy),,
+3.35,Pushcharovskite !,"green, very light",-,Vitreous (Glassy),,
+3.35,Talmessite,colorless,5,Vitreous (Glassy),,
+3.35,Samuelsonite,colorless,5,Subadamantine,,
+3.36,Donpeacorite,"orange, yellow",5-6,Vitreous (Glassy),,
+3.36,Gedrite,brown,5.5-6,Vitreous - Silky,,
+3.36,Niedermayrite !,"green, bluish",-,Vitreous (Glassy),,
+3.36,Poppiite !,brown,-,Vitreous (Glassy),,
+3.36,Sabinaite,colorless,-,Earthy (Dull),,
+3.36,Turkestanite !,"green, apple",5.5-6,Vitreous (Glassy),,
+3.36,Warwickite,brown,3-4,Vitreous - Silky,,
+3.36,Wiluite !,"green, dark",6,Vitreous (Glassy),,
+3.37,Ahlfeldite,"brown, pink",2-2.5,Vitreous (Glassy),,
+3.37,Fluoro-ferroleakeite,"black, bluish",6,Vitreous (Glassy),,
+3.37,Johachidolite,colorless,7.5,Vitreous (Glassy),,
+3.37,Magnesiochlorophoenicite,colorless,3-3.5,Vitreous - Pearly,,
+3.37,Martyite !,"orange, yellow",3,Adamantine,,
+3.37,Nechelyustovite !,creamy,-,Vitreous - Pearly,,
+3.37,Schallerite,"brown, light",4.5-5,Vitreous - Waxy,,
+3.37,Uzonite,yellow,1.5,Pearly,,
+3.38,Bustamite,"red, brown",5.5-6.5,Vitreous (Glassy),,
+3.38,Howieite,"green, dark",-,Greasy (Oily),,
+3.38,Santafeite,black,-,Subadamantine,,
+3.38,Hastingsite,"green, dark",6,Vitreous (Glassy),,
+3.38,Homilite,black,5,Vitreous (Glassy),,
+3.38,Krinovite,"green, dark",6-7,Subadamantine,,
+3.38,Pigeonite,brown,6,Vitreous - Dull,,
+3.38,Potassic-chlorohastingsite !,"green, dark",6,Vitreous (Glassy),,
+3.38,Rouaite !,"green, dark emerald",-,Vitreous (Glassy),,
+3.39,Cobaltomenite,"red, dark",2-2.5,Vitreous (Glassy),,
+3.39,Ojuelaite,"yellow, greenish",3,Vitreous (Glassy),,
+3.39,Parakeldyshite,"white, bluish",5.5-6,Vitreous (Glassy),,
+3.39,Ramsbeckite,green,3.5,Vitreous (Glassy),,
+3.39,Yoderite,"red, purple",6,Vitreous (Glassy),,
+3.40,Kanonaite,"black, greenish",6.5,Vitreous (Glassy),,
+3.40,Rockbridgeite,green,4.5,Vitreous - Dull,,
+3.40,Babingtonite,"black, brownish",5.5-6,Vitreous (Glassy),,
+3.40,Bergslagite,colorless,5,Vitreous (Glassy),,
+3.40,Bredigite,colorless,-,Vitreous (Glassy),,
+3.40,Chromdravite !,"black, greenish",7-7.5,Vitreous - Resinous,,
+3.40,Connellite,"green, blue",3,Vitreous (Glassy),,
+3.40,Diaspore,white,6.5-7,Vitreous - Pearly,,
+3.40,Diopside,blue,6,Vitreous (Glassy),,
+3.40,Glaucochroite,green,6,Vitreous (Glassy),,
+3.40,Griphite,"black, brownish",5.5,Vitreous - Resinous,,
+3.40,Hardystonite,white,3-4,Vitreous (Glassy),,
+3.40,Johannite,yellow,2,Vitreous (Glassy),,
+3.40,Johnwalkite,"brown, dark reddish",4,Vitreous (Glassy),,
+3.40,Lorenzenite,brown,6,Vitreous - Greasy,,
+3.40,Piemontite,yellow,6-7,Vitreous (Glassy),,
+3.40,Posnjakite,blue,2.5-3,Vitreous (Glassy),,
+3.40,Purpurite,"black, brownish",4-5,Earthy (Dull),,
+3.40,Riebeckite,blue,4,Vitreous - Silky,,
+3.40,Sassolite,white,1,Vitreous - Pearly,,
+3.40,Serendibite,blue,6-7,Vitreous (Glassy),,
+3.40,Veszelyite,"green, blue",3.5-4,Vitreous (Glassy),,
+3.40,Augite,"green, brown",5-6.5,Vitreous - Resinous,,
+3.40,Clinoenstatite,colorless,5-6,Vitreous - Pearly,,
+3.40,Vesuvianite,blue,6.5,Vitreous - Resinous,,
+3.41,Heterosite,"black, brownish",4-4.5,Silky,,
+3.41,Cymrite,brown,2-3,Vitreous - Silky,,
+3.41,Eylettersite,"white, cream",3-4,Vitreous (Glassy),,
+3.41,Ferrisicklerite,"brown, yellow",4,Earthy (Dull),,
+3.41,Ferrotschermakite !,green,5-6,Vitreous (Glassy),,
+3.41,Gageite,colorless,-,Vitreous (Glassy),,
+3.41,Gerenite-(Y) !,white,5,Vitreous (Glassy),,
+3.41,Giniite,"brown, blackish",3-4,Vitreous - Greasy,,
+3.41,Leisingite !,yellow,3-4,Vitreous - Silky,,
+3.41,Lonsdaleite,"black, brownish",7-8,Adamantine,,
+3.41,Magbasite,colorless,5,Vitreous (Glassy),,
+3.41,Natrophilite,yellow,4.5-5,Resinous,,
+3.41,Otwayite,green,4,Silky,,
+3.41,Petersite-(Y),"green, yellow",3-4,Vitreous (Glassy),,
+3.41,Metazellerite,"yellow, light",2,Earthy (Dull),,
+3.42,Gerhardtite,green,2,Vitreous (Glassy),,
+3.42,Buttgenbachite,azure,3,Vitreous (Glassy),,
+3.42,Carlosruizite,colorless,2.5-3,Vitreous (Glassy),,
+3.42,Euchroite,"green, leek",3.5-4,Vitreous (Glassy),,
+3.42,Kassite,"red, brown",5,Adamantine,,
+3.42,Niobophyllite,brown,3-4,Vitreous - Adamantine,,
+3.42,Wohlerite,yellow,5.5-6,Vitreous - Greasy,,
+3.43,Gaudefroyite,black,6,Adamantine - Resinous,,
+3.43,Sicklerite,"brown, dark",4,Earthy (Dull),,
+3.43,Alacranite,red,1.5,Adamantine - Greasy,,
+3.43,Danalite,brown,5.5-6,Vitreous - Greasy,,
+3.43,Fillowite,yellow,4.5,Resinous - Greasy,,
+3.43,Macfallite,brown,5-5.5,Vitreous - Silky,,
+3.43,Moolooite,blue,-,Earthy (Dull),,
+3.43,Remondite-(Ce),"orange, reddish",3-3.5,Vitreous (Glassy),,
+3.43,Roeblingite,white,3,Vitreous (Glassy),,
+3.43,Batisite,"pink, brown",5.9,Vitreous - Greasy,,
+3.43,Kirschsteinite,colorless,5.5,Vitreous (Glassy),,
+3.44,Abernathyite,yellow,2-3,Vitreous (Glassy),,
+3.44,Ferropargasite,"green, bluish",5-6,Vitreous (Glassy),,
+3.44,Fersmanite,"yellow, golden",5.5,Vitreous (Glassy),,
+3.44,Kalipyrochlore,green,4-4.5,Vitreous - Resinous,,
+3.44,Lamprophyllite,yellow,2.5,Vitreous - Pearly,,
+3.44,Potassicferrisadanagaite !,black,5.5-6,Vitreous (Glassy),,
+3.44,Rhodizite,colorless,8.5,Vitreous - Adamantine,,
+3.45,Arfvedsonite,black,5.5-6,Vitreous (Glassy),,
+3.45,Calcioburbankite,"orange, deep",3-4,Vitreous (Glassy),,
+3.45,Epidote !,"green, yellowish",7,Vitreous (Glassy),,
+3.45,Grunerite,ashen,5-6,Vitreous - Pearly,,
+3.45,Hemimorphite,brown,5,Vitreous (Glassy),,
+3.45,Hydrougrandite ?,green,-,Vitreous (Glassy),,
+3.45,Lazarenkoite,"orange, light",1,Resinous,,
+3.45,Manganbabingtonite,black,5.5-6,Vitreous (Glassy),,
+3.45,Minrecordite,colorless,3.5-4,Pearly,,
+3.45,Nacareniobsite-(Ce),colorless,5,Vitreous (Glassy),,
+3.45,Peprossiite-(Ce),"yellow, brownish",2,Vitreous (Glassy),,
+3.45,Redgillite !,"green, grass",2,Vitreous (Glassy),,
+3.45,Sapphirine,blue,7.5,Vitreous (Glassy),,
+3.45,Uranospinite,"green, siskin",2-3,Pearly,,
+3.46,Nordite-(La),"brown, light",5-6,Vitreous - Greasy,,
+3.46,Ferrorichterite,brown,5-6,Vitreous (Glassy),,
+3.46,Fluorvesuvianite !,colorless,6,Vitreous (Glassy),,
+3.46,Marsturite,white,6,Vitreous (Glassy),,
+3.46,Nelenite,brown,5,Vitreous - Resinous,,
+3.46,Uranocircite,yellow,2-2.5,Pearly,,
+3.47,Bechererite !,"green, light",2.5-3,Vitreous (Glassy),,
+3.47,Ferritaramite,,5-6,Vitreous (Glassy),,
+3.47,Saneroite,"orange, light",6-7,Resinous - Greasy,,
+3.47,Seidozerite,"red, brownish",4-5,Vitreous (Glassy),,
+3.47,Trimerite,colorless,6-7,Vitreous (Glassy),,
+3.48,Frondelite,brown,4.5,Vitreous - Dull,,
+3.48,Akatoreite,orange,6,Vitreous (Glassy),,
+3.48,Baghdadite,colorless,6,Vitreous (Glassy),,
+3.48,Bederite !,"brown, very dark",5,Vitreous (Glassy),,
+3.48,Dundasite,"blue, sky",2,Vitreous - Silky,,
+3.48,Johninnesite,"brown, yellow",5-6,Vitreous (Glassy),,
+3.48,Kamchatkite,"brown, greenish",3.5,Vitreous (Glassy),,
+3.48,Metakahlerite,"yellow, sulfur",2.5,Pearly,,
+3.48,Springcreekite !,black,4-5,Vitreous - Dull,,
+3.48,Titanite,"brown, reddish",5-5.5,Adamantine - Resinous,,
+3.48,Weilite,white,-,Greasy (Oily),,
+3.48,Wiserite,white,2.5,Vitreous - Silky,,
+3.48,Schoenfliesite,"brown, reddish",4-4.5,Vitreous (Glassy),,
+3.49,Bornemanite,"yellow, light",3.5-4,Pearly,,
+3.49,Sinhalite,brown,6.5-7,Vitreous (Glassy),,
+3.49,Chambersite,colorless,7,Vitreous (Glassy),,
+3.49,Grenmarite !,"brown, yellowish",4.5,Vitreous (Glassy),,
+3.49,Hematolite,"red, blood",3.5,Vitreous - Pearly,,
+3.49,Natrochalcite,"green, emerald",4.5,Vitreous (Glassy),,
+3.49,Normandite !,yellow,5-6,Vitreous - Adamantine,,
+3.49,Zalesiite !,"green, pale",2-3,Vitreous - Resinous,,
+3.50,Gottlobite !,orange,4.5,Vitreous - Adamantine,,
+3.50,Manganonordite-(Ce) !,"brown, pale",5-5.5,Vitreous (Glassy),,
+3.50,Aegirine-augite *,"green, dark",6,Vitreous (Glassy),,
+3.50,Burbankite,colorless,3.5,Vitreous (Glassy),,
+3.50,Ferronordite-(Ce) !,colorless,5-5.5,Vitreous (Glassy),,
+3.50,Goudeyite,colorless,3-4,Vitreous (Glassy),,
+3.50,Hydrozincite,white,2-2.5,Pearly,,
+3.50,Junitoite,colorless,4.5,Vitreous (Glassy),,
+3.50,Kainosite-(Y),brown,5-6,Vitreous - Resinous,,
+3.50,Kazakhstanite,black,2.5,Subadamantine,,
+3.50,Langite,"green, blue",2.5-3,Vitreous (Glassy),,
+3.50,Meta-autunite,yellow,1,Pearly,,
+3.50,Phuralumite,lemon,3,Vitreous (Glassy),,
+3.50,Protomangano-ferro-anthophyllite !,"yellow, light brownish",5-6,Vitreous (Glassy),,
+3.50,Remondite-(La) !,"yellow, bright orange",3,Vitreous (Glassy),,
+3.50,Rinkite !,yellow,5,Vitreous (Glassy),,
+3.50,Scheuchzerite !,"orange, yellow",2.5,Vitreous (Glassy),,
+3.50,Tangeite,yellow,3.5,Vitreous - Pearly,,
+3.50,Taramite,"green, blue",5-6,Vitreous (Glassy),,
+3.50,Thortveitite,brown,6.5,Vitreous - Adamantine,,
+3.50,Triphylite,gray,4-5,Greasy (Oily),,
+3.50,Vajdakite !,green,-,Vitreous (Glassy),,
+3.50,Volborthite,"yellow, brownish",3,Vitreous - Pearly,,
+3.50,Yttrocerite *,"blue, reddish",4-5,Vitreous (Glassy),,
+3.51,Metanovacekite,yellow,2.5,Vitreous (Glassy),,
+3.51,Nambulite,"brown, reddish orange",6.5,Vitreous - Adamantine,,
+3.51,Natronambulite,"orange, pink",5.5-6,Vitreous (Glassy),,
+3.51,Pellyite,colorless,6,Vitreous (Glassy),,
+3.51,Sclarite,colorless,3-4,Vitreous (Glassy),,
+3.51,Tombarthite-(Y),"black, brownish",5-6,Earthy (Dull),,
+3.52,Diamond,colorless,10,Adamantine,,
+3.52,Fermorite,white,5,Greasy (Oily),,
+3.52,Aegirine,green,6-6.5,Vitreous - Resinous,,
+3.52,Chloro-potassichastingsite !,"green, dark",5,Vitreous (Glassy),,
+3.52,Florencite-(La),colorless,5-6,Resinous - Greasy,,
+3.52,Ottrelite,"green, pistachio",6-7,Vitreous (Glassy),,
+3.52,Pararealgar,"yellow, light",1-1.5,Vitreous - Resinous,,
+3.52,Ungarettiite,"red, cherry",6,Vitreous - Adamantine,,
+3.52,Verplanckite,"yellow, brownish",2.5-3,Vitreous (Glassy),,
+3.52,Wendwilsonite,"pink, light",3-4,Vitreous (Glassy),,
+3.53,Florencite-(Nd),yellow,5-6,Resinous - Greasy,,
+3.53,Mckelveyite-(Nd) *,brown,3-3.5,Vitreous (Glassy),,
+3.53,Mckelveyite-(Y),yellow,3.5-4,Vitreous (Glassy),,
+3.53,Orpiment,"yellow, lemon",1.5-2,Pearly,,
+3.53,Carbocernaite,brown,3,Vitreous - Greasy,,
+3.53,Lavenite,colorless,6,Vitreous - Dull,,
+3.54,Arrojadite-(BaFe) !,"green, grayish",-,Greasy (Oily),,
+3.54,Bobfergusonite,"brown, greenish",4,Resinous,,
+3.54,Esseneite,"brown, reddish",6,Vitreous (Glassy),,
+3.54,Ferronordite-(La) !,colorless,5,Vitreous - Greasy,,
+3.54,Fraipontite,bluish,2.5,Silky,,
+3.54,Koritnigite,colorless,2,Vitreous (Glassy),,
+3.54,Lavendulan,blue,2.5,Vitreous - Waxy,,
+3.54,Meta-ankoleite,yellow,2-2.5,Vitreous (Glassy),,
+3.54,Sklodowskite,"yellow, greenish",2-3,Vitreous (Glassy),,
+3.55,Chloritoid,"gray, green",6.5,Pearly,,
+3.55,Effenbergerite,blue,4-5,Vitreous - Resinous,,
+3.55,Chlorophoenicite,"green, grayish",3-3.5,Vitreous - Pearly,,
+3.55,Hedenbergite,"green, brownish",5-6,Vitreous - Pearly,,
+3.55,Hypersthene ?,"white, grayish",5.5-6,Vitreous - Silky,,
+3.55,Kapellasite !,"green, bluish",-,Vitreous (Glassy),,
+3.55,Lehnerite,bronze,2-3,Vitreous - Pearly,,
+3.55,Lulzacite !,"green, grayish",5.5-6,Vitreous (Glassy),,
+3.55,Magnesiochloritoid,"gray, greenish",6.5,Pearly,,
+3.55,Natalyite,"green, yellow",7,Vitreous - Silky,,
+3.55,Parabrandtite,colorless,3-4,Vitreous (Glassy),,
+3.55,Topaz,colorless,8,Vitreous (Glassy),,
+3.55,Trogerite,yellow,2-3,Vitreous - Pearly,,
+3.55,Waterhouseite !,"brown, resinous orange",-,Vitreous - Pearly,,
+3.56,Pseudosinhalite !,colorless,-,Vitreous (Glassy),,
+3.56,Arrojadite !,"green, olive",5,Vitreous - Greasy,,
+3.56,Johannsenite,brown,6,Vitreous (Glassy),,
+3.56,Nullaginite,"green, bright",1.5-2,Silky,,
+3.57,Ferrogedrite,green,5.5-6,Vitreous - Silky,,
+3.57,Grossular,brown,6.5-7.5,Vitreous - Resinous,,
+3.58,Congolite,"red, light",6.5-7.5,Vitreous (Glassy),,
+3.58,Gageite-2M,colorless,-,Vitreous (Glassy),,
+3.58,Horvathite-(Y) !,colorless,4,Vitreous (Glassy),,
+3.58,Nabalamprophyllite !,brown,3,Vitreous - Adamantine,,
+3.58,Varulite,"green, yellow",5,Vitreous (Glassy),,
+3.58,Florencite-(Ce),colorless,5-6,Resinous - Greasy,,
+3.58,Sodium meta-autunite !,yellow,2-2.5,Vitreous - Pearly,,
+3.58,Sodium-autunite,yellow,2-2.5,Vitreous - Pearly,,
+3.59,Dimorphite,orange,1.5,Adamantine,,
+3.59,Janggunite,black,2-3,Earthy (Dull),,
+3.60,Uvarovite,green,6.5-7,Vitreous (Glassy),,
+3.60,Barbosalite,"green, blue",5.5-6,Vitreous - Dull,,
+3.60,Benitoite,blue,6-6.5,Vitreous (Glassy),,
+3.60,Boltwoodite,yellow,3.5-4,Vitreous - Pearly,,
+3.60,Ferrowyllieite,"green, bluish",4,Vitreous - Metallic,,
+3.60,Fluorcaphite !,"yellow, light",5,Vitreous (Glassy),,
+3.60,Ilimaussite-(Ce),"yellow, brownish",4,Earthy (Dull),,
+3.60,Janhaugite,"brown, reddish",5,Vitreous (Glassy),,
+3.60,Kosmochlor,"green, emerald",6-7,Vitreous (Glassy),,
+3.60,Namansilite,"red, brownish",6-7,Vitreous - Pearly,,
+3.60,Paralstonite,colorless,4-4.5,Vitreous (Glassy),,
+3.60,Rhodonite,pink,6,Vitreous (Glassy),,
+3.60,Sverigeite,yellow,6.5,Vitreous - Dull,,
+3.60,Turneaureite,colorless,5,Vitreous - Greasy,,
+3.60,Umbozerite,"green, bottle",5,Vitreous (Glassy),,
+3.60,Vanadomalayaite,"red, deep",6,Adamantine,,
+3.60,Rosemaryite,"green, bluish",4-4.5,Vitreous - Metallic,,
+3.60,Wyllieite,"green, bluish",4-4.5,Vitreous - Metallic,,
+3.60,Stottite,brown,4.5,Greasy (Oily),,
+3.61,Magnesiotaaffeite-2N2S,colorless,8-8.5,Vitreous (Glassy),,
+3.61,Birchite !,"blue, pale",3.5-4,Vitreous (Glassy),,
+3.61,Heinrichite,green,2.5,Vitreous - Pearly,,
+3.61,Jinshajiangite,"red, brown",4.5-5,Vitreous (Glassy),,
+3.61,Juanitaite !,"green, olive",1,Resinous,,
+3.61,Mottanaite-(Ce) !,"brown, pale",-,Vitreous (Glassy),,
+3.61,Protoferro-anthophyllite !,"yellow, light brownish",-,Vitreous (Glassy),,
+3.62,Kyanite,blue,4-7,Vitreous - Pearly,,
+3.62,Dietzeite,"yellow, golden",3.5,Vitreous (Glassy),,
+3.62,Bamfordite !,green,2-3,Vitreous - Adamantine,,
+3.62,Chistyakovaite !,yellow,2.5,Vitreous (Glassy),,
+3.62,Genthelvite,"green, blue",6-6.5,Vitreous (Glassy),,
+3.62,Gerstleyite,vermilion,2.5,Adamantine,,
+3.62,Podlesnoite !,white,3.5-4,Vitreous (Glassy),,
+3.62,Strontio-orthojoaquinite,green,5.5,Vitreous (Glassy),,
+3.62,Vanuralite,lemon,2,Vitreous (Glassy),,
+3.63,Benstonite,"white, snow",3-4,Vitreous (Glassy),,
+3.63,Azoproite,black,5.5,Adamantine,,
+3.63,Bassetite,bronze,2.5,Vitreous (Glassy),,
+3.63,Bussenite !,"brown, yellowish",4,Vitreous - Pearly,,
+3.63,Kemmlitzite,colorless,5.5,Vitreous (Glassy),,
+3.63,Palenzonaite,"red, wine",5-5.5,Adamantine,,
+3.64,Plumbojarosite,"brown, yellowish",1.5-2,Vitreous - Dull,,
+3.64,Barytolamprophyllite,"brown, golden",2-3,Vitreous (Glassy),,
+3.64,Chapmanite,"green, yellowish",2.5,Adamantine,,
+3.64,Decrespignyite-(Y) !,"blue, intense royal",4,Vitreous - Pearly,,
+3.64,Manganarsite,"brown, pink",3,Vitreous (Glassy),,
+3.64,Metazeunerite,green,2-2.5,Vitreous - Pearly,,
+3.64,Mozartite,"red, dark",6,Vitreous (Glassy),,
+3.64,Strontiowhitlockite,white,5,Earthy (Dull),,
+3.65,Spinel,colorless,8,Vitreous (Glassy),,
+3.65,Lakebogaite !,"yellow, bright lemon",3,Vitreous (Glassy),,
+3.65,Arsenogorceixite !,white,4,Vitreous (Glassy),,
+3.65,Benauite !,yellow,3.5,Vitreous - Resinous,,
+3.65,Chalcocyanite,blue,3.5,Vitreous (Glassy),,
+3.65,Johnbaumite,colorless,4.5,Vitreous - Greasy,,
+3.65,Melonjosephite,"green, dark",5,Adamantine - Greasy,,
+3.65,Svabite,colorless,4-5,Vitreous - Resinous,,
+3.65,Tetrawickmanite,"orange, brown",3.5-4.5,Vitreous (Glassy),,
+3.65,Vochtenite,"brown, bronze",3,Adamantine - Metallic,,
+3.65,Zinclipscombite !,"green, dark",5,Vitreous (Glassy),,
+3.65,Barytocalcite,white,4,Vitreous - Resinous,,
+3.65,Beusite,"brown, reddish",5,Vitreous (Glassy),,
+3.65,Vitusite-(Ce),white,4.5,Vitreous (Glassy),,
+3.66,Todorokite,"black, brownish",1.5,Metallic - Dull,,
+3.66,Argentojarosite,brown,3.5-4.5,Vitreous (Glassy),,
+3.66,Franklinfurnaceite,"brown, dark",3,Vitreous (Glassy),,
+3.66,Jarosewichite,"red, dark",4,Vitreous (Glassy),,
+3.66,Kanoite,"brown, pink",6-7,Vitreous (Glassy),,
+3.66,Maricite,colorless,4-4.5,Vitreous (Glassy),,
+3.66,Zippeite,yellow,2,Earthy (Dull),,
+3.67,Brandtite,colorless,3.5,Vitreous (Glassy),,
+3.67,Cejkaite !,"yellow, pale",-,Vitreous (Glassy),,
+3.67,Chrysoberyl,"green, blue",8.5,Vitreous (Glassy),,
+3.67,Stringhamite,azure,-,Vitreous (Glassy),,
+3.67,Triplite,brown,5,Resinous - Greasy,,
+3.67,Vistepite,"orange, yellowish",4.5,Vitreous (Glassy),,
+3.67,Walstromite,colorless,3.5,Vitreous - Pearly,,
+3.67,Oursinite,"yellow, pale",3-3.5,Vitreous (Glassy),,
+3.68,Synadelphite,colorless,4.5,Vitreous - Adamantine,,
+3.68,Akdalaite,white,7,Vitreous (Glassy),,
+3.68,Diversilite-(Ce) !,"orange, yellowish",5,Vitreous (Glassy),,
+3.68,Garrelsite-V,colorless,-,Vitreous (Glassy),,
+3.68,Gerstmannite,white,4.5,Vitreous - Adamantine,,
+3.68,Kupletskite-(Cs),brown,4,Vitreous - Adamantine,,
+3.68,Magnesiotaaffeite-6N3S !,"green, light olive",8-8.5,Vitreous (Glassy),,
+3.68,Orthojoaquinite-(Ce),yellow,5.5,Vitreous (Glassy),,
+3.68,Petedunnite,"green, dark",6,Vitreous (Glassy),,
+3.68,Satterlyite,"brown, light",4.5-5,Vitreous (Glassy),,
+3.68,Strontiojoaquinite,green,5.5,Vitreous (Glassy),,
+3.69,Komarovite,white,4,Adamantine,,
+3.69,Ardennite-(As),yellow,6-7,Subadamantine,,
+3.69,Graftonite,brown,5,Vitreous - Greasy,,
+3.69,Sarcopside,red,4,Silky,,
+3.69,Ferrokinoshitalite !,"green, dark",3,Vitreous (Glassy),,
+3.69,Petersenite-(Ce),"violet, light",3,Vitreous (Glassy),,
+3.69,Piemontite-(Sr) !,"red, dark",6,Vitreous (Glassy),,
+3.69,Rhodochrosite,"red, pinkish",3,Vitreous (Glassy),,
+3.69,Roselite,"red, dark rose",3.5,Vitreous (Glassy),,
+3.69,Agardite-(Y),"green, blue",3-4,Vitreous (Glassy),,
+3.70,Alstonite,colorless,4-4.5,Vitreous (Glassy),,
+3.70,Arsenolite,blue,1.5,Vitreous - Dull,,
+3.70,Asbecasite,lemon,6.5-7,Vitreous (Glassy),,
+3.70,Hellandite-(Y),"yellow, green",5.5-6,Vitreous - Greasy,,
+3.70,Krasnovite !,"blue, pale",2,Silky,,
+3.70,Medaite,"red, brownish",-,Subadamantine,,
+3.70,Novacekite,"yellow, light",2.5,Vitreous (Glassy),,
+3.70,Olekminskite,white,3,Vitreous (Glassy),,
+3.70,Plancheite,blue,5.5,Adamantine - Silky,,
+3.70,Seelite-1,yellow,3,Vitreous (Glassy),,
+3.70,Seelite-2,yellow,3,Vitreous (Glassy),,
+3.70,Triploidite,greenish,4.5-5,Vitreous - Greasy,,
+3.70,Tundrite-(Nd),yellow,3,Vitreous (Glassy),,
+3.70,Uramphite,"green, bottle",2-2.5,Vitreous (Glassy),,
+3.70,Yttropyrochlore-(Y),"brown, dark",4.5-5.5,Resinous,,
+3.71,Geminite,"green, light",3-3.5,Vitreous (Glassy),,
+3.71,Clinoatacamite !,green,3,Adamantine,,
+3.71,Gaspeite,"green, light",4-5,Vitreous - Dull,,
+3.71,Perraultite,"brown, orange",4,Vitreous (Glassy),,
+3.71,Pretulite !,"pink, pale",5,Adamantine,,
+3.71,Roselite-beta,"red, dark rose",3.5-4,Vitreous (Glassy),,
+3.71,Staurolite,"yellow, brownish",7-7.5,Vitreous - Dull,,
+3.71,Traskite,"red, brownish",5,Vitreous (Glassy),,
+3.72,Qingheiite,"green, yellow",5.5,Vitreous (Glassy),,
+3.72,Pyroxferroite,colorless,4.5-5.5,Vitreous (Glassy),,
+3.72,Agardite-(Ca) !,"green, grass",3-4,Vitreous (Glassy),,
+3.72,Agardite-(Ce) !,"green, yellow",3,Vitreous (Glassy),,
+3.72,Agardite-(Dy) !,"green, grass",3-4,Vitreous (Glassy),,
+3.72,Agardite-(La) !,colorless,3-4,Vitreous (Glassy),,
+3.72,Agardite-(Nd) !,"green, grass",3-4,Vitreous (Glassy),,
+3.72,Chestermanite,"green, gray",6,Vitreous - Silky,,
+3.72,Mcgovernite,"brown, bronze",-,Vitreous - Pearly,,
+3.72,Redledgeite,"green, yellow",6-7,Adamantine,,
+3.74,Gatehouseite,yellow,4,Adamantine,,
+3.74,Goldmanite,"green, dark",6-7,Vitreous (Glassy),,
+3.74,Kapitsaite-(Y) !,"pink, light",5.5,Vitreous (Glassy),,
+3.74,Paratacamite,"black, greenish",3,Vitreous - Dull,,
+3.74,Sanbornite,colorless,5,Vitreous (Glassy),,
+3.75,Pyrope,"red, blood",7.5,Vitreous (Glassy),,
+3.75,Allanite-(Ce),brown,5.5,Vitreous - Greasy,,
+3.75,Allanite-(Y),brown,5.5,Vitreous - Greasy,,
+3.75,Dissakisite-(Ce),"brown, yellow",6.5-7,Vitreous (Glassy),,
+3.75,Dussertite,green,3.5,Vitreous - Resinous,,
+3.75,Holtite,"white, beige",8.5,Vitreous - Resinous,,
+3.75,Kyzylkumite,black,6-6.5,Vitreous - Resinous,,
+3.75,Metatorbernite,"green, light",2.5,Vitreous - Adamantine,,
+3.75,Morimotoite,black,7.5,Adamantine,,
+3.75,Poughite,"yellow, brownish",2.5,Vitreous (Glassy),,
+3.76,Averievite !,black,4,Resinous - Metallic,,
+3.76,Knorringite,"green, blue",6-7,Vitreous (Glassy),,
+3.76,Adelite,"gray, blue",5,Resinous,,
+3.76,Eveite,"green, apple",4,Vitreous (Glassy),,
+3.77,Atacamite,green,3-3.5,Adamantine,,
+3.77,Aurichalcite,"green, pale",2,Pearly,,
+3.77,Manganlotharmeyerite !,"red, brownish",3,Adamantine,,
+3.77,Tilasite,"gray, violet",5,Vitreous - Resinous,,
+3.77,Welshite,brown,6,Subadamantine,,
+3.78,Flinkite,green,4.5,Vitreous - Greasy,,
+3.78,Glaukosphaerite,green,3-4,Vitreous - Dull,,
+3.78,Lemanskiite !,"blue, dark",2.5,Vitreous (Glassy),,
+3.78,Maleevite !,white,7,Vitreous - Greasy,,
+3.78,Strontianite,colorless,3.5,Vitreous (Glassy),,
+3.79,Periclase,"yellow, brownish",6,Vitreous (Glassy),,
+3.79,Dissakisite-(La) !,black,6.5-7,Vitreous (Glassy),,
+3.79,Hentschelite,"green, dark",3.5,Vitreous (Glassy),,
+3.79,Penikisite,blue,4,Vitreous (Glassy),,
+3.79,Wolfeite,greenish,4.5-5,Vitreous - Greasy,,
+3.80,Aenigmatite,brown,5-6,Subadamantine,,
+3.80,Tadzhikite-(Ce),"brown, gray",6,Vitreous (Glassy),,
+3.80,Tadzhikite-(Y) !,brown,6,Vitreous (Glassy),,
+3.80,Astrocyanite-(Ce),blue,2-3,Vitreous - Dull,,
+3.80,Cuprosklodowskite,"green, grass",4,Vitreous - Silky,,
+3.80,Feitknechtite,"black, brownish",-,Earthy (Dull),,
+3.80,Goethite,brown,5-5.5,Adamantine - Silky,,
+3.80,Grischunite,"brown, dark reddish",5,Vitreous (Glassy),,
+3.80,Haradaite,green,4.5,Vitreous (Glassy),,
+3.80,Joaquinite-(Ce),brown,5-5.5,Vitreous (Glassy),,
+3.80,Kipushite,"green, emerald",4,Vitreous (Glassy),,
+3.80,Leucophoenicite,brown,5.5-6,Vitreous (Glassy),,
+3.80,Libethenite,green,4,Vitreous - Greasy,,
+3.80,Malachite,green,3.5-4,Vitreous - Silky,,
+3.80,Mixite,"green, blue",3.5-4,Adamantine,,
+3.80,Montanite,greenish,-,Earthy (Dull),,
+3.80,Pyroxmangite,pink,5.5-6,Vitreous - Pearly,,
+3.80,Shattuckite,blue,-,Vitreous (Glassy),,
+3.80,Strashimirite,white,2.5-3,Greasy (Oily),,
+3.80,Strontiopyrochlore *,"brown, light",4,Vitreous - Resinous,,
+3.80,Turtmannite !,"yellow, bright",-,Vitreous (Glassy),,
+3.80,Tyuyamunite,"yellow, greenish",1.5-2,Adamantine - Pearly,,
+3.81,Daqingshanite-(Ce),white,5,Vitreous - Greasy,,
+3.81,Gaitite,colorless,5,Vitreous (Glassy),,
+3.81,Hyalotekite,white,5.5,Vitreous - Adamantine,,
+3.81,Magnesiohogbomite-2N2S,black,6.5,Adamantine,,
+3.81,Magnesiohogbomite-2N3S,black,6.5,Adamantine,,
+3.81,Magnesiohogbomite-6N6S,black,6.5,Adamantine,,
+3.82,Bazirite,colorless,6-6.5,Vitreous (Glassy),,
+3.82,Phosphoinnelite !,"brown, yellow",4.5-5,Vitreous - Greasy,,
+3.82,Sonolite,"brown, dark",5.5,Vitreous (Glassy),,
+3.83,Allactite,"red, brown",4.5,Vitreous - Greasy,,
+3.83,Azurite,"blue, azure",3.5-4,Vitreous (Glassy),,
+3.83,Goedkenite,colorless,5,Vitreous - Adamantine,,
+3.83,Joesmithite,black,5.5,Subadamantine,,
+3.83,Manganhumite,brown,4,Vitreous (Glassy),,
+3.84,Norsethite,colorless,3.5,Vitreous - Pearly,,
+3.84,Apatite-(SrOH),green,5,Vitreous - Greasy,,
+3.84,Fredrikssonite,"brown, reddish",6,Vitreous (Glassy),,
+3.84,Iriginite,"yellow, canary",1-2,Vitreous - Dull,,
+3.84,Lautenthalite,"green, blue",2.5,Vitreous (Glassy),,
+3.84,Surkhobite !,"red, brownish",4.5,Vitreous (Glassy),,
+3.84,Tiragalloite,orange,-,Subadamantine,,
+3.85,Schorlomite,"black, pitch",7-7.5,Vitreous - Metallic,,
+3.85,Natrouranospinite,green,2.5,Vitreous - Pearly,,
+3.85,Khanneshite,"yellow, light",3-4,Vitreous (Glassy),,
+3.85,Metatyuyamunite,"yellow, greenish",2,Subadamantine,,
+3.85,Bogvadite,colorless,4,Vitreous (Glassy),,
+3.85,Dorallcharite,"yellow, golden",3-4,Earthy (Dull),,
+3.85,Herbertsmithite !,"green, dark",3-3.5,Vitreous - Adamantine,,
+3.85,Hogtuvaite,black,5.5,Subadamantine,,
+3.85,Ludwigite,"green, dark",5.5,Silky,,
+3.85,Mendozavilite,yellow,1.5,Vitreous (Glassy),,
+3.85,Uranopilite,lemon,-,Silky,,
+3.85,Wickenburgite,colorless,5,Vitreous (Glassy),,
+3.86,Muirite,orange,2.5,Vitreous (Glassy),,
+3.86,Priderite,reddish,7,Adamantine,,
+3.86,Stenonite,colorless,3.5,Vitreous (Glassy),,
+3.86,Strakhovite,black,5-6,Vitreous - Greasy,,
+3.86,Waylandite,white,4-5,Vitreous - Dull,,
+3.87,Jarlite,colorless,4-4.5,Vitreous (Glassy),,
+3.87,Noelbensonite !,"brown, dark",4,Vitreous - Greasy,,
+3.87,Yanomamite,"green, blue",5.5-6,Vitreous (Glassy),,
+3.88,Ancylite-(La) !,yellow,4-4.5,Vitreous (Glassy),,
+3.88,Pinakiolite,black,6,Adamantine - Metallic,,
+3.88,Schwertmannite,"yellow, brownish",2.5-3.5,Earthy (Dull),,
+3.89,Cabalzarite !,"brown, light",5,Vitreous (Glassy),,
+3.89,Jorgensenite !,colorless,3.5-4,Vitreous (Glassy),,
+3.89,Wickmanite,yellow,3-4,Vitreous (Glassy),,
+3.90,Althupite,yellow,3.5-4,Vitreous (Glassy),,
+3.90,Anatase,black,5.5-6,Adamantine - Resinous,,
+3.90,Ancylite-(Ce),brown,4.5,Vitreous - Greasy,,
+3.90,Andradite,black,6.5-7,Vitreous (Glassy),,
+3.90,Antlerite,green,3,Vitreous (Glassy),,
+3.90,Bijvoetite-(Y),"yellow, sulfur",2,Vitreous (Glassy),,
+3.90,Brockite,white,3-4,Vitreous - Greasy,,
+3.90,Calcioandyrobertsite-2O !,"blue, intense",3-4,Vitreous (Glassy),,
+3.90,Chenevixite,"green, yellow",4,Greasy (Oily),,
+3.90,Cuzticite,brown,3,Adamantine,,
+3.90,Durangite,"yellow, light",5.5,Vitreous (Glassy),,
+3.90,Graulichite-(Ce) !,"green, light",-,Resinous,,
+3.90,Maxwellite,"red, dark",5-5.5,Vitreous (Glassy),,
+3.90,Radovanite !,"green, pistachio",-,Vitreous (Glassy),,
+3.90,Ribbeite,pink,5,Vitreous (Glassy),,
+3.90,Rollandite !,"green, bottle",4-4.5,Vitreous (Glassy),,
+3.90,Uranophane,yellow,2.5,Vitreous (Glassy),,
+3.90,Uranophane-beta,green,2.5-3,Vitreous - Silky,,
+3.91,Galileiite !,"brown, very pale amber",4,Waxy,,
+3.91,Hodgkinsonite,"pink, light",4.5-5,Vitreous (Glassy),,
+3.91,Kulanite,blue,4,Vitreous - Adamantine,,
+3.91,Taramellite,"brown, reddish",5.5,Vitreous - Resinous,,
+3.92,Byelorussite-(Ce),yellow,5.5-6,Vitreous (Glassy),,
+3.92,Getchellite,"red, blood",1.5-2,Vitreous - Pearly,,
+3.92,Manganilvaite !,black,5.5-6,Vitreous (Glassy),,
+3.92,Reppiaite,"red, orange",3-3.5,Vitreous (Glassy),,
+3.93,Nanlingite,"red, brown",2.5,Vitreous (Glassy),,
+3.93,Allanite-(La) !,brown,6,Vitreous (Glassy),,
+3.93,Kamotoite-(Y),yellow,-,Vitreous (Glassy),,
+3.93,Makarochkinite !,black,5.5-6,Vitreous (Glassy),,
+3.93,Nantokite,colorless,2-2.5,Adamantine,,
+3.93,Spertiniite,blue,-,Vitreous (Glassy),,
+3.94,Deloneite-(Ce) !,"yellow, bright",5,Vitreous (Glassy),,
+3.94,Anandite,black,3-4,Vitreous (Glassy),,
+3.94,Olgite ?,blue,4.5,Vitreous (Glassy),,
+3.94,Rhabdophane-(La),brown,3-4,Greasy (Oily),,
+3.95,Zwieselite,"brown, dark",5-5.5,Vitreous - Resinous,,
+3.95,Ferrosilite,colorless,5-6,Vitreous (Glassy),,
+3.95,Celestine,blue,3-3.5,Vitreous (Glassy),,
+3.95,Hercynite,black,7.5,Vitreous (Glassy),,
+3.95,Metauranocircite,green,2-2.5,Pearly,,
+3.95,Sonoraite,"green, yellow",3,Vitreous (Glassy),,
+3.96,Bario-orthojoaquinite,yellow,5-5.5,Vitreous (Glassy),,
+3.96,Hidalgoite,"white, gray",4.5,Earthy (Dull),,
+3.96,Innelite,brown,4.5-5,Vitreous - Greasy,,
+3.96,Kinichilite,"brown, dark",2,Subadamantine,,
+3.96,Siderite,"brown, yellowish",3.5,Vitreous (Glassy),,
+3.96,Yftisite-(Y) ?,yellow,3.5-4,Vitreous - Greasy,,
+3.97,Pseudomalachite,"green, blue",4-5,Vitreous - Greasy,,
+3.97,Brochantite,green,3.5-4,Vitreous - Pearly,,
+3.97,Clinobarylite !,colorless,6.5,Vitreous (Glassy),,
+3.97,Kolwezite,"brown, beige",4,Vitreous (Glassy),,
+3.97,Lepersonnite-(Gd),"yellow, bright",-,Vitreous (Glassy),,
+3.97,Lukechangite-(Ce) !,colorless,4.5,Vitreous - Pearly,,
+3.98,Jimboite,"brown, light purple",5.5,Vitreous (Glassy),,
+3.98,Wakabayashilite,"yellow, golden",1.5,Silky,,
+4.00,Synchysite-(Y),"brown, reddish",6-6.5,Earthy (Dull),,
+4.00,Alleghanyite,white,6-5,Vitreous (Glassy),,
+4.00,Bario-olgite !,"green, light",4-4.5,Vitreous (Glassy),,
+4.00,Bariopyrochlore,"gray, green",4.5-5,Resinous,,
+4.00,Claudetite,colorless,2.5,Vitreous - Adamantine,,
+4.00,Epidote-(Pb) !,brown,6-7,Vitreous - Dull,,
+4.00,Ferrisurite,"green, forest",2-2.5,Silky,,
+4.00,Grayite,"yellow, light",3-4,Resinous,,
+4.00,Henrymeyerite !,black,5-6,Adamantine,,
+4.00,Jerrygibbsite,"pink, violet",5.5,Vitreous (Glassy),,
+4.00,Kimzeyite,"brown, dark",7,Vitreous (Glassy),,
+4.00,Legrandite,yellow,4-5,Vitreous (Glassy),,
+4.00,Majorite,"brown, yellow",7-7.5,Vitreous (Glassy),,
+4.00,Metalodevite,"yellow, light",2-2.5,Vitreous (Glassy),,
+4.00,Moluranite,black,3-4,Resinous,,
+4.00,Rhabdophane-(Ce),white,3.5,Greasy (Oily),,
+4.00,Rhabdophane-(Nd),"white, yellowish",3-4,Greasy (Oily),,
+4.00,Surite,white,2-3,Vitreous (Glassy),,
+4.00,Suzukiite,"green, light",4-4.5,Vitreous (Glassy),,
+4.00,Swamboite,"yellow, light",2.5,Vitreous (Glassy),,
+4.00,Theophrastite,"green, emerald",3.5,Vitreous (Glassy),,
+4.00,Tristramite,"yellow, green",3-4,Greasy (Oily),,
+4.01,Piretite !,"yellow, lemon",2.5,Pearly,,
+4.01,Brianyoungite,colorless,2-2.5,Vitreous (Glassy),,
+4.01,Jagowerite,"green, light",4.5,Vitreous (Glassy),,
+4.01,Woodruffite,brown,4.5,Earthy (Dull),,
+4.01,Andyrobertsite !,"blue, electric",3,Vitreous (Glassy),,
+4.01,Calcioandyrobertsite-1M !,"blue, electric",3,Vitreous (Glassy),,
+4.02,Painite,brownish,8,Vitreous (Glassy),,
+4.02,Hejtmanite,"yellow, golden",4.5,Vitreous (Glassy),,
+4.02,Bjarebyite,"green, emerald",4,Subadamantine,,
+4.02,Blatonite !,"yellow, canary",2-3,Silky,,
+4.02,Harrisonite !,"brown, yellow",4-5,Vitreous (Glassy),,
+4.02,Meymacite,"brown, yellow",-,Vitreous - Resinous,,
+4.02,Vyuntspakhkite-(Y),colorless,6-7,Adamantine,,
+4.02,Yuanfuliite,black,6-6.5,Adamantine,,
+4.03,Synchysite-(Ce),brown,4.5,Vitreous - Greasy,,
+4.03,Kurumsakite,"yellow, greenish",-,Vitreous - Silky,,
+4.03,Marecottite !,"orange, yellow",3,Vitreous (Glassy),,
+4.03,Pabstite,colorless,6,Vitreous (Glassy),,
+4.03,Wurtzite,"black, brownish",3.5-4,Adamantine - Resinous,,
+4.04,Natanite,"brown, greenish",5,Vitreous (Glassy),,
+4.04,Osarizawaite,green,3-4,Earthy (Dull),,
+4.04,Metaheinrichite,"green, yellowish",2.5,Vitreous - Pearly,,
+4.04,Mushistonite,"green, brownish",4-4.5,Vitreous (Glassy),,
+4.04,Pattersonite !,yellow,4.5,Adamantine,,
+4.04,Srebrodolskite,"red, brown",5.5,Adamantine - Metallic,,
+4.04,Thorbastnasite,brown,4-4.5,Vitreous - Greasy,,
+4.05,Barylite,bluish,6-7,Vitreous (Glassy),,
+4.05,Corundum,blue,9,Vitreous (Glassy),,
+4.05,Johntomaite !,"black, greenish",4.5,Vitreous - Greasy,,
+4.05,Sengierite,green,2.5,Vitreous - Adamantine,,
+4.05,Sphalerite,brown,3.5-4,Resinous - Greasy,,
+4.05,Vesignieite,"green, yellow",3.5-4,Vitreous (Glassy),,
+4.05,Willemite,white,5.5,Vitreous - Resinous,,
+4.05,Zemannite,"brown, light",-,Vitreous - Adamantine,,
+4.06,Francoisite-(Nd),yellow,3,Vitreous (Glassy),,
+4.06,Peretaite,colorless,3.5-4,Vitreous (Glassy),,
+4.07,Clinoferrosilite,brown,5-6,Vitreous (Glassy),,
+4.07,Ferrotaaffeite-6N3S,"green, light",8-8.5,Vitreous (Glassy),,
+4.07,Grattarolaite !,brown,-,Greasy (Oily),,
+4.07,Philipsburgite,"green, emerald",3-4,Vitreous (Glassy),,
+4.07,Vismirnovite,"yellow, light",4,Vitreous (Glassy),,
+4.08,Berzeliite,orange,4.5-5,Resinous,,
+4.08,Calderite,"yellow, dark",-,Vitreous (Glassy),,
+4.08,Cornwallite,"green, light",4-5,Earthy (Dull),,
+4.08,Ilinskite !,"green, emerald",1.5-2,Vitreous - Adamantine,,
+4.08,Khristovite-(Ce),brown,5,Vitreous (Glassy),,
+4.08,Melanothallite,"black, bluish",-,Vitreous (Glassy),,
+4.08,Tundrite-(Ce),"yellow, brownish",3,Vitreous (Glassy),,
+4.10,Arsenoflorencite-(Ce),white,3.5,Vitreous (Glassy),,
+4.10,Arsenoflorencite-(Nd) *,white,3.5,Vitreous (Glassy),,
+4.10,Conichalcite,"green, yellow",4.5,Vitreous - Greasy,,
+4.10,Cornetite,"blue, greenish",4.5,Vitreous (Glassy),,
+4.10,Fontanite,"yellow, honey",3,Vitreous (Glassy),,
+4.10,Franciscanite-III,red,4,Vitreous (Glassy),,
+4.10,Franciscanite-VIII,red,4,Vitreous (Glassy),,
+4.10,Haynesite,"yellow, brownish",1.5-2,Vitreous (Glassy),,
+4.10,Orthojoaquinite-(La) !,brown,5,Silky,,
+4.10,Phosphuranylite,"yellow, golden",2.5,Vitreous - Pearly,,
+4.10,Rabejacite,yellow,3,Vitreous (Glassy),,
+4.10,Rosasite,"green, blue",4,Vitreous - Silky,,
+4.10,Sphaerocobaltite,"brown, gray",3-4,Vitreous - Adamantine,,
+4.10,Strelkinite,"yellow, golden",2.5,Silky - Pearly,,
+4.10,Weeksite,yellow,1-2,Waxy,,
+4.10,Xocolatlite !,"brown, chocolate",2-3,Vitreous (Glassy),,
+4.10,Zdenekite,blue,1.5-2,Vitreous (Glassy),,
+4.10,Zincrosasite,white,4.5,Subadamantine,,
+4.11,Bafertisite,red,5,Vitreous (Glassy),,
+4.11,Holdenite,"red, yellowish",4,Vitreous (Glassy),,
+4.12,Brezinaite,"gray, brownish",3.5-4.5,Metallic - Dull,,
+4.13,Austinite,brown,4-4.5,Subadamantine,,
+4.13,Ceriopyrochlore-(Ce),"brown, resin",5-5.5,Resinous,,
+4.13,Melanocerite-(Ce),brown,5-6,Resinous,,
+4.13,Sarkinite,yellow,4-5,Greasy (Oily),,
+4.14,Tarbuttite,brown,4,Vitreous - Pearly,,
+4.14,Groutite,"black, blue",5.5,Adamantine - Metallic,,
+4.15,Downeyite,colorless,-,Adamantine,,
+4.15,Arsenoflorencite-(La) *,white,3.5,Vitreous (Glassy),,
+4.15,Johillerite,violet,3,Vitreous (Glassy),,
+4.15,Retzian-(Ce),"brown, dark",4,Vitreous - Greasy,,
+4.16,Arsenoclasite,"brown, orange",5-6,Adamantine,,
+4.16,Belkovite !,brown,6-7,Adamantine,,
+4.16,Margarosanite,colorless,2.5-3,Pearly,,
+4.16,Tomichite,black,6,Resinous,,
+4.17,Kolicite,"orange, yellow",4.5,Vitreous (Glassy),,
+4.18,Nabokoite,yellow,2-2.5,Vitreous (Glassy),,
+4.18,Spessartine,red,6.5-7.5,Vitreous - Resinous,,
+4.18,Usovite,brown,3.5,Vitreous - Greasy,,
+4.19,Belovite-(Ce),"yellow, honey",5,Vitreous - Greasy,,
+4.19,Belovite-(La) !,yellow,5,Vitreous (Glassy),,
+4.20,Almandine,brown,7-8,Vitreous - Resinous,,
+4.20,Beudantite,brown,4,Adamantine,,
+4.20,Atlasovite,"brown, dark",2-2.5,Vitreous (Glassy),,
+4.20,Carnotite,yellow,2,Pearly,,
+4.20,Dixenite,bronze,3-4,Vitreous (Glassy),,
+4.20,Fluorcalciobritholite !,"brown, pale pinkish",5.5,Vitreous (Glassy),,
+4.20,Gadolinite-(Ce),black,6.5-7,Vitreous (Glassy),,
+4.20,Gilmarite !,"blue, greenish",3,Vitreous (Glassy),,
+4.20,Nordenskioldine,colorless,5.5-6,Vitreous - Pearly,,
+4.20,Thalenite-(Y),pink,6-6.5,Vitreous (Glassy),,
+4.20,Tritomite-(Ce),"brown, dark",5.5,Vitreous - Resinous,,
+4.21,Gagarinite-(Y),yellow,4.5,Vitreous - Dull,,
+4.21,Manganiandrosite-(La) !,"brown, reddish",-,Vitreous (Glassy),,
+4.21,Synchysite-(Nd),"violet, light",4.5,Earthy (Dull),,
+4.21,Vonsenite,"black, greenish",5,Adamantine - Metallic,,
+4.22,Ferriallanite-(Ce) !,black,6,Vitreous - Resinous,,
+4.22,Magnesionigerite-2N1S,brown,8-8.5,Vitreous (Glassy),,
+4.22,Magnesionigerite-6N6S !,brown,8-8.5,Vitreous (Glassy),,
+4.22,Phurcalite,yellow,3,Vitreous - Adamantine,,
+4.23,Lotharmeyerite,"orange, dark reddish",3,Vitreous (Glassy),,
+4.23,Mourite,violet,3,Adamantine,,
+4.24,Tooeleite,"orange, brown",3,Greasy (Oily),,
+4.24,Bruggenite,colorless,3.5,Vitreous (Glassy),,
+4.24,Fluorthalenite-(Y) !,colorless,4-5,Adamantine,,
+4.24,Warikahnite,colorless,2,Vitreous (Glassy),,
+4.25,Britholite-(Y),"brown, reddish",5,Resinous,,
+4.25,Ferrilotharmeyerite,"yellow, brownish",3,Adamantine - Greasy,,
+4.25,Ferrimolybdite,yellow,2.5-3,Silky,,
+4.25,Gadolinite-(Y),brown,6.5-7,Vitreous - Greasy,,
+4.25,Minasgeraisite-(Y),violet,6-7,Vitreous - Dull,,
+4.25,Olivenite,"green, olive",3,Vitreous - Greasy,,
+4.25,Pseudocotunnite,colorless,-,Earthy (Dull),,
+4.25,Rutile,"red, blood",6-6.5,Adamantine,,
+4.25,Tengchongite,yellow,2-2.5,Vitreous (Glassy),,
+4.25,Tephroite,gray,6.5,Vitreous - Greasy,,
+4.26,Arseniopleite,cherry,3.5,Greasy (Oily),,
+4.26,Lindgrenite,green,4.5,Greasy (Oily),,
+4.26,Szenicsite,"green, dark",3.5-4,Adamantine,,
+4.27,Romanite,gray,6.5-7,Vitreous - Metallic,,
+4.27,Reinerite,blue,5-5.5,Vitreous - Adamantine,,
+4.27,Uranotungstite,brownish,2,Earthy (Dull),,
+4.28,Mannardite,black,7,Adamantine,,
+4.28,Yttrobetafite-(Y),greenish,4.5-5.5,Greasy (Oily),,
+4.29,Swedenborgite,"yellow, brownish",8,Vitreous (Glassy),,
+4.29,Caryinite,brown,4,Greasy (Oily),,
+4.29,Manjiroite,"gray, brownish",7,Earthy (Dull),,
+4.30,Clinoclase,"green, dark verdigris",2.5-3,Vitreous - Pearly,,
+4.30,Corkite,"yellow, brownish",3.5-4.5,Vitreous - Resinous,,
+4.30,Kintoreite,"white, cream",4,Vitreous - Greasy,,
+4.30,Cobaltzippeite,orange,5-5.5,Earthy (Dull),,
+4.30,Freudenbergite,"black, brownish",-,Vitreous (Glassy),,
+4.30,Gahnite,"green, bluish",8,Vitreous (Glassy),,
+4.30,Heterogenite-3R,black,4-5,Metallic - Dull,,
+4.30,Kuliokite-(Y),colorless,4-5,Adamantine,,
+4.30,Magnussonite,"green, blue",3.5-4,Vitreous (Glassy),,
+4.30,Metadelrioite,"green, pale yellow",2,Vitreous - Pearly,,
+4.30,Natrozippeite,yellow,5-5.5,Earthy (Dull),,
+4.30,Nickelaustinite,"green, grass",4,Silky,,
+4.30,Nickelzippeite,yellow,5-5.5,Earthy (Dull),,
+4.30,Witherite,colorless,3-3.5,Vitreous (Glassy),,
+4.30,Zinc-zippeite,yellow,5-5.5,Earthy (Dull),,
+4.30,Betafite,brown,5-5.5,Vitreous - Greasy,,
+4.30,Fleischerite,white,2.5-3,Silky,,
+4.30,Zhonghuacerite-(Ce),yellow,4.5,Vitreous - Resinous,,
+4.31,Babefphite,white,3.5-4,Vitreous - Greasy,,
+4.31,Curetonite,"green, bright yellowish",3.5,Vitreous (Glassy),,
+4.31,Leiteite,brown,1.5-2,Pearly,,
+4.31,Prosperite,colorless,4.5,Vitreous - Silky,,
+4.31,Pseudojohannite !,"gray, olive",-,Vitreous (Glassy),,
+4.32,Abhurite,colorless,2,Chatoyant,,
+4.33,Palmierite,colorless,2,Vitreous - Pearly,,
+4.33,Philipsbornite,colorless,4.5,Vitreous (Glassy),,
+4.34,Manganberzeliite,"yellow, grayish",4.5-5,Resinous,,
+4.34,Powellite,blue,3.5,Adamantine - Resinous,,
+4.34,Zincolivenite !,green,-,Vitreous (Glassy),,
+4.35,Calciobetafite,"brown, reddish",4.5-5.5,Resinous,,
+4.35,Mroseite,colorless,4,Adamantine,,
+4.35,Okanoganite-(Y),"brown, light",4,Vitreous - Dull,,
+4.35,Parisite-(Nd),"yellow, brownish",4-5,Vitreous (Glassy),,
+4.35,Plumalsite *,colorless,5-6,Vitreous (Glassy),,
+4.35,Reichenbachite,"green, dark",3.5,Vitreous (Glassy),,
+4.35,Stishovite,colorless,7.5-8,Vitreous (Glassy),,
+4.36,Beaverite,yellow,3.5-4.5,Vitreous (Glassy),,
+4.36,Parisite-(Ce),brown,4.5,Vitreous - Greasy,,
+4.36,Zincohogbomite-2N2S !,"brown, deep",7,Adamantine,,
+4.37,Perrierite-(Ce),black,5.5,Resinous,,
+4.37,Zairite,greenish,4.5,Vitreous - Resinous,,
+4.38,Ludlockite,"red, copper",1.5-2,Subadamantine,,
+4.39,Ludlockite-(Pb) *,"brown, reddish",1.5-2,Subadamantine,,
+4.39,Fayalite,brown,6.5,Vitreous (Glassy),,
+4.39,Fritzscheite,red,2-3,Vitreous - Pearly,,
+4.40,Adamite,yellow,3.5,Vitreous - Resinous,,
+4.40,Cappelenite-(Y),"brown, greenish",6,Vitreous (Glassy),,
+4.40,Keystoneite,"yellow, golden",-,Adamantine,,
+4.40,Pseudobrookite,"black, brownish",6,Adamantine - Metallic,,
+4.41,Jeanbandyite,"orange, brown",3.5,Vitreous - Adamantine,,
+4.41,Macaulayite,"red, blood",-,Earthy (Dull),,
+4.42,Davidite-(La),black,6,Vitreous - Metallic,,
+4.42,Esperite,white,5,Vitreous (Glassy),,
+4.43,Malayaite,colorless,3.5-4,Vitreous (Glassy),,
+4.43,Fresnoite,"yellow, greenish",3-4,Vitreous (Glassy),,
+4.44,Davidite-(Ce),brown,6,Vitreous - Metallic,,
+4.44,Ankangite,black,6.5,Vitreous - Adamantine,,
+4.44,Cordylite-(Ce),colorless,4.5,Adamantine - Greasy,,
+4.44,Lueshite,black,5.5,Adamantine - Metallic,,
+4.45,Britholite-(Ce),brown,5.5,Adamantine - Resinous,,
+4.45,Cesbronite,green,3,Subadamantine,,
+4.45,Cesbronite-x,"green, bright emerald",3,Subadamantine,,
+4.45,Keiviite-(Y),colorless,4-5,Vitreous (Glassy),,
+4.45,Retzian-(Nd),"brown, pink",3-4,Vitreous - Dull,,
+4.45,Smithsonite,"white, grayish",4.5,Vitreous (Glassy),,
+4.46,Nsutite,"black, grayish",6.5-8.5,Earthy (Dull),,
+4.46,Crichtonite,black,5-6,Metallic - Dull,,
+4.47,Bracewellite,"brown, dark reddish",5.5-6.5,Adamantine - Metallic,,
+4.47,Bismutoferrite,green,6,Adamantine - Resinous,,
+4.47,Iimoriite-(Y),brown,5.5-6,Vitreous (Glassy),,
+4.47,Welinite-III,brown,4,Resinous,,
+4.47,Welinite-VIII,brown,4,Resinous,,
+4.48,Barite,white,3-3.5,Vitreous (Glassy),,
+4.48,Radiobarite,white,3-3.5,Vitreous (Glassy),,
+4.49,Wilhelmkleinite !,"green, blackish",4.5,Adamantine,,
+4.49,Greenockite,"yellow, honey",3.5-4,Adamantine - Resinous,,
+4.49,Retzian-(La),"brown, reddish",3-4,Vitreous (Glassy),,
+4.50,Zajacite-(Ce),colorless,3.5,Vitreous (Glassy),,
+4.50,Bernardite,black,2,Earthy (Dull),,
+4.50,Berndtite,"yellow, grayish",1-2,Adamantine,,
+4.50,Chernovite-(Ce) *,colorless,4-4.5,Vitreous (Glassy),,
+4.50,Chevkinite-(Ce),"black, brownish",5-5.5,Earthy (Dull),,
+4.50,Laphamite,"red, dark",1-2,Resinous,,
+4.50,Lermontovite,"green, gray",-,Silky,,
+4.50,Plumbogummite,white,4-5,Greasy (Oily),,
+4.50,Rankachite,"yellow, brownish",2.5,Adamantine - Greasy,,
+4.50,Kegelite,colorless,-,Pearly,,
+4.51,Ferronigerite-2N1S,colorless,8.5,Vitreous - Greasy,,
+4.51,Ferronigerite-6N6S !,brown,8.5,Vitreous - Greasy,,
+4.52,Lautarite,colorless,3.5-4,Vitreous (Glassy),,
+4.53,Emmonsite,yellow,2-2.5,Vitreous - Dull,,
+4.54,Yingjiangite,yellow,3-4,Subadamantine,,
+4.55,Derbylite,"black, pitch",5,Resinous - Metallic,,
+4.55,Francevillite,"yellow, brownish",3,Adamantine - Pearly,,
+4.55,Kermesite,"red, violet",1.5-2,Adamantine,,
+4.55,Paradamite,"yellow, light",3.5,Vitreous (Glassy),,
+4.57,Baotite,"brown, light",6,Vitreous (Glassy),,
+4.58,Gallobeudantite !,"yellow, pale",4,Vitreous - Adamantine,,
+4.59,Stillwellite-(Ce),"brown, red",6.5,Resinous,,
+4.59,Hashemite,brown,3.5,Adamantine,,
+4.59,Huanghoite-(Ce),"green, yellow",4.7,Greasy (Oily),,
+4.59,Juabite !,"green, emerald",3-4,Vitreous - Adamantine,,
+4.60,Hydrotungstite,"green, yellow",2,Vitreous - Dull,,
+4.60,Kobeite-(Y),brown,5.5,Vitreous - Resinous,,
+4.60,Liebenbergite,"green, yellow",6,Vitreous - Greasy,,
+4.62,Calciouranoite,brown,4,Greasy (Oily),,
+4.62,Gamagarite,"black, brownish",4.5-5,Adamantine,,
+4.62,Klebelsbergite,colorless,3.5-4,Vitreous (Glassy),,
+4.62,Parwelite,"brown, yellow",5.5,Vitreous (Glassy),,
+4.63,Soddyite,yellow,3-4,Vitreous (Glassy),,
+4.64,Plumbobetafite,brown,4.5-5.5,Adamantine,,
+4.65,Hinsdalite,colorless,4.5,Vitreous (Glassy),,
+4.65,Sabelliite !,"green, emerald",4.5,Adamantine,,
+4.65,Tlapallite,green,3,Vitreous (Glassy),,
+4.65,Zircon,brown,7.5,Adamantine,,
+4.66,Kukharenkoite-(Ce) !,yellow,4.5,Vitreous - Greasy,,
+4.66,Fluorbritholite-(Ce),yellow,5,Adamantine,,
+4.67,Cumengite,"blue, indigo",2.5,Adamantine,,
+4.67,Metastudtite,"yellow, light",-,Silky,,
+4.69,Ashburtonite,blue,-,Vitreous (Glassy),,
+4.69,Wyartite,"black, greenish",3-4,Vitreous - Dull,,
+4.70,Cerite-(La) !,"yellow, light",5,Vitreous (Glassy),,
+4.70,Mathewrogersite,colorless,2,Vitreous - Pearly,,
+4.70,Molybdophyllite,colorless,3-4,Vitreous - Pearly,,
+4.70,Zirconolite-2M,black,5.5,Resinous,,
+4.70,Zirconolite-3O,"red, dark",5.5,Resinous,,
+4.70,Zirconolite-3T,black,5.5,Resinous,,
+4.70,Zirkelite,black,5.5,Resinous,,
+4.72,Brabantite ?,"brown, gray",5.5,Vitreous - Resinous,,
+4.72,Isolueshite !,"black, brownish",5.5,Adamantine,,
+4.72,Molybdite,colorless,3-4,Adamantine,,
+4.72,Proshchenkoite-(Y) !,brown,5,Vitreous (Glassy),,
+4.72,Taikanite,"black, greenish",6-7,Vitreous - Greasy,,
+4.73,Alforsite,colorless,5,Vitreous (Glassy),,
+4.73,Tusionite,colorless,5-6,Vitreous (Glassy),,
+4.73,Vicanite-(Ce),"green, yellow",5.5-6,Vitreous - Adamantine,,
+4.74,Fersmite,"black, brownish",4-4.5,Vitreous - Resinous,,
+4.74,Scheteligite ?,black,5.5,Adamantine,,
+4.75,Hydroxylbastnasite-(Ce),yellow,4,Vitreous - Greasy,,
+4.75,Hydroxylbastnasite-(La),yellow,4,Vitreous - Greasy,,
+4.75,Ningyoite,brown,3-4,Greasy (Oily),,
+4.75,Polyakovite-(Ce) !,black,5.5-6,Resinous,,
+4.75,Xenotime-(Y),"brown, yellowish",4-5,Vitreous - Greasy,,
+4.76,Jensenite,"green, emerald",3-4,Adamantine,,
+4.76,Wakefieldite-(Ce),"red, dark",4.5,Vitreous - Adamantine,,
+4.77,Srilankite,black,6.5,Adamantine - Metallic,,
+4.77,Loparite-(Ce),black,5.5,Adamantine - Metallic,,
+4.77,Orebroite-III,"brown, dark",4,Vitreous (Glassy),,
+4.77,Salesite,"green, blue",3,Vitreous (Glassy),,
+4.78,Trechmannite,"red, scarlet",1.5-2,Adamantine,,
+4.79,Jachymovite !,yellow,-,Vitreous (Glassy),,
+4.80,Anthoinite,white,1,Earthy (Dull),,
+4.80,Cebaite-(Nd) !,yellow,4.5-5,Vitreous - Waxy,,
+4.80,Sarabauite,"red, carmine",4.5,Resinous,,
+4.80,Schoepite,yellow,2.5,Adamantine,,
+4.80,Trippkeite,"blue, greenish",4,Adamantine,,
+4.80,Uranpyrochlore,"brown, yellow",5,Resinous,,
+4.80,Yttrocrasite-(Y),black,5.5-6,Resinous,,
+4.81,Cebaite-(Ce),"white, gray",4.5-5,Vitreous - Waxy,,
+4.81,Leningradite,red,4.5,Vitreous (Glassy),,
+4.82,Aeschynite-(Nd),brown,5-6,Adamantine,,
+4.82,Gysinite-(Nd),"pink, light",4-4.5,Vitreous - Greasy,,
+4.83,Hingganite-(Yb),colorless,6-7,Vitreous (Glassy),,
+4.85,Calcioaravaipaite !,colorless,2.5,Vitreous (Glassy),,
+4.85,Euxenite-(Y),"black, brownish",6.5,Greasy (Oily),,
+4.85,Hollandite,"black, grayish",4-6,Earthy (Dull),,
+4.86,Cerite-(Ce),brown,5.5,Vitreous - Adamantine,,
+4.86,Chadwickite !,yellow,2,Earthy (Dull),,
+4.86,Mackayite,"green, brownish",4.5,Vitreous (Glassy),,
+4.87,Chernovite-(Y),brown,4-5,Vitreous (Glassy),,
+4.87,Angelellite,"brown, black",5.5,Adamantine - Metallic,,
+4.88,Brizziite-III,colorless,2,Pearly,,
+4.88,Brizziite-VII,yellow,2,Pearly,,
+4.88,Curienite,"yellow, canary",3,Adamantine - Pearly,,
+4.88,Tausonite,"red, brown",6-6.5,Adamantine,,
+4.89,Bellingerite,"green, light",4,Vitreous (Glassy),,
+4.89,Frankdicksonite,colorless,3,Vitreous (Glassy),,
+4.90,Deloryite,"green, dark",4,Vitreous - Greasy,,
+4.90,Mrazekite,blue,2-3,Vitreous (Glassy),,
+4.90,Tornebohmite-(Ce),green,4.5,Vitreous - Adamantine,,
+4.93,Polhemusite,black,4.5,Adamantine - Resinous,,
+4.94,Tornebohmite-(La),green,4.5,Adamantine - Greasy,,
+4.95,Manganostibite,black,-,Greasy (Oily),,
+4.95,Boleite,"blue, indigo",3-3.5,Vitreous - Pearly,,
+4.95,Stibiconite,brown,4-5,Vitreous - Dull,,
+4.95,Bastnasite-(Y),yellow,4-4.5,Vitreous - Greasy,,
+4.95,Lewisite !,"yellow, honey",5.5,Vitreous - Resinous,,
+4.95,Rouseite,"orange, yellow",3,Vitreous - Adamantine,,
+4.96,Burckhardtite,"red, violet",2,Adamantine - Pearly,,
+4.97,Yeatmanite,"brown, clove",4,Vitreous (Glassy),,
+4.97,Bismutopyrochlore !,black,5,Adamantine,,
+4.98,Bastnasite-(Ce),yellow,4-5,Vitreous - Greasy,,
+4.98,Bastnasite-(La),yellow,4-5,Vitreous - Greasy,,
+4.98,Schieffelinite,colorless,2,Adamantine,,
+4.99,Aeschynite-(Y),black,5-6,Adamantine - Resinous,,
+5.00,Pseudoboleite,"blue, indigo",2.5,Vitreous - Pearly,,
+5.00,Trimounsite-(Y),"brown, light",7,Adamantine,,
+5.01,Polycrase-(Y),black,5-6,Vitreous - Resinous,,
+5.01,Calzirtite,"green, brown",6-7,Adamantine - Greasy,,
+5.01,Spiroffite,red,3.5,Adamantine,,
+5.01,Tazheranite,"orange, yellow",7.5,Adamantine - Greasy,,
+5.02,Roubaultite,"green, grass",3,Vitreous - Greasy,,
+5.03,Otavite,"brown, yellow",3.5-4,Adamantine - Pearly,,
+5.04,Nioboaeschynite-(Ce),black,5.3-5.6,Resinous,,
+5.04,Plumbopyrochlore,brown,4.5-5.5,Vitreous - Resinous,,
+5.05,Denningite,colorless,4,Adamantine,,
+5.05,Phosphogartrellite !,"green, bright",4.5,Vitreous - Adamantine,,
+5.05,Romeite,white,5.5-6,Vitreous - Greasy,,
+5.08,Masuyite,"orange, brown",-,Vitreous (Glassy),,
+5.08,Vandenbrandeite,"green, dark",4,Vitreous (Glassy),,
+5.09,Hyttsjoite !,colorless,-,Adamantine,,
+5.10,Pyrostilpnite,"red, hyacinth",2,Adamantine,,
+5.10,Caracolite,blue,4.5,Vitreous (Glassy),,
+5.10,Coffinite,black,5-6,Subadamantine,,
+5.10,Fergusonite-(Nd) *,"brown, dark",5.5-6.5,Adamantine,,
+5.10,Hugelite,brown,2.5,Adamantine - Greasy,,
+5.10,Jamesite,"brown, reddish",3,Subadamantine,,
+5.10,Rodalquilarite,"green, grass",2-3,Greasy (Oily),,
+5.11,Ferritungstite,yellow,-,Vitreous (Glassy),,
+5.12,Stibivanite,"green, yellow",4,Adamantine,,
+5.13,Carminite,"red, carmine",3.5,Vitreous - Pearly,,
+5.14,Becquerelite,"yellow, brownish",2.5,Resinous,,
+5.15,Monazite-(Ce),brown,5-5.5,Adamantine - Resinous,,
+5.15,Monazite-(La),brown,5-5.5,Adamantine - Resinous,,
+5.15,Monazite-(Nd),brown,5-5.5,Adamantine - Resinous,,
+5.17,Bonaccordite,"brown, reddish",7,Vitreous - Adamantine,,
+5.18,Bahianite,colorless,9,Adamantine,,
+5.18,Lammerite,"green, dark",3-4,Adamantine,,
+5.18,Manganosite,green,5-6,Adamantine,,
+5.19,Aeschynite-(Ce),brown,5-6,Adamantine - Resinous,,
+5.20,Schuilingite-(Nd),azure,3-4,Adamantine,,
+5.25,Mammothite,"blue, bright",3,Vitreous (Glassy),,
+5.25,Senarmontite,white,2,Adamantine,,
+5.25,Struverite ?,black,6-6.5,Adamantine - Resinous,,
+5.26,Phyllotungstite,yellow,2,Pearly,,
+5.28,Billietite,"brown, yellow",-,Adamantine,,
+5.30,Cheralite-(Ce) ?,brown,5,Vitreous - Resinous,,
+5.30,Helmutwinklerite,colorless,4.5,Vitreous - Resinous,,
+5.30,Stibiobetafite,"brown, dark",5,Vitreous (Glassy),,
+5.30,Microlite,"brown, yellowish",5-5.5,Vitreous - Resinous,,
+5.30,Pyrochlore,brown,5-5.5,Resinous - Greasy,,
+5.32,Morelandite,"yellow, greenish",4.5,Vitreous - Greasy,,
+5.33,Utahite !,"blue, pale",4-5,Vitreous - Adamantine,,
+5.34,Fergusonite-beta-(Ce),red,5.5-6.5,Vitreous - Greasy,,
+5.34,Nioboaeschynite-(Y) !,"black, deep brownish",5-6,Vitreous (Glassy),,
+5.35,Thorite,"yellow, brownish",5,Resinous,,
+5.38,Pyrobelonite,"red, dark",3.5,Adamantine,,
+5.38,Stetefeldtite,black,3.5-4.5,Earthy (Dull),,
+5.39,Artroeite,colorless,2.5,Vitreous (Glassy),,
+5.40,Galkhaite,"red, orange",3,Vitreous - Adamantine,,
+5.40,Linarite,"blue, sky",2.5,Vitreous (Glassy),,
+5.40,Thorogummite,brown,5.5,Vitreous - Dull,,
+5.43,Brannerite,brown,4-5,Adamantine - Resinous,,
+5.43,Jagoite,"green, yellow",3,Vitreous (Glassy),,
+5.44,Frankhawthorneite,"green, medium leaf",3-3.5,Vitreous (Glassy),,
+5.45,Metavandendriesscheite,orange,3,Adamantine,,
+5.45,Vandendriesscheite,"yellow, brownish",3,Adamantine,,
+5.46,Nasonite,white,4,Vitreous - Adamantine,,
+5.46,Orthobrannerite,"green, brownish",5.5,Adamantine,,
+5.48,Fergusonite-(Ce) *,"red, dark",5.5-6.5,Vitreous - Metallic,,
+5.49,Macquartite,orange,3.5,Adamantine,,
+5.50,Bayldonite,"green, grass",4.5,Greasy (Oily),,
+5.50,Mawbyite,"brown, light",4,Adamantine,,
+5.50,Rankamaite,white,3-4,Adamantine,,
+5.50,Tungstite,yellow,2.5,Earthy (Dull),,
+5.55,Chlorargyrite,"gray, purplish",1-1.5,Adamantine - Resinous,,
+5.55,Cotunnite,colorless,1.5-2,Adamantine,,
+5.55,Drugmanite,colorless,-,Vitreous (Glassy),,
+5.55,Xanthoconite,"red, dark crimson",2.5-3,Adamantine,,
+5.55,Yafsoanite,"brown, light",5.5,Vitreous (Glassy),,
+5.56,Roxbyite,"black, bluish",2.5-3,Metallic - Dull,,
+5.57,Winstanleyite,yellow,4,Adamantine,,
+5.59,Yecoraite,yellow,3,Resinous,,
+5.60,Barstowite,colorless,3,Adamantine,,
+5.60,Iodargyrite,colorless,1.5-2,Adamantine - Greasy,,
+5.60,Paratellurite,"white, grayish",1,Resinous,,
+5.60,Plumbotsumite,colorless,2,Vitreous (Glassy),,
+5.64,Miersite,greenish,2.5-3,Adamantine,,
+5.65,Tanteuxenite-(Y),"black, brownish",5-6,Resinous,,
+5.66,Agrinierite,orange,-,Resinous - Greasy,,
+5.66,Cadmoselite,black,4,Adamantine - Resinous,,
+5.68,Bariomicrolite,brown,4.5-5,Adamantine - Resinous,,
+5.70,Embolite *,"green, yellowish",1.5-2,Adamantine - Greasy,,
+5.70,Samarskite-(Y),black,5-6,Vitreous - Resinous,,
+5.70,Valentinite,"reddish, brownish",2.5-3,Adamantine,,
+5.70,Rutherfordine,brownish,-,Earthy (Dull),,
+5.74,Ganomalite,colorless,3,Vitreous - Adamantine,,
+5.75,Baddeleyite,brown,6.5,Adamantine,,
+5.75,Marshite,brown,2.5,Adamantine - Greasy,,
+5.75,Uranopolycrase,"red, brown",5-6,Adamantine,,
+5.80,Iranite,"yellow, brownish",3,Vitreous (Glassy),,
+5.81,Hedyphane,blue,4-5,Adamantine - Resinous,,
+5.82,Uranmicrolite,"brown, greenish",5.5,Greasy (Oily),,
+5.82,Penfieldite,colorless,3-4,Adamantine - Greasy,,
+5.82,Thorutite,black,4.5-5.5,Resinous,,
+5.82,Tripuhyite,"black, brownish",7,Vitreous - Resinous,,
+5.83,Protasite,"orange, light",-,Subadamantine,,
+5.85,Yedlinite,"violet, red",2.5,Vitreous (Glassy),,
+5.88,Fiedlerite,colorless,3.5,Adamantine,,
+5.88,Nealite,yellow,4,Adamantine,,
+5.88,Wustite,gray,5-5.5,Vitreous (Glassy),,
+5.89,Nealite-(H2O) *,"orange, bright",-,Adamantine,,
+5.90,Fourmarierite,brown,3-4,Adamantine,,
+5.90,Bromargyrite,"brown, greenish",1.5-2,Adamantine - Greasy,,
+5.90,Larsenite,white,3,Adamantine,,
+5.90,Medenbachite !,yellow,4.5,Vitreous - Adamantine,,
+5.90,Tellurite,"orange, yellow",2,Adamantine,,
+5.91,Philolithite !,green,3-4,Adamantine,,
+5.93,Fluocerite-(La),"yellow, greenish",4-5,Vitreous (Glassy),,
+5.94,Tantalaeschynite-(Y),"black, brownish",5.5-6,Resinous,,
+5.94,Schultenite,colorless,2.5,Vitreous - Adamantine,,
+5.95,Diaboleite,"blue, dark",2.5,Adamantine,,
+5.95,Bindheimite,yellow,4-5,Greasy (Oily),,
+5.95,Keiviite-(Yb),colorless,4-5,Vitreous (Glassy),,
+5.95,Mottramite,brown,3.5,Greasy (Oily),,
+5.95,Walpurgite,colorless,3.5,Adamantine - Greasy,,
+5.96,Yttrotungstite-(Y),"yellow, canary",1,Earthy (Dull),,
+5.97,Parabariomicrolite,white,4,Vitreous - Pearly,,
+5.98,Chenite,"blue, sky",2.5,Vitreous - Resinous,,
+5.98,Stibiocolumbite,brown,5.5,Adamantine - Resinous,,
+5.99,Klockmannite,"black, blue",2-2.5,Metallic - Dull,,
+6.00,Crocoite,yellow,2.5-3,Adamantine,,
+6.00,Elyite,violet,2,Silky,,
+6.00,Gebhardite,"brown, light",3,Adamantine,,
+6.00,Vauquelinite,brown,2.5-3,Adamantine - Resinous,,
+6.01,Parsonsite,brown,2.5-3,Subadamantine,,
+6.01,Scheelite,colorless,4-5,Vitreous (Glassy),,
+6.04,Jixianite,"red, brown",3,Resinous,,
+6.05,Paralaurionite,colorless,3,Subadamantine,,
+6.05,Caledonite,blue,2.5-3,Vitreous - Greasy,,
+6.07,Queitite,colorless,4,Greasy (Oily),,
+6.10,Cuprite,"red, brown",3.5-4,Adamantine,,
+6.11,Paramelaconite,black,4.5,Adamantine,,
+6.13,Fluocerite-(Ce),"yellow, pale wax",4.5-5,Waxy,,
+6.15,Descloizite,"black, dark brownish",3.5,Greasy (Oily),,
+6.15,Natrobistantite,"green, blue",-,Adamantine,,
+6.15,Phosgenite,white,2.5-3,Adamantine,,
+6.19,Capgaronnite,"black, brownish",-,Subadamantine,,
+6.20,Christite,"red, crimson",1-2,Adamantine,,
+6.20,Zimbabweite,"brown, yellow",5-5.5,Adamantine,,
+6.23,Kasolite,green,4,Resinous - Greasy,,
+6.24,Laurionite,colorless,2.5-3,Adamantine - Pearly,,
+6.25,Dreyerite,"yellow, brownish",2-3,Adamantine,,
+6.25,Pucherite,"brown, yellow",4,Vitreous - Adamantine,,
+6.27,Fornacite,green,2-3,Vitreous (Glassy),,
+6.27,Bideauxite,colorless,3,Adamantine,,
+6.29,Fettelite !,"violet, dark",3.5-4,Adamantine - Metallic,,
+6.30,Anglesite,blue,2.5-3,Adamantine,,
+6.30,Georgiadesite,"yellow, brownish",3.5,Resinous,,
+6.30,Heyite,yellow,4,Vitreous (Glassy),,
+6.30,Ishikawaite,black,5-6,Resinous,,
+6.33,Dugganite,colorless,3,Adamantine,,
+6.36,Uranosphaerite,orange,2-3,Greasy (Oily),,
+6.37,Scotlandite,colorless,2,Adamantine,,
+6.39,Clarkeite,brown,4-4.5,Resinous,,
+6.39,Hallimondite,yellow,2.5-3,Subadamantine,,
+6.40,Chervetite,brown,2-2.5,Adamantine,,
+6.40,Choloalite,"green, dark",3,Adamantine,,
+6.40,Duftite-alpha,green,3,Vitreous - Dull,,
+6.40,Duftite-beta ?,green,3,Vitreous - Dull,,
+6.41,Leadhillite,colorless,2.5,Adamantine,,
+6.42,Barysilite,white,3,Adamantine,,
+6.42,Hemihedrite,orange,3,Vitreous (Glassy),,
+6.45,Calomel,white,1.5-2,Adamantine - Resinous,,
+6.45,Embreyite,orange,3.5,Earthy (Dull),,
+6.45,Fergusonite-beta-(Nd),"red, brownish",5.5-6.5,Vitreous - Greasy,,
+6.45,Wherryite,"green, yellow",-,Vitreous - Adamantine,,
+6.46,Arsentsumebite,"green, yellow",4-5,Adamantine - Metallic,,
+6.46,Nordite-(Ce),"brown, light",5,Vitreous - Greasy,,
+6.48,Changbaiite,colorless,5.5,Adamantine - Pearly,,
+6.49,Alamosite,colorless,4.5,Adamantine,,
+6.50,Cervantite,yellow,4-5,Vitreous - Pearly,,
+6.50,Cesstibtantite,colorless,6.5,Vitreous - Adamantine,,
+6.50,Daubreeite,yellow,2-2.5,Earthy (Dull),,
+6.50,Macphersonite,white,2.5-3,Adamantine - Resinous,,
+6.50,Orthowalpurgite,"yellow, pale",4.5,Adamantine,,
+6.50,Tenorite,black,3.5-4,Earthy (Dull),,
+6.52,Cannonite,colorless,4,Adamantine,,
+6.52,Feinglosite !,"green, pale olive",4-5,Adamantine,,
+6.54,Arsenbrackebuschite,"yellow, honey",4.5,Adamantine - Resinous,,
+6.55,Olsacherite,colorless,3-3.5,Vitreous - Dull,,
+6.55,Susannite,colorless,2.5-3,Adamantine - Resinous,,
+6.56,Beyerite,gray,2-3,Vitreous - Dull,,
+6.57,Arsendescloizite,"yellow, light",4,Subadamantine,,
+6.57,Cliffordite,yellow,4,Adamantine,,
+6.58,Cerussite,colorless,3-3.5,Adamantine,,
+6.59,Iltisite !,red,-,Adamantine,,
+6.60,Bunsenite,"green, dark yellow",5.5,Adamantine,,
+6.60,Eulytite,colorless,4.5,Adamantine,,
+6.60,Molybdofornacite,"green, light",2-3,Adamantine,,
+6.60,Plumbomicrolite,"yellow, greenish",5,Greasy (Oily),,
+6.60,Trigonite,brown,2-3,Vitreous - Adamantine,,
+6.62,Monimolite,"green, gray",4.5-6,Adamantine - Greasy,,
+6.62,Krasnogorite,gray,4,Earthy (Dull),,
+6.62,Krasnoselskite,gray,4,Earthy (Dull),,
+6.63,Mcalpineite,"green, emerald",3,Adamantine,,
+6.64,Ordonezite,colorless,6.5,Adamantine,,
+6.67,Gabrielsonite,"brown, greenish",3.5,Adamantine,,
+6.67,Itoite,"white, silky",-,Silky,,
+6.69,Tungstibite,green,2,Earthy (Dull),,
+6.70,Sanmartinite,"black, brownish",4-4.5,Resinous,,
+6.70,Simpsonite,"yellow, brownish",7-7.5,Vitreous - Adamantine,,
+6.70,Stibiotantalite,brown,5.5,Adamantine - Resinous,,
+6.71,Kuranakhite,brown,4-5,Vitreous (Glassy),,
+6.73,Foordite,"yellow, brownish",6,Vitreous - Adamantine,,
+6.75,Khinite,"green, dark",3.5,Adamantine,,
+6.75,Wulfenite,"yellow, orange",3,Resinous - Greasy,,
+6.76,Chloroxiphite,"green, dull olive",2.5,Adamantine - Resinous,,
+6.76,Kenhsuite !,"yellow, canary",2-3,Vitreous (Glassy),,
+6.80,Hydrocerussite,colorless,3.5,Adamantine,,
+6.80,Liandratite,brown,3.5,Vitreous (Glassy),,
+6.80,Wolsendorfite,red,5,Vitreous - Adamantine,,
+6.82,Atelestite,green,4.5-5,Adamantine - Resinous,,
+6.83,Bismutomicrolite,brown,5,Resinous,,
+6.83,Brendelite !,black,4.5,Vitreous - Adamantine,,
+6.84,Quenselite,"black, pitch",2.5,Earthy (Dull),,
+6.85,Pyromorphite,green,3.5-4,Adamantine - Resinous,,
+6.86,Rooseveltite,gray,4-4.5,Adamantine,,
+6.86,Titanowodginite,"brown, dark",5.5,Vitreous (Glassy),,
+6.87,Hechtsbergite !,brown,4.5,Adamantine,,
+6.88,Schmitterite,colorless,1,Pearly,,
+6.88,Chekhovichite,"green, gray",4,Adamantine,,
+6.89,Heliophyllite,"yellow, greenish",2,Vitreous - Greasy,,
+6.89,Widenmannite,"yellow, light",2,Silky - Pearly,,
+6.90,Cassiterite,brown,6-7,Adamantine,,
+6.90,Schumacherite,yellow,3,Adamantine,,
+6.90,Sosedkoite,colorless,6,Adamantine,,
+6.92,Lanarkite,"white, greenish",2-2.5,Adamantine - Resinous,,
+6.95,Vanadinite,brown,3.5-4,Adamantine,,
+6.95,Paulmooreite,colorless,3,Adamantine,,
+6.96,Rosiaite !,colorless,5.5,Resinous,,
+6.97,Hafnon,colorless,7.5,Vitreous - Adamantine,,
+7.00,Bismutite,brown,4,Vitreous - Pearly,,
+7.00,Ecdemite,"yellow, green",2.5,Vitreous - Greasy,,
+7.00,Freedite,"yellow, greenish",3,Vitreous (Glassy),,
+7.00,Lithiotantite,colorless,6-6.5,Adamantine,,
+7.00,Pottsite,"yellow, bright",3.5,Adamantine,,
+7.00,Pseudograndreefite,colorless,2.5,Subadamantine,,
+7.00,Radtkeite,"orange, bright yellow",2-3,Adamantine,,
+7.00,Sundiusite,colorless,3,Adamantine,,
+7.01,Phoenicochroite,"red, dark",2.5,Adamantine - Resinous,,
+7.02,Nadorite,brown,3.5-4,Adamantine - Resinous,,
+7.03,Formanite-(Y),"black, brownish",5.5-6.5,Vitreous - Metallic,,
+7.03,Irtyshite,colorless,7,Adamantine,,
+7.03,Samarskite-(Yb) !,black,5-6,Vitreous (Glassy),,
+7.06,Cuprotungstite,"green, brown",4-5,Vitreous - Waxy,,
+7.07,Molybdomenite,colorless,3.5,Pearly,,
+7.07,Plumbonacrite,colorless,3.5,Adamantine - Pearly,,
+7.08,Kerstenite ?,colorless,3.5,Vitreous - Greasy,,
+7.10,Grandreefite,colorless,2.5,Subadamantine,,
+7.10,Huttonite,colorless,5,Adamantine,,
+7.10,Kuzminite,"gray, bluish",1.5,Adamantine,,
+7.10,Mendipite,colorless,2.5-3,Adamantine - Pearly,,
+7.12,Matlockite,"yellow, brownish",2.5-3,Adamantine - Pearly,,
+7.15,Tantalowodginite *,brown,5-5.5,Adamantine,,
+7.16,Grechishchevite,"black, brownish",2.5,Vitreous - Adamantine,,
+7.17,Mimetite,white,3.5-4,Adamantine - Resinous,,
+7.17,Sphaerobismoite,green,4,Subadamantine,,
+7.19,Curite,yellow,4-5,Adamantine,,
+7.24,Preisingerite,"white, gray",3-4,Subadamantine,,
+7.24,Thorikosite,"yellow, light",3,Vitreous (Glassy),,
+7.27,Finnemanite,gray,2.5,Subadamantine,,
+7.30,Symesite !,"pink, venetian",4,Vitreous (Glassy),,
+7.32,Parkinsonite,"red, carmine",2-2.5,Adamantine,,
+7.35,Blixite,"green, light",3,Vitreous - Dull,,
+7.36,Clinomimetite,"yellow, greenish",3.5-4,Subadamantine,,
+7.38,Bismutostibiconite,green,4-5,Earthy (Dull),,
+7.38,Tvalchrelidzeite,"gray, lead",3,Adamantine,,
+7.39,Schwartzembergite,"brown, yellow",2.5,Adamantine,,
+7.40,Tungstenite,gray,2.5,Earthy (Dull),,
+7.41,Mereheadite !,"yellow, pale",3.5,Vitreous - Resinous,,
+7.43,Hypercinnabar,red,3,Adamantine,,
+7.45,Fairbankite,colorless,2,Adamantine - Resinous,,
+7.46,Calciotantite,colorless,6.5,Adamantine,,
+7.48,Aguilarite,gray,2-3,Adamantine - Metallic,,
+7.50,Lithiowodginite,brown,5-6,Adamantine,,
+7.64,Arzakite,"black, grayish",2-2.5,Vitreous - Metallic,,
+7.65,Laurelite,colorless,2,Silky,,
+7.69,Lorettoite ?,"yellow, honey",3,Adamantine,,
+7.70,Comancheite,yellow,2,Vitreous - Resinous,,
+7.71,Natrotantite,colorless,7,Adamantine,,
+7.72,Bismoclite,brown,2-2.5,Greasy (Oily),,
+7.72,Mosesite,yellow,3-4,Adamantine,,
+7.75,Thoreaulite,brown,5.5-6,Adamantine - Resinous,,
+7.78,Smirnite,colorless,3.5-4,Adamantine,,
+7.82,Macedonite,black,5.5-6,Vitreous (Glassy),,
+7.86,Behierite,"gray, pink",7-7.5,Adamantine,,
+8.00,Kleinite,yellow,3.5,Adamantine,,
+8.00,Sahlinite,"yellow, light",2-3,Adamantine,,
+8.05,Stolzite,"brown, reddish",2.5-3,Adamantine - Resinous,,
+8.10,Carlinite,"gray, dark",1,Metallic - Dull,,
+8.10,Cinnabar,"gray, lead",2-2.5,Adamantine,,
+8.16,Perite,"yellow, brownish",3,Adamantine,,
+8.20,Minium,"red, light",2.5-3,Adamantine,,
+8.26,Koechlinite,"yellow, greenish",-,Vitreous (Glassy),,
+8.30,Eglestonite,brown,2-3,Adamantine - Resinous,,
+8.34,Stannomicrolite,"brown, yellow",4.5-5.5,Adamantine,,
+8.44,Zavaritskite,gray,2-2.5,Resinous - Metallic,,
+8.45,Tantite,colorless,7,Adamantine,,
+8.47,Raspite,"brown, yellow",2.5-3,Adamantine,,
+8.54,Pingguite,"green, yellowish",5.5-6,Vitreous - Greasy,,
+8.68,Bismutotantalite,"brown, light",5,Adamantine - Metallic,,
+8.70,Terlinguaite,yellow,2-3,Adamantine,,
+8.73,Kuznetsovite !,"brown, yellow",2.5-3,Vitreous - Adamantine,,
+9.00,Bismite,"yellow, green",4-5,Adamantine,,
+9.06,Chursinite,"brown, yellow",3-4,Adamantine,,
+9.25,Litharge,red,2,Greasy (Oily),,
+9.31,Shannonite !,white,3-3.5,Waxy,,
+9.40,Edgarbaileyite,yellow,4,Vitreous - Resinous,,
+9.50,Petrovskaite,"gray, lead",2-2.5,Metallic - Dull,,
+9.56,Poyarkovite,"red, dark",2-2.5,Vitreous - Adamantine,,
+9.64,Massicot,yellow,2,Adamantine,,
+9.80,Chrombismite !,brown,3-3.5,Adamantine,,
+11.20,Montroydite,red,1.5-2,Adamantine,,
