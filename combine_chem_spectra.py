@@ -63,6 +63,8 @@ for i in range(chem.shape[0]):
     id = rruffids_chem[i].split("-")[0]
     name = names_chem[i]
 
+    print("add density and hardness or other features here")
+
     idx_raw = np.where(rruffids_raw == id)[0]
     idx_proc = np.where(rruffids_proc == id)[0]
 

@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from difflib import get_close_matches
 
 
@@ -11,9 +10,6 @@ df = pd.read_csv(file, header=0)
 file_names = 'extracted_chemistry_spec_names.npy'
 spec_names = np.load(file_names, allow_pickle=True)
 spec_names = np.char.lower(spec_names)  # Convert all spec_names to lowercase
-
-
-flag_plot = False
 
 remove_chars = " ,!*?)(-#$%^&@"
 translation_table = str.maketrans('', '', remove_chars)
@@ -100,14 +96,5 @@ for name in spec_names:
 
 print("Look at close matches - are there names that should match but do not?")
 print("save density and hardness with name that matches the 'extracted_chemistry_spec_names.npy' file")
-
-
-if flag_plot:
-    # Plot density vs hardness
-    plt.figure(figsize=(8, 6))
-    plt.scatter(df['density'], df['hardness'], alpha=0.7)
-    plt.title('Density vs Hardness')
-    plt.xlabel('Density')
-    plt.ylabel('Hardness')
-    plt.grid(True)
-    plt.show()
+print("in combine_chem_spectra.py add density and hardness to the chemistry feature array")
+print("run leave mineral name out model with density and hardness included as features")
