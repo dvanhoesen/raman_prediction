@@ -9,7 +9,7 @@ import random
 basepath = 'extracted_data_wavenumber_cutoffs' + os.path.sep
 
 #savepath = "train_data" + os.path.sep
-savepath = "train_data_wavenumber_cutoffs" + os.path.sep
+savepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep
 
 #xplot = np.arange(1024)
 xplot = np.linspace(50, 1700, 1024, endpoint=True)
@@ -46,9 +46,27 @@ chem = np.load("extracted_chemistry_avg.npy", allow_pickle=True)
 rruffids_chem = np.load("extracted_chemistry_spec_ids.npy", allow_pickle=True)
 names_chem = np.load("extracted_chemistry_spec_names.npy", allow_pickle=True)
 
+# Load density and hardness arrays
+names_density_hardness = np.load("extracted_names_density_hardness.npy", allow_pickle=True)
+ids_density_hardness = np.load("extracted_ids_density_hardness.npy", allow_pickle=True)
+density = np.load("extracted_density.npy", allow_pickle=True)
+hardness = np.load("extracted_hardness.npy", allow_pickle=True)
+
+# remove dash from ids_density_hardness
+ids_density_hardness = np.array([s.split('-')[0] for s in ids_density_hardness])
+
 print("\n Chemistry Data")
 print("chem shape: ", chem.shape)
 print("rruffids_chem shape: ", rruffids_chem.shape)
+
+print("\nNames - density and hardness Data")
+print("names shape: ", names_density_hardness.shape)
+print("ids shape: ", ids_density_hardness.shape)
+print("density shape: ", density.shape)
+print("hardness shape: ", hardness.shape)
+
+print("shape of unique ids should match shape of names, ids, density, and hardness: ", np.unique(ids_density_hardness).shape)
+
 
 count_raw = 0
 count_proc = 0
@@ -63,7 +81,18 @@ for i in range(chem.shape[0]):
     id = rruffids_chem[i].split("-")[0]
     name = names_chem[i]
 
-    print("add density and hardness or other features here")
+    # find the index of the id
+    idx_density_hardness = np.where(ids_density_hardness == id)[0]
+
+    if idx_density_hardness.size > 0:
+        
+        # Get the density and the hardness and add to the features (i.e., the chemistry)
+        spec_density = density[idx_density_hardness]
+        spec_hardness = hardness[idx_density_hardness]
+        chemistry = np.append(chemistry, np.array([spec_density, spec_hardness]))
+
+    else: # if no density and hardness for the mineral id, then do not add to training/testing data
+        continue
 
     idx_raw = np.where(rruffids_raw == id)[0]
     idx_proc = np.where(rruffids_proc == id)[0]
@@ -92,7 +121,7 @@ for i in range(chem.shape[0]):
         
         if count_raw == 0:
             y_labels_raw = y_temp  #spectrum to reproduce
-            x_inputs_raw = x_input_temp # chemistry and min / max x wavenumber (divided by 1000)
+            x_inputs_raw = x_input_temp # chemistry, density, and hardness (and min/max wavenumber if flag)
         
         else:
             y_labels_raw = np.concatenate((y_labels_raw, y_temp), axis=0)
@@ -112,6 +141,7 @@ for i in range(chem.shape[0]):
         else:
             x_input_temp = chemistry
 
+
         x_temp = np.expand_dims(x_temp, axis=0)
         y_temp = np.expand_dims(y_temp, axis=0)
         x_input_temp = np.expand_dims(x_input_temp, axis=0)
@@ -121,7 +151,7 @@ for i in range(chem.shape[0]):
         
         if count_proc == 0:
             y_labels_proc = y_temp  #spectrum to reproduce
-            x_inputs_proc = x_input_temp # chemistry and min / max x wavenumber (divided by 1000)
+            x_inputs_proc = x_input_temp # chemistry, density, and hardness (and min/max wavenumber if flag)
         
         else:
             y_labels_proc = np.concatenate((y_labels_proc, y_temp), axis=0)
@@ -149,12 +179,14 @@ print("y_labels_raw shape: ", y_labels_raw.shape)
 print("x_inputs_raw shape: ", x_inputs_raw.shape)
 print("names_raw_all shape: ", names_raw_all.shape)
 print("rruffid_raw_all shape: ", rruffid_raw_all.shape)
+print("unique rruffid_raw_all shape: ", np.unique(rruffid_raw_all).shape)
 
 print("\nFinal Processed Data shapes")
 print("y_labels_proc shape: ", y_labels_proc.shape)
 print("x_inputs_proc shape: ", x_inputs_proc.shape)
 print("names_proc_all shape: ", names_proc_all.shape)
 print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
+print("unique rruffid_proc_all shape: ", np.unique(rruffid_proc_all).shape)
 
 
 # Save numpy files
@@ -178,7 +210,7 @@ ax_raw.set_title("Raw Spectrum", fontsize=12)
 
 
 for i in range(5):
-    idx = random.randint(0, len(names_raw_all))
+    idx = random.randint(0, len(names_raw_all)-1)
     x = np.arange(1024)
     y = y_labels_raw[idx,:]
     name = names_raw_all[idx]
@@ -192,7 +224,7 @@ ax_proc.set_ylabel("Inensity (normalized)", fontsize=12)
 ax_proc.set_xlabel("Wavenumber (1/cm)", fontsize=12)
 ax_proc.set_title("Processed Spectrum", fontsize=12)
 for i in range(5):
-    idx = random.randint(0, len(names_proc_all))
+    idx = random.randint(0, len(names_proc_all)-1)
     x = np.arange(1024)
     y = y_labels_proc[idx,:]
     name = names_proc_all[idx]

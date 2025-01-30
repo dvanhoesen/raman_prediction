@@ -10,15 +10,26 @@ import matplotlib.pyplot as plt
 import torch_models as tm 
 import torch_functions as tf
 
-# CUDA device
-device = torch.device("mps")
-print("Device: ", device)
+# Check if MPS (Mac Metal Performance Shaders) is available MacOS
+if torch.backends.mps.is_available():
+    device = torch.device("mps")
+
+# Check if CUDA (NVIDIA GPU) is available
+elif torch.cuda.is_available():
+    device = torch.device("cuda")
+
+# Default to CPU
+else:
+    device = torch.device("cpu")
+
+print(f"Using device: {device}")
 
 
 # Load numpy files
 #basepath = "train_data" + os.path.sep
-basepath = "train_data_wavenumber_cutoffs" + os.path.sep
-savepath = "results_trained_FeedForward_batch_size_1" + os.path.sep
+#basepath = "train_data_wavenumber_cutoffs" + os.path.sep
+basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep
+savepath = "results_trained_FeedForward_batch_size_1_density_hardness" + os.path.sep
 savename_model = savepath + "FeedForwardNN_test_weights.pth"
 savename_optimizer = savepath + "FeedForwardNN_test_optimizer.pth"
 
@@ -33,6 +44,7 @@ print("y_labels_raw shape: ", y_labels_raw.shape)
 print("x_inputs_raw shape: ", x_inputs_raw.shape)
 print("names_raw_all shape: ", names_raw_all.shape)
 print("rruffid_raw_all shape: ", rruffid_raw_all.shape)
+print("unique rruffid_raw_all shape: ", np.unique(rruffid_raw_all).shape)
 """
 
 y_labels_proc = np.load(basepath + "y_labels_proc.npy", allow_pickle=True)
@@ -45,10 +57,11 @@ print("y_labels_proc shape: ", y_labels_proc.shape)
 print("x_inputs_proc shape: ", x_inputs_proc.shape)
 print("names_proc_all shape: ", names_proc_all.shape)
 print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
+print("unique rruffid_proc_all shape: ", np.unique(rruffid_proc_all).shape)
 
 
 # Create the dataset with data augmentation (adding noise)
-full_dataset = tm.CustomDataset(x_inputs_proc, y_labels_proc, add_noise=True)
+full_dataset = tm.CustomDataset(x_inputs_proc, y_labels_proc, add_noise=True) # adding noise the spectrum (i.e. the labels)
 
 
 # Split dataset sizes (e.g., 60% train, 20% validation, 20% test)

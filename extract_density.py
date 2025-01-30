@@ -14,6 +14,12 @@ spec_names = np.char.lower(spec_names)  # Convert all spec_names to lowercase
 remove_chars = " ,!*?)(-#$%^&@"
 translation_table = str.maketrans('', '', remove_chars)
 
+spec_ids = np.load('extracted_chemistry_spec_ids.npy')
+
+print("spec_names shape: ", spec_names.shape)
+print("unique spec_names shape: ", np.unique(spec_names).shape)
+print("spec_ids shahpe: ", spec_ids.shape)
+
 # ANSI escape codes for colors
 RED = "\033[91m"
 GREEN = "\033[92m"
@@ -56,14 +62,30 @@ cleaned_names = np.char.lower(cleaned_names)  # Convert all cleaned_names to low
 count_in = 0
 count_out = 0
 names_in_db = []
+ids_in_db = []
+density_in_db = []
+hardness_in_db = []
+
 for i in range(len(cleaned_names)):
     name = cleaned_names[i]
+    mineral_density = density[i]
+    mineral_hardness = hardness[i]
 
     if name in spec_names:
         # Print in green if there is a match
         #print(f"{GREEN}{density[i]}\t{hardness[i]}\t{name}{RESET}")
-        names_in_db.append(name)
-        count_in += 1
+
+        matching_idxs = np.where(spec_names == name)[0]
+
+        for idx in matching_idxs:
+
+            names_in_db.append(name)
+            ids_in_db.append(spec_ids[idx])
+            density_in_db.append(mineral_density)
+            hardness_in_db.append(mineral_hardness)
+
+            count_in += 1
+    
     else:
         # Find the closest match
         #closest_match = get_close_matches(name, spec_names, n=1)
@@ -83,18 +105,44 @@ print("Unique minerals: ", len(num_unique))
 
 print("\n")
 
+
+"""
+cnt = 1
 for name in spec_names: 
     if name in names_in_db:
         continue
     else: 
         closest_match = get_close_matches(name, cleaned_names, n=1)
         if closest_match:
-            print("{} - {}".format(name, closest_match[0]))
+            print("{} {} - {}".format(cnt, name, closest_match[0]))
         else:
-            print("{} - {}".format(name, "None"))
+            print("{} {} - {}".format(cnt, name, "None"))
+        
+        cnt += 1
+"""
 
 
-print("Look at close matches - are there names that should match but do not?")
-print("save density and hardness with name that matches the 'extracted_chemistry_spec_names.npy' file")
-print("in combine_chem_spectra.py add density and hardness to the chemistry feature array")
-print("run leave mineral name out model with density and hardness included as features")
+names_in_db = np.array(names_in_db)
+ids_in_db = np.array(ids_in_db)
+density_in_db = np.array(density_in_db)
+hardness_in_db = np.array(hardness_in_db)
+
+# Find unique IDs and their first occurrence indices
+unique_ids, unique_indices = np.unique(ids_in_db, return_index=True)
+
+# Sort indices to maintain original order
+unique_indices = np.sort(unique_indices)
+
+# Truncate arrays to keep only unique IDs
+names_in_db = names_in_db[unique_indices]
+ids_in_db = ids_in_db[unique_indices]
+density_in_db = density_in_db[unique_indices]
+hardness_in_db = hardness_in_db[unique_indices]
+
+
+# Save the Numpy arrays
+np.save("extracted_names_density_hardness.npy", names_in_db, allow_pickle=True)
+np.save("extracted_ids_density_hardness.npy", ids_in_db, allow_pickle=True)
+np.save("extracted_density.npy", density_in_db, allow_pickle=True)
+np.save("extracted_hardness.npy", hardness_in_db, allow_pickle=True)
+

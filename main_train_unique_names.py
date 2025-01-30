@@ -10,15 +10,30 @@ import matplotlib.pyplot as plt
 import torch_models as tm 
 import torch_functions as tf
 
-# CUDA device
-device = torch.device("mps")
-print("Device: ", device)
+
+# Check if MPS (Mac Metal Performance Shaders) is available MacOS
+if torch.backends.mps.is_available():
+    device = torch.device("mps")
+
+# Check if CUDA (NVIDIA GPU) is available
+elif torch.cuda.is_available():
+    device = torch.device("cuda")
+
+# Default to CPU
+else:
+    device = torch.device("cpu")
+
+print(f"Using device: {device}")
 
 
 # Load numpy files
 #basepath = "train_data" + os.path.sep
-basepath = "train_data_wavenumber_cutoffs" + os.path.sep
-savepath = "results_wavenumber_cutoffs" + os.path.sep + "RamanPredictor_fullyConnected1" + os.path.sep
+#basepath = "train_data_wavenumber_cutoffs" + os.path.sep
+#savepath = "results_wavenumber_cutoffs" + os.path.sep + "RamanPredictor_fullyConnected1" + os.path.sep
+
+basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep
+savepath = "results_trained_FeedForward_density_hardness_unique_names" + os.path.sep
+
 
 y_labels_proc = np.load(basepath + "y_labels_proc.npy", allow_pickle=True)
 x_inputs_proc = np.load(basepath + "x_inputs_proc.npy", allow_pickle=True)
@@ -30,6 +45,7 @@ print("y_labels_proc shape: ", y_labels_proc.shape)
 print("x_inputs_proc shape: ", x_inputs_proc.shape)
 print("names_proc_all shape: ", names_proc_all.shape)
 print("rruffid_proc_all shape: ", rruffid_proc_all.shape)
+print("unique rruffid_proc_all shape: ", np.unique(rruffid_proc_all).shape)
 
 num_samples = x_inputs_proc.shape[0]
 un = np.unique(names_proc_all)
@@ -44,7 +60,7 @@ input_size = x_inputs_proc.shape[1]
 output_size = 1024
 kernel_size = 3
 criterion = nn.MSELoss()
-epochs = 150
+epochs = 100
 
 for i in range(len(un)):
     left_out_name = un[i]
@@ -72,8 +88,8 @@ for i in range(len(un)):
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
     #model = tm.RamanPredictorFCN(input_size, output_size)
-    model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
-    #model = tm.FeedForwardNN(input_size, output_size)
+    #model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
+    model = tm.FeedForwardNN(input_size, output_size)
     #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=kernel_size)
     #model = tm.FeedForwardNN_CNN(input_size, output_size, ks=kernel_size)
 
