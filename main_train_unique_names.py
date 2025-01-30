@@ -32,8 +32,9 @@ print(f"Using device: {device}")
 #savepath = "results_wavenumber_cutoffs" + os.path.sep + "RamanPredictor_fullyConnected1" + os.path.sep
 
 basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep
-savepath = "results_trained_FeedForward_density_hardness_unique_names" + os.path.sep
-
+#savepath = "results_trained_FeedForward_density_hardness_unique_names" + os.path.sep
+#savepath = "results_trained_fullyConnected1_density_hardness_unique_names" + os.path.sep
+savepath = "results_trained_FCN_density_hardness_unique_names" + os.path.sep
 
 y_labels_proc = np.load(basepath + "y_labels_proc.npy", allow_pickle=True)
 x_inputs_proc = np.load(basepath + "x_inputs_proc.npy", allow_pickle=True)
@@ -62,9 +63,19 @@ kernel_size = 3
 criterion = nn.MSELoss()
 epochs = 100
 
+count_un = 0
+
 for i in range(len(un)):
+
     left_out_name = un[i]
 
+    # Only training for Quartz as a checker
+    if left_out_name.startswith("Q"):
+        count_un += 1
+    else:
+        continue
+
+    
     idx = np.where(names_proc_all != left_out_name)
     idx_test = np.where(names_proc_all == left_out_name)
 
@@ -87,9 +98,9 @@ for i in range(len(un)):
     data_loader = DataLoader(full_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-    #model = tm.RamanPredictorFCN(input_size, output_size)
+    model = tm.RamanPredictorFCN(input_size, output_size)
     #model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
-    model = tm.FeedForwardNN(input_size, output_size)
+    #model = tm.FeedForwardNN(input_size, output_size)
     #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=kernel_size)
     #model = tm.FeedForwardNN_CNN(input_size, output_size, ks=kernel_size)
 
@@ -103,7 +114,7 @@ for i in range(len(un)):
     y_pred = tf.evaluate_model_single_mineral(model, test_loader, device)
     y_pred = y_pred.cpu().numpy()
 
-    if i==0:
+    if count_un==1:
         all_predictions = y_pred
         all_spec = y_test
         all_chem = x_test
