@@ -27,7 +27,7 @@ else:
 print(f"Using device: {device}")
 
 
-include_density_hardness = False
+include_density_hardness = True
 print("Include density and hardness: ", include_density_hardness)
 
 
