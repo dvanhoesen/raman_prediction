@@ -55,6 +55,10 @@ rruffids_proc = []
 x_mins_proc = []
 x_maxs_proc = []
 
+
+min_wavenumber_proc = []
+max_wavenumber_proc = []
+
 files_failed = []
 files_exception = []
 
@@ -120,6 +124,12 @@ for file in all_files:
 
     min_val = np.amin(x_temp)
     max_val = np.amax(x_temp)
+
+
+    if label=='proc':
+        min_wavenumber_proc.append(min_val)
+        max_wavenumber_proc.append(max_val)
+
 
     idx_min = np.argmin(x_temp)
     idx_max = np.argmax(x_temp) - len(x_temp)
@@ -209,6 +219,20 @@ x_mins_proc = np.array(x_mins_proc)
 x_maxs_proc = np.array(x_maxs_proc)
 
 
+basepath = "extracted_data_wavenumber_cutoffs" + os.path.sep
+
+min_wavenumber_proc = np.array(min_wavenumber_proc)
+max_wavenumber_proc = np.array(max_wavenumber_proc)
+
+print("proc min_wavenumber array shape: ", min_wavenumber_proc.shape)
+print("proc max_wavenumber array shape: ", max_wavenumber_proc.shape)
+
+np.save(basepath + "wavenumber_mins.npy", min_wavenumber_proc, allow_pickle=True)
+np.save(basepath + "wavenumber_maxs.npy", max_wavenumber_proc, allow_pickle=True)
+
+sys.exit()
+
+
 print("Number of failed files: ", len(files_failed))
 for i in range(len(files_failed)):
     print(files_failed[i])
@@ -232,7 +256,7 @@ print("x_mins_proc shape: ", x_mins_proc.shape)
 print("x_maxs_proc shape: ", x_maxs_proc.shape)
 
 # Save the Numpy arrays
-basepath = "extracted_data_wavenumber_cutoffs" + os.path.sep
+
 np.save(basepath + "names_raw.npy", names_raw, allow_pickle=True)
 np.save(basepath + "rruffids_raw.npy", rruffids_raw, allow_pickle=True)
 np.save(basepath + "x_components_raw.npy", x_components_raw, allow_pickle=True)

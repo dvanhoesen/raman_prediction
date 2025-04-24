@@ -27,20 +27,33 @@ else:
 print(f"Using device: {device}")
 
 
-# Load numpy files
-#basepath = "train_data" + os.path.sep
-#basepath = "train_data_wavenumber_cutoffs" + os.path.sep
-#savepath = "results_wavenumber_cutoffs" + os.path.sep + "RamanPredictor_fullyConnected1" + os.path.sep
+include_density_hardness = False
+print("Include density and hardness: ", include_density_hardness)
 
-basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep
-#savepath = "results_trained_FeedForward_density_hardness_unique_names" + os.path.sep
-#savepath = "results_trained_fullyConnected1_density_hardness_unique_names" + os.path.sep
-savepath = "results_trained_FCN_density_hardness_unique_names" + os.path.sep
+
+# Load numpy files
+if include_density_hardness:
+    basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep
+    savepath = "results_trained_FeedForward_density_hardness_unique_names" + os.path.sep
+    #savepath = "results_trained_fullyConnected1_density_hardness_unique_names" + os.path.sep
+    #savepath = "results_trained_FCN_density_hardness_unique_names" + os.path.sep
+
+else: 
+    basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep # same path as with density and hardness, but will simply leave off the last two features
+    savepath = "results_trained_FeedForward_unique_names" + os.path.sep
+
+
+print("BASEPATH: ", basepath)
+print("SAVEPATH: ", savepath)
 
 y_labels_proc = np.load(basepath + "y_labels_proc.npy", allow_pickle=True)
 x_inputs_proc = np.load(basepath + "x_inputs_proc.npy", allow_pickle=True)
 names_proc_all = np.load(basepath + "names_proc.npy", allow_pickle=True)
 rruffid_proc_all = np.load(basepath + "rruffid_proc.npy", allow_pickle=True)
+
+# remove density and hardness if training without it
+if not include_density_hardness:
+    x_inputs_proc = x_inputs_proc[:, 0:20]
 
 print("\nFinal Processed Data shapes")
 print("y_labels_proc shape: ", y_labels_proc.shape)
@@ -57,6 +70,7 @@ print("Number of samples: ", num_samples)
 print("Number of unique names: ", len(un))
 print("number of unique ids: ", len(uids))
 
+
 batch_size = 64
 input_size = x_inputs_proc.shape[1]
 output_size = 1024
@@ -71,11 +85,8 @@ for i in range(len(un)):
     left_out_name = un[i]
 
     # Only training for Quartz as a checker
-    if left_out_name.startswith("Q"):
-        count_un += 1
-    else:
-        continue
-
+    #if not left_out_name.startswith("Q"):
+    #    continue
     
     idx = np.where(names_proc_all != left_out_name)
     idx_test = np.where(names_proc_all == left_out_name)
@@ -99,9 +110,9 @@ for i in range(len(un)):
     data_loader = DataLoader(full_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-    model = tm.RamanPredictorFCN(input_size, output_size)
+    #model = tm.RamanPredictorFCN(input_size, output_size)
     #model = tm.RamanPredictorFCN_fullyConnected1(input_size, output_size)
-    #model = tm.FeedForwardNN(input_size, output_size)
+    model = tm.FeedForwardNN(input_size, output_size)
     #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=kernel_size)
     #model = tm.FeedForwardNN_CNN(input_size, output_size, ks=kernel_size)
 
@@ -115,7 +126,7 @@ for i in range(len(un)):
     y_pred = tf.evaluate_model_single_mineral(model, test_loader, device)
     y_pred = y_pred.cpu().numpy()
 
-    if count_un==1:
+    if count_un==0:
         all_predictions = y_pred
         all_spec = y_test
         all_chem = x_test
@@ -137,6 +148,8 @@ for i in range(len(un)):
 
     #if i==2:
     #    break
+
+    count_un += 1
 
 
 
