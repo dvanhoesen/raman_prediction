@@ -89,12 +89,12 @@ print("averages after scaling (last 4): ", means_after[-4:])
 print("stddev after scaling (last 4): ", stddev_after[-4:])
 
 
-batch_size = 64
+batch_size = 256
 input_size = x_scaled.shape[1]
 output_size = 1024
 kernel_size = 3
 criterion = nn.MSELoss()
-epochs = 100
+epochs = 500
 
 count_un = 0
 
@@ -134,10 +134,12 @@ for i in range(len(un)):
     #model = tm.RamanPredictorFCConvTranspose1d(input_size, output_size, ks=kernel_size)
     #model = tm.FeedForwardNN_CNN(input_size, output_size, ks=kernel_size)
 
+    # model.apply(tm.init_weights) # Adding initial weights made the model worse
+
     # Send model to OS cuda device (M1 Mac OS is mps)
     model.to(device)
 
-    optimizer = optim.NAdam(model.parameters(), lr=0.001)
+    optimizer = optim.NAdam(model.parameters(), lr=0.002)
     train_losses = tf.train_model_train_only(model, data_loader, criterion, optimizer, device, epochs=epochs)
 
     # Evaluate the model on the test set

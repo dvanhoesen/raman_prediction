@@ -207,3 +207,10 @@ class CustomDataset(Dataset):
             y = y + noise
 
         return x, y
+
+
+def init_weights(m):
+    if isinstance(m, nn.Linear):
+        nn.init.kaiming_normal_(m.weight, nonlinearity='relu')
+        nn.init.zeros_(m.bias)
+        
