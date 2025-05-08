@@ -4,6 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 from torch.utils.data import DataLoader, TensorDataset, random_split
+from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
 
@@ -27,20 +28,20 @@ else:
 print(f"Using device: {device}")
 
 
-include_density_hardness = True
+include_density_hardness = False
 print("Include density and hardness: ", include_density_hardness)
 
 
 # Load numpy files
 if include_density_hardness:
     basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep
-    savepath = "results_trained_FeedForward_density_hardness_unique_names" + os.path.sep
+    savepath = "results_trained_FeedForward_density_hardness_unique_names_normed" + os.path.sep
     #savepath = "results_trained_fullyConnected1_density_hardness_unique_names" + os.path.sep
     #savepath = "results_trained_FCN_density_hardness_unique_names" + os.path.sep
 
 else: 
     basepath = "train_data_wavenumber_cutoffs_density_hardness" + os.path.sep # same path as with density and hardness, but will simply leave off the last two features
-    savepath = "results_trained_FeedForward_unique_names" + os.path.sep
+    savepath = "results_trained_FeedForward_unique_names_normed" + os.path.sep
 
 
 print("BASEPATH: ", basepath)
@@ -71,8 +72,25 @@ print("Number of unique names: ", len(un))
 print("number of unique ids: ", len(uids))
 
 
+means_prior = np.mean(x_inputs_proc, axis=0)
+stddev_proir = np.std(x_inputs_proc, axis=0)
+
+print("\naverages prior to scaling (last 4): ", means_prior[-4:])
+print("stddev prior to scaling (last 4): ", stddev_proir[-4:])
+
+# Standardize the input
+scaler = StandardScaler()
+x_scaled = scaler.fit_transform(x_inputs_proc)
+
+means_after = np.mean(x_scaled, axis=0)
+stddev_after = np.std(x_scaled, axis=0)
+
+print("averages after scaling (last 4): ", means_after[-4:])
+print("stddev after scaling (last 4): ", stddev_after[-4:])
+
+
 batch_size = 64
-input_size = x_inputs_proc.shape[1]
+input_size = x_scaled.shape[1]
 output_size = 1024
 kernel_size = 3
 criterion = nn.MSELoss()
@@ -91,10 +109,10 @@ for i in range(len(un)):
     idx = np.where(names_proc_all != left_out_name)
     idx_test = np.where(names_proc_all == left_out_name)
 
-    x = x_inputs_proc[idx]
+    x = x_scaled[idx]
     y = y_labels_proc[idx]
 
-    x_test = x_inputs_proc[idx_test]
+    x_test = x_scaled[idx_test]
     y_test = y_labels_proc[idx_test]
 
     names_test = names_proc_all[idx_test]
