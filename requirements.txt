@@ -9,3 +9,4 @@ jupyter==1.0.0
 ipympl==0.9.4
 brokenaxes==0.6.1
 scipy==1.15.2
+scikit-learn==1.6.1
