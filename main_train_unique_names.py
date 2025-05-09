@@ -89,8 +89,6 @@ print("averages after scaling (last 4): ", means_after[-4:])
 print("stddev after scaling (last 4): ", stddev_after[-4:])
 
 
-sys.exit()
-
 batch_size = 256
 input_size = x_scaled.shape[1]
 output_size = 1024
